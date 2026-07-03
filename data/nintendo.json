@@ -1,0 +1,272 @@
+{
+  "manufacturer": "Nintendo",
+  "consoles": [
+    {
+      "shortName": "GB",
+      "longName": "Game Boy",
+      "bioses": [
+        {
+          "name": "dmg_boot.bin",
+          "altName": "DMG",
+          "region": "World",
+          "version": "1.0",
+          "size": "256",
+          "md5": "32fbbd84168d3482956eb3c5051637f5",
+          "sha1": "4ed31ec6b0b175bb109c0eb5fd3d193da823339f",
+          "sha256": "cf053eccb4ccafff9e67339d4e78e98dce7d1ed59be819d2a1ba2232c6fce1c7",
+          "notes": "Game Boy (DMG-01)"
+        },
+        {
+          "name": "dmg0_boot.bin",
+          "altName": null,
+          "region": "Japan",
+          "version": "0.1",
+          "size": "256",
+          "md5": "a8f84a0ac44da5d3f0ee19f9cea80a8c",
+          "sha1": "8bd501e31921e9601788316dbd3ce9833a97bcbc",
+          "sha256": "26e71cf01e301e5dc40e987cd2ecbf6d0276245890ac829db2a25323da86818e",
+          "notes": "Game Boy (DMG-01) - Early Version - Logo Flash on Fail."
+        },
+        {
+          "name": "mgb_boot.bin",
+          "altName": "Pocket",
+          "region": "World",
+          "version": "1.0",
+          "size": "256",
+          "md5": "df79723ee8093b0580496f3df436e4c4",
+          "sha1": "9817bdae9335a3accb584f77c165dc5726555d1f",
+          "sha256": "a8cb5f4f1f16f2573ed2ecd8daedb9c5d1dd2c30a481f9b179b5d725d95eafe2",
+          "notes": "Game Boy (Pocket) - Register value change to detect hardware."
+        },
+        {
+          "name": "sgb_boot.bin",
+          "altName": "Super Game Boy",
+          "region": "World",
+          "version": "1.0",
+          "size": "256",
+          "md5": "d574d4f9c12f305074798f54c091a8b4",
+          "sha1": "aa2f50a77dfb4823da96ba99309085a3c6278515",
+          "sha256": "0e4ddff32fc9d1eeaae812a157dd246459b00c9e14f2f61751f661f32361e360",
+          "notes": "Super Gameboy SNES Adaptor BIOS - No Logo"
+        },
+        {
+          "name": "sgb2_boot.bin",
+          "altName": "Super Game Boy 2",
+          "region": "World",
+          "version": "2.0",
+          "size": "256",
+          "md5": "e0430bca9925fb9882148fd2dc2418c1",
+          "sha1": "93407ea10d2f30ab96a314d8eca44fe160aea734",
+          "sha256": "fd243c4fb27008986316ce3df29e9cfbcdc0cd52704970555a8bb76edbec3988",
+          "notes": "Super Gameboy SNES Adaptor BIOS - No Logo - Register value change to detect hardware."
+        }
+      ]
+    },
+    {
+      "shortName": "GBC",
+      "longName": "Game Boy Color",
+      "bioses": [
+        {
+          "name": "cgb_boot.bin",
+          "altName": "GB Color",
+          "region": "World",
+          "version": "1.0",
+          "size": "2304",
+          "md5": "dbfce9db9deaa2567f6a84fde55f9680",
+          "sha1": "1293d68bf9643bc4f36954c1e80e38f39864e436",
+          "sha256": "b4f2e416a35eef52cba161b159c7c8523a92594facb924b3ede0d722867c50c7",
+          "notes": null
+        },
+        {
+          "name": "cgb0_boot.bin",
+          "altName": null,
+          "region": "World",
+          "version": "0.1",
+          "size": "2304",
+          "md5": "7c773f3c0b01cb73bca8e83227287b7f",
+          "sha1": "df5a0d2d49de38fbd31cc2aab8e62c8550e655c0",
+          "sha256": "3a307a41689bee99a9a32ea021bf45136906c86b2e4f06c806738398e4f92e45",
+          "notes": "Early revision of GBC"
+        },
+        {
+          "name": "cgbE_boot.bin",
+          "altName": null,
+          "region": "World",
+          "version": null,
+          "size": "2304",
+          "md5": "48991ee7b1813d0cba5b099df6578668",
+          "sha1": "1293d68bf9643bc4f36954c1e80e38f39864e436",
+          "sha256": "c56299bedd56debdbf36442238636bf5887a65c5173b33995682052353804da9",
+          "notes": "Unknown details"
+        },
+        {
+          "name": "cgb_agb_boot.bin",
+          "altName": null,
+          "region": "World",
+          "version": null,
+          "size": "2355",
+          "md5": "e6cefb5f7d352fab6681989763917c73",
+          "sha1": "fa5287e24b0fa533b3b5ef2b28a81245346c1a0f",
+          "sha256": "fe3cceb79930c4cb6c6f62f742c2562fd4c96b827584ef8ea89d49b387bd6860",
+          "notes": "GBC bios in GBA for compatability mode."
+        },
+        {
+          "name": "cgb_agb0_boot.bin",
+          "altName": null,
+          "region": "World",
+          "version": null,
+          "size": "2355",
+          "md5": "a3bdf3d628e58cf6821fe87d3efd51a9",
+          "sha1": "0daac31acb6cb346fc954368acb02acb3adcc3ab",
+          "sha256": "fe2d45405531756d87622abde6127c804bd675cb968081b2c052497a470ffeb2",
+          "notes": "GBC bios in GBA for compatability mode - Unknown Difference"
+        }
+      ]
+    },
+    {
+      "shortName": "GBA",
+      "longName": "Game Boy Advance",
+      "bioses": [
+        {
+          "name": "gba_bios.bin",
+          "altName": "gba_bios.rom",
+          "region": "World",
+          "version": "1.0",
+          "size": "16384",
+          "md5": "a860e8c0b6d573d191e4ec7db1b1e4f6",
+          "sha1": "300c20df6731a33952ded8c436f7f186d25d3492",
+          "sha256": "fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570",
+          "notes": "Gameboy Advance (AGB)"
+        }
+      ]
+    },
+    {
+      "shortName": "N64",
+      "longName": "Nintendo 64",
+      "bioses": [
+        {
+          "name": "pif.ntsc.rom",
+          "altName": null,
+          "region": "NTSC",
+          "version": "1.0",
+          "size": "1984",
+          "md5": "5c124e7948ada85da603a522782940d0",
+          "sha1": "b7a0070cbe4b9bcaa08ec0b76b8c4955b2ae535a",
+          "sha256": "fa7b09795ef1e54461e59f6f2d902368133e3f1cd980e34383e6a780d74beffd",
+          "notes": "N64 NTSC BOOT BIOS"
+        },
+        {
+          "name": "pif.pal.rom",
+          "altName": null,
+          "region": "PAL",
+          "version": "1.0",
+          "size": "1984",
+          "md5": "d4232dc935cad0650ac2664d52281f3a",
+          "sha1": "15c23c3b671a8828302603f30c81d464b24a7fb1",
+          "sha256": "79c81fffae934b6df251da6c3a394f52c6a0eaa07115a3b9677743e3c1335f4a",
+          "notes": "N64 PAL BOOT BIOS"
+        },
+        {
+          "name": "64DD_IPL.bin",
+          "altName": null,
+          "region": "World",
+          "version": "1.0",
+          "size": "4194304",
+          "md5": "8d3d9f294b6e174bc7b1d2fd1c727530",
+          "sha1": "bf861922dcb78c316360e3e742f4f70ff63c9bc3",
+          "sha256": null,
+          "notes": "N64 Disk Drive (64DD)"
+        }
+      ]
+    },
+    {
+      "shortName": "pokemon-mini",
+      "longName": "Pokemon Mini",
+      "bioses": [
+        {
+          "name": "bios.min",
+          "altName": null,
+          "region": "World",
+          "version": "1.0",
+          "size": "1984",
+          "md5": "1e4fb124a3a886865acb574f388c803d",
+          "sha1": "daad4113713ed776fbd47727762bca81ba74915f",
+          "sha256": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": "GCN",
+      "longName": "GameCube",
+      "bioses": [
+        {
+          "name": "IPL-NTSC-1.0.bin",
+          "altName": null,
+          "region": "NTSC-U",
+          "version": "1.0",
+          "size": "2097152",
+          "md5": "fc924a7c879b661abc37cec4f018fdf3",
+          "sha1": "a1837968288253ed541f2b11440b68f5a9b33875",
+          "sha256": null,
+          "notes": "DOL-001 (CPU-10 or CPU-11)"
+        },
+        {
+          "name": "IPL-NTSC-1.1.bin",
+          "altName": null,
+          "region": "NTSC-U",
+          "version": "1.1",
+          "size": "2097152",
+          "md5": "019e39822a9ca3029124f74dd4d55ac4",
+          "sha1": "239eacd86527ff9a75aeb7282da65797baeef010",
+          "sha256": null,
+          "notes": "DOL-001 (CPU-11, CPU-20 or CPU-30) - DOL-101"
+        },
+        {
+          "name": "IPL-NTSC-1.2.bin",
+          "altName": null,
+          "region": "NTSC-U",
+          "version": "1.2",
+          "size": "2097152",
+          "md5": "b17148254a5799684c7d783206504926",
+          "sha1": "ef9194ab4804aa0aa8540d846caf291b28331165",
+          "sha256": null,
+          "notes": null
+        },
+        {
+          "name": "IPL-PAL-1.0.bin",
+          "altName": null,
+          "region": "PAL",
+          "version": "1.0",
+          "size": "2097152",
+          "md5": "0cdda509e2da83c85bfe423dd87346cc",
+          "sha1": "f27c63e5394e2fd1606f70df004c4fc2d6027700",
+          "sha256": null,
+          "notes": "DOL-001"
+        },
+        {
+          "name": "IPL-PAL-1.1.bin",
+          "altName": null,
+          "region": "PAL",
+          "version": "1.1",
+          "size": "2097152",
+          "md5": "339848a0b7c2124cf155276c1e79cbd0",
+          "sha1": "f3cd0c7c61cbcefa85e7de3aff4cfa50bc508714",
+          "sha256": null,
+          "notes": "DOL-001"
+        },
+        {
+          "name": "IPL-PAL-1.2.bin",
+          "altName": null,
+          "region": "PAL",
+          "version": "1.2",
+          "size": "2097152",
+          "md5": "db92574caab77a7ec99d4605fd6f2450",
+          "sha1": "80b8744ff5e43585392f55546bd03a673d11ef5f",
+          "sha256": null,
+          "notes": "DOL-001"
+        }
+      ]
+    }
+  ]
+}
