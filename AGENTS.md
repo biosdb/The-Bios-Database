@@ -6,7 +6,7 @@ Instructions for AI coding agents working on this repository.
 
 A static site hosted on GitHub Pages that lets people look up MD5, SHA1, and SHA256 hashes for game console and computer BIOS files. It is generated from JSON files by a Python build script and deployed by GitHub Actions.
 
-There is no backend, no database, no runtime dependencies. Everything is static HTML/CSS/JS produced at build time from the JSON in `data/`.
+There is no backend, no database, no runtime dependencies in the deployed site — everything is static HTML/CSS/JS produced at build time from the JSON in `data/` (and optional Markdown in `notes/`). The build process itself does depend on one pinned package (`markdown`, see `requirements.txt`) to render `notes/`.
 
 ## Repository layout
 
@@ -17,9 +17,14 @@ There is no backend, no database, no runtime dependencies. Everything is static 
 ├── build.py                     ← generator: reads data/*.json → writes index.html + m/*.html
 ├── validate.py                  ← data integrity checker (run in CI on PRs)
 ├── check_hashes.py              ← CLI: look up given hash(es) against data/*.json
+├── requirements.txt              ← the one pinned build dependency (markdown)
 ├── data/
 │   ├── <manufacturer>.json      ← one file per manufacturer (source of truth)
 │   └── ...
+├── notes/
+│   ├── <manufacturer-slug>.md            ← OPTIONAL freeform intro for a manufacturer page
+│   └── <manufacturer-slug>/
+│       └── <console-slug>.md             ← OPTIONAL freeform notes/links for one console
 ├── index.html                   ← GENERATED — do not edit by hand
 ├── m/
 │   └── <slug>.html              ← GENERATED — do not edit by hand
@@ -32,12 +37,13 @@ There is no backend, no database, no runtime dependencies. Everything is static 
 
 | Task | Command |
 |---|---|
+| Install build dependencies | `pip install -r requirements.txt` |
 | Build the site | `python build.py` |
 | Validate all data files | `python validate.py` |
 | Check hash(es) against the database | `python check_hashes.py <hash> [<hash> ...]` |
 | Preview locally | `python -m http.server 8000` (after building) |
 
-All scripts use only the Python 3 standard library. Do not add third-party dependencies without a strong reason. `check_hashes.py` is the one exception to "no network access" — it falls back to fetching libretro-database's `dat/System.dat` (cached in `.cache/`, gitignored) when a hash isn't found in `data/*.json`; `build.py` and `validate.py` remain fully offline.
+Keep dependencies to the bare minimum. `markdown` (pinned in `requirements.txt`) is the one approved third-party package, used only at build time to render `notes/*.md` — don't add others without a strong reason and without updating `requirements.txt` and both CI workflows. `check_hashes.py` is the one script that also touches the network at runtime — it falls back to fetching libretro-database's `dat/System.dat` (cached in `.cache/`, gitignored) when a hash isn't found in `data/*.json`. `build.py` and `validate.py` otherwise do no network access.
 
 ## Data model
 
@@ -81,6 +87,17 @@ Each `data/<manufacturer>.json` follows this exact shape:
 
 **No integer IDs anywhere.** Consoles and BIOSes are identified by their position in the nested structure.
 
+## Notes and links (`notes/`)
+
+Freeform Markdown, entirely optional, kept separate from `data/*.json` so the hash data stays clean for automated tooling:
+
+- `notes/<manufacturer-slug>.md` — shown under the `<h1>` on that manufacturer's page (e.g. `notes/sony.md`).
+- `notes/<manufacturer-slug>/<console-slug>.md` — shown inside that console's card, above its BIOS table (e.g. `notes/sony/playstation.md`).
+
+Slugs must match exactly what `slugify()` produces from the manufacturer name / console `longName` in `build.py` and `validate.py` — `validate.py` checks this and flags orphaned note files (no matching manufacturer/console) as an error. A missing note file is not an error; it just means no extra section is rendered.
+
+Rendered with the `markdown` package using the `extra` and `sane_lists` extensions (tables, fenced code blocks, footnotes, definition lists, nicer list handling). This is real HTML output embedded in the page — write trusted content only (same trust level as any other file merged via PR), since it is not escaped.
+
 ## Adding a BIOS entry
 
 1. Locate the correct file: `data/<manufacturer>.json` (lowercase, hyphens for spaces).
@@ -103,7 +120,7 @@ Each `data/<manufacturer>.json` follows this exact shape:
 - Do not edit `index.html` or files under `m/`. They are regenerated on every build; hand edits will be lost.
 - Do not invent hash values. If a hash isn't known and verified, use `null`.
 - Do not add new fields to the schema without also updating `build.py`, `validate.py`, and both HTML templates.
-- Do not add third-party Python packages — the workflows install nothing beyond stdlib Python 3.12.
+- Do not add third-party Python packages beyond `markdown` (already pinned in `requirements.txt`) without a strong reason — and if you do, update `requirements.txt` and both CI workflows' install step.
 - Do not add `id` fields or foreign keys. The nested structure is intentional.
 - Do not rename manufacturer files without also checking that no external site links to the old URL, since `data/foo.json` maps directly to `m/foo.html`.
 
@@ -119,8 +136,8 @@ If you must change the schema:
 
 ## CI behavior
 
-- **On pull request:** `.github/workflows/validate.yml` runs `python validate.py` and `python build.py`. If either fails, the PR is blocked.
-- **On push to `main`:** `.github/workflows/build.yml` runs `python build.py` and deploys the result to GitHub Pages.
+- **On pull request:** `.github/workflows/validate.yml` installs `requirements.txt`, then runs `python validate.py` and `python build.py`. If either fails, the PR is blocked.
+- **On push to `main`:** `.github/workflows/build.yml` installs `requirements.txt`, runs `python build.py`, and deploys the result to GitHub Pages.
 
 ## Style
 
