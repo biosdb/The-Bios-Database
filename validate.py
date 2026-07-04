@@ -13,7 +13,8 @@ Checks:
   - No duplicate manufacturer slugs across files (would collide on m/<slug>.html)
   - Filename matches the manufacturer's slug (data/sony.json ↔ "Sony")
   - Every notes/*.md and notes/*/*.md file matches an actual manufacturer/console
-    (catches typos that would silently make a note file never get picked up by build.py)
+    (catches typos that would silently make a note file never get picked up by build.py),
+    except notes/_index.md which is the site index page's note and isn't tied to one
 
 Exits non-zero on any failure and prints a report of every issue found.
 """
@@ -188,6 +189,8 @@ def validate_notes(mfr_consoles: dict) -> list:
 
     for path in sorted(NOTES_DIR.glob("*.md")):
         slug = path.stem
+        if slug == "_index":
+            continue  # notes/_index.md is the site index page's note, not tied to a manufacturer
         if slug not in mfr_consoles:
             errors.append(
                 f"notes/{path.name}: no manufacturer slugifies to '{slug}' — "

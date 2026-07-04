@@ -22,7 +22,8 @@ There is no backend, no database, no runtime dependencies in the deployed site �
 │   ├── <manufacturer>.json      ← one file per manufacturer (source of truth)
 │   └── ...
 ├── notes/
-│   ├── <manufacturer-slug>.md            ← OPTIONAL freeform intro for a manufacturer page
+│   ├── _index.md                         ← OPTIONAL freeform note for the site index page
+│   ├── <manufacturer-slug>.md            ← OPTIONAL freeform note for a manufacturer page
 │   └── <manufacturer-slug>/
 │       └── <console-slug>.md             ← OPTIONAL freeform notes/links for one console
 ├── index.html                   ← GENERATED — do not edit by hand
@@ -89,12 +90,13 @@ Each `data/<manufacturer>.json` follows this exact shape:
 
 ## Notes and links (`notes/`)
 
-Freeform Markdown, entirely optional, kept separate from `data/*.json` so the hash data stays clean for automated tooling:
+Freeform Markdown, entirely optional, kept separate from `data/*.json` so the hash data stays clean for automated tooling. Always supplementary — rendered after the primary content, not before it:
 
-- `notes/<manufacturer-slug>.md` — shown under the `<h1>` on that manufacturer's page (e.g. `notes/sony.md`).
-- `notes/<manufacturer-slug>/<console-slug>.md` — shown inside that console's card, above its BIOS table (e.g. `notes/sony/playstation.md`).
+- `notes/_index.md` — shown at the bottom of the site's index page, after the manufacturer grid.
+- `notes/<manufacturer-slug>.md` — shown at the bottom of that manufacturer's page, after all its console cards (e.g. `notes/sony.md`).
+- `notes/<manufacturer-slug>/<console-slug>.md` — shown inside that console's card, below its BIOS table (e.g. `notes/sony/playstation.md`).
 
-Slugs must match exactly what `slugify()` produces from the manufacturer name / console `longName` in `build.py` and `validate.py` — `validate.py` checks this and flags orphaned note files (no matching manufacturer/console) as an error. A missing note file is not an error; it just means no extra section is rendered.
+Slugs must match exactly what `slugify()` produces from the manufacturer name / console `longName` in `build.py` and `validate.py` — `validate.py` checks this and flags orphaned note files (no matching manufacturer/console) as an error; `_index.md` is exempt from that check since it isn't tied to a manufacturer. A missing note file is not an error; it just means no extra section is rendered.
 
 Rendered with the `markdown` package using the `extra` and `sane_lists` extensions (tables, fenced code blocks, footnotes, definition lists, nicer list handling). This is real HTML output embedded in the page — write trusted content only (same trust level as any other file merged via PR), since it is not escaped.
 

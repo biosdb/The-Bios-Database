@@ -44,6 +44,11 @@ def render_markdown_file(path: Path):
     return markdown.markdown(text, extensions=MD_EXTENSIONS)
 
 
+def load_index_notes():
+    """notes/_index.md — optional freeform note shown on the site's index page."""
+    return render_markdown_file(NOTES_DIR / "_index.md")
+
+
 def load_manufacturer_notes(mfr_slug: str):
     """notes/<mfr-slug>.md — optional freeform intro shown on the manufacturer page."""
     return render_markdown_file(NOTES_DIR / f"{mfr_slug}.md")
@@ -151,6 +156,21 @@ SHARED_STYLES = r"""
   .no-results { padding: 40px; text-align: center; color: var(--muted); }
   footer { text-align: center; padding: 30px 20px; color: var(--muted); font-size: 12px; }
   footer a { color: var(--accent); }
+  .page-notes, .console-notes { font-size: 14px; line-height: 1.6; color: var(--text); }
+  .page-notes { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
+  .console-notes { padding: 12px 16px 16px; border-top: 1px solid var(--border); }
+  .page-notes > :first-child, .console-notes > :first-child { margin-top: 0; }
+  .page-notes > :last-child, .console-notes > :last-child { margin-bottom: 0; }
+  .page-notes a, .console-notes a { color: var(--accent); }
+  .page-notes ul, .page-notes ol, .console-notes ul, .console-notes ol { padding-left: 22px; }
+  .page-notes code, .console-notes code { font-family: var(--mono); font-size: 0.9em;
+    background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
+  .page-notes pre, .console-notes pre { background: var(--panel-2); padding: 10px 12px;
+    border-radius: 8px; overflow-x: auto; }
+  .page-notes pre code, .console-notes pre code { background: none; padding: 0; }
+  .page-notes table, .console-notes table { font-size: 13px; }
+  .page-notes blockquote, .console-notes blockquote { margin: 0; padding-left: 12px;
+    border-left: 3px solid var(--border); color: var(--muted); }
 """
 
 INDEX_TEMPLATE = r"""<!DOCTYPE html>
@@ -189,6 +209,7 @@ __SHARED_STYLES__
   </div>
   <div class="mfr-grid" id="grid"></div>
   <div class="no-results" id="no-results" style="display:none;">No matching manufacturers.</div>
+  __INDEX_NOTES__
 </div>
 <footer>
   Edit files in <code>data/</code> via pull request to contribute.
@@ -287,21 +308,6 @@ __SHARED_STYLES__
   .size { font-family: var(--mono); font-size: 12.5px; color: #cfd6e4; white-space: nowrap; }
   .alt-name { color: var(--muted); font-size: 12px; margin-top: 2px; }
   .notes { color: var(--muted); font-size: 12.5px; max-width: 260px; }
-  .mfr-notes, .console-notes { font-size: 14px; line-height: 1.6; color: var(--text); }
-  .mfr-notes { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
-  .console-notes { padding: 12px 16px 16px; border-top: 1px solid var(--border); }
-  .mfr-notes > :first-child, .console-notes > :first-child { margin-top: 0; }
-  .mfr-notes > :last-child, .console-notes > :last-child { margin-bottom: 0; }
-  .mfr-notes a, .console-notes a { color: var(--accent); }
-  .mfr-notes ul, .mfr-notes ol, .console-notes ul, .console-notes ol { padding-left: 22px; }
-  .mfr-notes code, .console-notes code { font-family: var(--mono); font-size: 0.9em;
-    background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
-  .mfr-notes pre, .console-notes pre { background: var(--panel-2); padding: 10px 12px;
-    border-radius: 8px; overflow-x: auto; }
-  .mfr-notes pre code, .console-notes pre code { background: none; padding: 0; }
-  .mfr-notes table, .console-notes table { font-size: 13px; }
-  .mfr-notes blockquote, .console-notes blockquote { margin: 0; padding-left: 12px;
-    border-left: 3px solid var(--border); color: var(--muted); }
   @media (max-width: 800px) {
     thead { display: none; }
     tbody tr { display: block; padding: 12px; border-bottom: 1px solid var(--border); }
@@ -510,9 +516,12 @@ def to_script_json(obj) -> str:
 
 def write_index(index_payload):
     payload = to_script_json(index_payload)
+    index_notes = load_index_notes()
+    index_notes_html = f'<div class="page-notes">{index_notes}</div>' if index_notes else ""
     html_out = (INDEX_TEMPLATE
                 .replace("__SHARED_STYLES__", SHARED_STYLES)
-                .replace("__MANUFACTURERS__", payload))
+                .replace("__MANUFACTURERS__", payload)
+                .replace("__INDEX_NOTES__", index_notes_html))
     OUTPUT_INDEX.write_text(html_out, encoding="utf-8")
 
 
@@ -525,7 +534,7 @@ def write_manufacturer_page(doc):
     payload = to_script_json(rows)
 
     mfr_notes = load_manufacturer_notes(slug)
-    mfr_notes_html = f'<div class="mfr-notes">{mfr_notes}</div>' if mfr_notes else ""
+    mfr_notes_html = f'<div class="page-notes">{mfr_notes}</div>' if mfr_notes else ""
 
     console_notes = {}
     for console in doc["consoles"]:

@@ -71,12 +71,13 @@ python -m http.server 8000
 
 ## Notes and links
 
-Freeform Markdown notes and external links can be added alongside the hash data, kept in a separate `notes/` directory so the JSON stays clean for automated tooling:
+Freeform Markdown notes and external links can be added alongside the hash data, kept in a separate `notes/` directory so the JSON stays clean for automated tooling. These are always supplementary — rendered after the primary content (the manufacturer grid, or the BIOS table), not before it:
 
-- `notes/<manufacturer-slug>.md` — shown at the top of that manufacturer's page.
-- `notes/<manufacturer-slug>/<console-slug>.md` — shown inside that console's card, above its BIOS table.
+- `notes/_index.md` — shown at the bottom of the site's index page.
+- `notes/<manufacturer-slug>.md` — shown at the bottom of that manufacturer's page.
+- `notes/<manufacturer-slug>/<console-slug>.md` — shown inside that console's card, below its BIOS table.
 
-Both are entirely optional — add one only where you have something worth saying (background, links to further reading, expected filenames for emulators, etc). Slugs must match the manufacturer name / console `longName` the same way `data/<manufacturer>.json` filenames do; `python validate.py` will flag a note file that doesn't match anything. See `notes/sony.md` and `notes/sony/playstation.md` for examples.
+All three are entirely optional — add one only where you have something worth saying (background, links to further reading, expected filenames for emulators, etc). Slugs must match the manufacturer name / console `longName` the same way `data/<manufacturer>.json` filenames do; `python validate.py` will flag a note file that doesn't match anything. See `notes/_index.md`, `notes/sony.md`, and `notes/sony/playstation.md` for examples.
 
 ## Checking a hash
 
