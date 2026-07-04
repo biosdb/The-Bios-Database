@@ -1,0 +1,353 @@
+{
+  "manufacturer": "Sony",
+  "consoles": [
+    {
+      "shortName": "PS1",
+      "longName": "PlayStation",
+      "bioses": [
+        {
+          "name": "ps-10j.bin",
+          "altName": "SCPH-1000/DTL-H1000",
+          "region": "NTSC-J",
+          "version": "1.0",
+          "size": 524288,
+          "md5": "239665b1a3dade1b5a52c06338011044",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 09/22/1994. Earliest PlayStation BIOS revision."
+        },
+        {
+          "name": "ps-11.bin",
+          "altName": "PlayStation 1 Dev board DTL-H2000",
+          "region": "Region-free",
+          "version": "1.1",
+          "size": 524288,
+          "md5": "2118230527a9f51bd9216e32fa912842",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 01/24/1994. Development board BIOS."
+        },
+        {
+          "name": "ps-11j.bin",
+          "altName": "SCPH-3000/DTL-H1000H",
+          "region": "NTSC-J",
+          "version": "1.1",
+          "size": 524288,
+          "md5": "849515939161e62f6b866f6853006780",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 01/22/1995."
+        },
+        {
+          "name": "ps-20a.bin",
+          "altName": "DTL-H1001",
+          "region": "NTSC-U/C",
+          "version": "2.0",
+          "size": 524288,
+          "md5": "dc2b9bf8da62ec93e868cfd29f0d067d",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 05/07/1995. Development board BIOS."
+        },
+        {
+          "name": "ps-20e.bin",
+          "altName": "DTL-H1002/SCPH-1002",
+          "region": "PAL-E",
+          "version": "2.0",
+          "size": 524288,
+          "md5": "54847e693405ffeb0359c6287434cbef",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 05/10/1995."
+        },
+        {
+          "name": "ps-21j.bin",
+          "altName": "SCPH-3500",
+          "region": "NTSC-J",
+          "version": "2.1",
+          "size": 524288,
+          "md5": "cba733ceeff5aef5c32254f1d617fa62",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 07/17/1995."
+        },
+        {
+          "name": "ps-21a.bin",
+          "altName": "DTL-H1101",
+          "region": "NTSC-U/C",
+          "version": "2.1",
+          "size": 524288,
+          "md5": "da27e8b6dab242d8f91a9b25d80c63b8",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 07/17/1995. Development board BIOS."
+        },
+        {
+          "name": "ps-21e.bin",
+          "altName": "SCPH-1002/DTL-H1102",
+          "region": "PAL-E",
+          "version": "2.1",
+          "size": 524288,
+          "md5": "417b34706319da7cf001e76e40136c23",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 07/17/1995."
+        },
+        {
+          "name": "ps-22j.bin",
+          "altName": "SCPH-5000/DTL-H1200/DTL-H3000",
+          "region": "NTSC-J",
+          "version": "2.2",
+          "size": 524288,
+          "md5": "57a06303dfa9cf9351222dfcbb4a29d9",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 12/04/1995."
+        },
+        {
+          "name": "ps-22j(v).bin",
+          "altName": "SCPH-5903",
+          "region": "NTSC-J",
+          "version": "2.2",
+          "size": 524288,
+          "md5": "81328b966e6dcf7ea1e32e55e1c104bb",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 12/04/1995. Variant revision."
+        },
+        {
+          "name": "ps-22a.bin",
+          "altName": "SCPH-1001/SCPH-5003/DTL-H1201/DTL-H3001",
+          "region": "NTSC-U/C",
+          "version": "2.2",
+          "size": 524288,
+          "md5": "924e392ed05558ffdb115408c263dccf",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 12/04/1995. One of the most common NTSC-U/C BIOS revisions."
+        },
+        {
+          "name": "ps-22e.bin",
+          "altName": "SCPH-1002/DTL-H1202/DTL-H3002",
+          "region": "PAL-E",
+          "version": "2.2",
+          "size": 524288,
+          "md5": "e2110b8a2b97a8e0b857a45d32f7e187",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 12/04/1995."
+        },
+        {
+          "name": "ps-22d.bin",
+          "altName": "DTL-H1100",
+          "region": "NTSC-J",
+          "version": "2.2",
+          "size": 524288,
+          "md5": "ca5cfc321f916756e3f0effbfaeba13b",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 03/06/1996. Development board BIOS, revision D."
+        },
+        {
+          "name": "ps-30j.bin",
+          "altName": "SCPH-5500",
+          "region": "NTSC-J",
+          "version": "3.0",
+          "size": 524288,
+          "md5": "8dd7d5296a650fac7319bce665a6a53c",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 09/09/1996."
+        },
+        {
+          "name": "ps-30a.bin",
+          "altName": "SCPH-5501/SCPH-5503/SCPH-7003",
+          "region": "NTSC-U/C",
+          "version": "3.0",
+          "size": 524288,
+          "md5": "490f666e1afb15b7362b406ed1cea246",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 11/18/1996. Very common NTSC-U/C BIOS revision."
+        },
+        {
+          "name": "ps-30e.bin",
+          "altName": "SCPH-5502/SCPH-5552",
+          "region": "PAL-E",
+          "version": "3.0",
+          "size": 524288,
+          "md5": "32736f17079d0b2b7024407c39bd3050",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 01/06/1997."
+        },
+        {
+          "name": "ps-40j.bin",
+          "altName": "SCPH-7000/SCPH-7500/SCPH-9000",
+          "region": "NTSC-J",
+          "version": "4.0",
+          "size": 524288,
+          "md5": "8e4c14f567745eff2f0408c8129f72a6",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 08/18/1997."
+        },
+        {
+          "name": "ps-41a(w).bin",
+          "altName": "SCPH-7000W",
+          "region": "Region-free",
+          "version": "4.1",
+          "size": 524288,
+          "md5": "b84be139db3ee6cbd075630aa20a6553",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 11/14/1997. \"Watermarked\" region-free revision."
+        },
+        {
+          "name": "ps-41a.bin",
+          "altName": "SCPH-7001/SCPH-7501/SCPH-7503/SCPH-9001/SCPH-9003/SCPH-9903",
+          "region": "NTSC-U/C",
+          "version": "4.1",
+          "size": 524288,
+          "md5": "1e68c231d0896b7eadcad1d7d8e76129",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 12/16/1997."
+        },
+        {
+          "name": "ps-41e.bin",
+          "altName": "SCPH-7002/SCPH-7502/SCPH-9002",
+          "region": "PAL-E",
+          "version": "4.1",
+          "size": 524288,
+          "md5": "b9d9a0286c33dc6b7237bb13cd46fdee",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 12/16/1997."
+        },
+        {
+          "name": "psone-43j.bin",
+          "altName": "SCPH-100",
+          "region": "NTSC-J",
+          "version": "4.3",
+          "size": 524288,
+          "md5": "8abc1b549a4a80954addc48ef02c4521",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 03/11/2000. PSone (slim) BIOS."
+        },
+        {
+          "name": "psone-44a.bin",
+          "altName": "SCPH-101",
+          "region": "NTSC-U/C",
+          "version": "4.4",
+          "size": 524288,
+          "md5": "9a09ab7e49b422c007e6d54d7c49b965",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 03/24/2000. PSone (slim) BIOS."
+        },
+        {
+          "name": "psone-44e.bin",
+          "altName": "SCPH-102",
+          "region": "PAL-E",
+          "version": "4.4",
+          "size": 524288,
+          "md5": "b10f5e0e3d9eb60e5159690680b1e774",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 03/24/2000. PSone (slim) BIOS."
+        },
+        {
+          "name": "psone-45a.bin",
+          "altName": "SCPH-101",
+          "region": "NTSC-U/C",
+          "version": "4.5",
+          "size": 524288,
+          "md5": "6e3735ff4c7dc899ee98981385f6f3d0",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 05/25/2000. PSone (slim) BIOS."
+        },
+        {
+          "name": "psone-45e.bin",
+          "altName": "SCPH-102",
+          "region": "PAL-E",
+          "version": "4.5",
+          "size": 524288,
+          "md5": "de93caec13d1a141a40a79f5c86168d6",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 05/25/2000. PSone (slim) BIOS."
+        },
+        {
+          "name": "psxonpsp660.bin",
+          "altName": "PlayStation Portable/PlayStation Classic SCPH-1000R",
+          "region": "Region-free",
+          "version": "4.5",
+          "size": 524288,
+          "md5": "c53ca5908936d412331790f4426c6c33",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 05/25/2000. Also distributed as romw.bin. Used for PS1 emulation on the PSP and on the PlayStation Classic (SCPH-1000R)."
+        },
+        {
+          "name": "scph-1000r.bin",
+          "altName": "PlayStation Classic SCPH-1000R",
+          "region": "NTSC-J",
+          "version": "4.5",
+          "size": 524288,
+          "md5": "476d68a94ccec3b9c8303bbd1daf2810",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 05/25/2000. Also distributed as romJP.bin. Used on the Japanese PlayStation Classic (SCPH-1000R)."
+        }
+      ]
+    },
+    {
+      "shortName": "PS2",
+      "longName": "PlayStation 2",
+      "bioses": [
+        {
+          "name": "ps2-50j.bin",
+          "altName": "SCPH-18000",
+          "region": "NTSC-J",
+          "version": "5.0",
+          "size": null,
+          "md5": "d8f485717a5237285e4d7c5f881b7f32",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Released 10/27/2000."
+        }
+      ]
+    },
+    {
+      "shortName": "PS3",
+      "longName": "PlayStation 3",
+      "bioses": [
+        {
+          "name": "ps1_rom.bin (fw 3.66-3.74)",
+          "altName": "PS3 Firmware 3.66-3.74",
+          "region": "Region-free",
+          "version": "5.0",
+          "size": null,
+          "md5": "c02a6fbb1b27359f84e92fae8bc21316",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Embedded PlayStation backward-compatibility BIOS extracted from PS3 system firmware versions 3.66-3.74. Internal version stamp dated 06/23/2003."
+        },
+        {
+          "name": "ps1_rom.bin (fw 4.00-4.86)",
+          "altName": "PS3 Firmware 4.00-4.86",
+          "region": "Region-free",
+          "version": "5.0",
+          "size": null,
+          "md5": "81bbe60ba7a3d1cea1d48c14cbcc647b",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Embedded PlayStation backward-compatibility BIOS extracted from PS3 system firmware versions 4.00-4.86. Internal version stamp dated 06/23/2003."
+        }
+      ]
+    }
+  ]
+}
