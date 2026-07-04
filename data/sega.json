@@ -1,0 +1,668 @@
+{
+  "manufacturer": "Sega",
+  "consoles": [
+    {
+      "shortName": "SMS",
+      "longName": "Master System",
+      "bioses": [
+        {
+          "name": "[BIOS] Sega Master System (USA) (M404) (Proto).sms",
+          "altName": "Prototype Master System (US) M404",
+          "region": "USA",
+          "version": null,
+          "size": null,
+          "md5": "3153447d155fb8bfc66a4d1c41e399b9",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1986. Early US prototype BIOS, model M404."
+        },
+        {
+          "name": "[BIOS] Sega Master System (USA) (v1.0) (Proto).sms",
+          "altName": "Prototype Master System (US) v1.0",
+          "region": "USA",
+          "version": "1.0",
+          "size": null,
+          "md5": "626b3453613e43d5a47908a8944ba583",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1986. US prototype BIOS."
+        },
+        {
+          "name": "[BIOS] Sega Master System (USA, Europe) (v1.3).sms",
+          "altName": "Sega Master System (US/EU) v1.3",
+          "region": "USA, Europe",
+          "version": "1.3",
+          "size": null,
+          "md5": "840481177270d5642a14ca71ee72844c",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1986."
+        },
+        {
+          "name": "[BIOS] Sega Master System (Europe) (v2.0).sms",
+          "altName": "Sega Master System (EU) v2.0",
+          "region": "Europe",
+          "version": "2.0",
+          "size": null,
+          "md5": "bdb34f2c471e5d0c358eeec621f9d029",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1987."
+        },
+        {
+          "name": "[BIOS] Sega Master System (Japan) (v2.1).sms",
+          "altName": "Sega Master System (JP) v2.1",
+          "region": "Japan",
+          "version": "2.1",
+          "size": null,
+          "md5": "24a519c53f67b00640d0048ef7089105",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1987."
+        },
+        {
+          "name": "[BIOS] Hang-On & Safari Hunt (USA, Europe) (v2.4).sms",
+          "altName": "Sega Master System (US/EU) v2.4",
+          "region": "USA, Europe",
+          "version": "2.4",
+          "size": null,
+          "md5": "02cbb2e348945c9ac41e37502a58ca76",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1988. Hang-On/Safari Hunt built in."
+        },
+        {
+          "name": "[BIOS] Hang-On (USA, Europe) (v3.4).sms",
+          "altName": "Sega Master System (US/EU) v3.4",
+          "region": "USA, Europe",
+          "version": "3.4",
+          "size": null,
+          "md5": "5cd8f62cd8786af0226e6d2248279338",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1988. Hang-On built in."
+        },
+        {
+          "name": "[BIOS] Missile Defense 3-D (USA, Europe) (v4.4).sms",
+          "altName": "Sega Master System (US/EU) v4.4",
+          "region": "USA, Europe",
+          "version": "4.4",
+          "size": null,
+          "md5": "08b81aa6be18b92daef1b875deecf824",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1988. Missile Defense 3-D built in."
+        },
+        {
+          "name": "[BIOS] Alex Kidd in Miracle World (USA, Europe).sms",
+          "altName": "Sega Master System (US/EU)",
+          "region": "USA, Europe",
+          "version": null,
+          "size": null,
+          "md5": "e8b26871629b938887757a64798df6dc",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1990. Alex Kidd in Miracle World built in."
+        },
+        {
+          "name": "[BIOS] Sonic The Hedgehog (Europe).sms",
+          "altName": "Sega Master System II (EU)",
+          "region": "Europe",
+          "version": null,
+          "size": null,
+          "md5": "4187d96beaf36385e681a3cf3bd1663d",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1991. Sonic the Hedgehog built in; Master System II."
+        },
+        {
+          "name": "[BIOS] Alex Kidd in Miracle World (Korea).sms",
+          "altName": "Samsung Gam*Boy (KR)/Aladdin Boy II",
+          "region": "Korea",
+          "version": null,
+          "size": null,
+          "md5": "e49e63328c78fe3d24ae32bf903583e0",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Date not given by source (N/A). Alex Kidd in Miracle World built in; Samsung-rebranded Master System clone."
+        }
+      ]
+    },
+    {
+      "shortName": "MD",
+      "longName": "Genesis/Mega Drive",
+      "bioses": [
+        {
+          "name": "[BIOS] Sega Mega Drive - Genesis Boot ROM (World).bin",
+          "altName": "Sega Mega Drive",
+          "region": "World",
+          "version": null,
+          "size": null,
+          "md5": "d3293ebaaa7f4eb2a6766b68a0fb4609",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1990-05."
+        }
+      ]
+    },
+    {
+      "shortName": "SCD",
+      "longName": "Sega CD/Mega-CD",
+      "bioses": [
+        {
+          "name": "[BIOS] Sega Mega-CD BIOS v1.00g (1991)(Sega)(JP)(en-ja).bin",
+          "altName": "Sega Mega-CD (Japan) (1.00 Rev B)",
+          "region": "Japan",
+          "version": "1.00 Rev B",
+          "size": null,
+          "md5": "bc6ae4e1db01a2f349d9af392bf7e2bd",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1991-12."
+        },
+        {
+          "name": "[BIOS] Mega-CD (Japan) (1.00l).bin",
+          "altName": "Sega Mega-CD (Japan) (1.00 Rev C)",
+          "region": "Japan",
+          "version": "1.00 Rev C",
+          "size": null,
+          "md5": "29ad9ce848b49d0f9cefc294137f653c",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1991-12."
+        },
+        {
+          "name": "[BIOS] Sega Mega-CD BIOS v1.00o (1991)(Sega)(JP)(en-ja).bin",
+          "altName": "Sega Mega-CD (Japan) (1.00 Rev D)",
+          "region": "Japan",
+          "version": "1.00 Rev D",
+          "size": null,
+          "md5": "cc049159d7e744c15eee080c241273b4",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1991-12."
+        },
+        {
+          "name": "[BIOS] Mega-CD (Japan) (v1.00P).bin",
+          "altName": "Sega Mega-CD (Japan) (1.00 Rev E)",
+          "region": "Japan",
+          "version": "1.00 Rev E",
+          "size": null,
+          "md5": "278a9397d192149e84e820ac621a8edd",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1991-12-17."
+        },
+        {
+          "name": "[BIOS] Mega-CD (Japan) (1.00S).bin",
+          "altName": "Sega Mega-CD (Japan) (1.00 Rev H)",
+          "region": "Japan",
+          "version": "1.00 Rev H",
+          "size": null,
+          "md5": "a3ddcc8483b0368141adfd99d9a1e466",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1991-12."
+        },
+        {
+          "name": "[BIOS] Mega-CD (Asia) (v1.00S).bin",
+          "altName": "Sega Mega-CD (Asia) (1.00 Rev H)",
+          "region": "Asia",
+          "version": "1.00 Rev H",
+          "size": null,
+          "md5": "bdeb4c47da613946d422d97d98b21cda",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1991-12-28."
+        },
+        {
+          "name": "[BIOS] WonderMega (Japan) (En) (v1.00) (Sega).bin",
+          "altName": "Sega Wondermega (Japan) (1.00)",
+          "region": "Japan",
+          "version": "1.00",
+          "size": null,
+          "md5": "732b60960226caf33df6b487f376de69",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1992-02-06."
+        },
+        {
+          "name": "[BIOS] jp_mcd2_920501.bin",
+          "altName": "Sega Mega-CD (Japan) (1.11)",
+          "region": "Japan",
+          "version": "1.11",
+          "size": null,
+          "md5": "3dcb4e9924b0df8fa5d7252a9cd43f78",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1992-05-01. Dumped from a Japanese Model 2 sample/prototype."
+        },
+        {
+          "name": "[BIOS] Sega CD (USA) (v1.00).bin",
+          "altName": "Sega CD (NA) (1.00)",
+          "region": "USA",
+          "version": "1.00",
+          "size": null,
+          "md5": "96ea588d647f2ab1f291279fc691663c",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1992."
+        },
+        {
+          "name": "[BIOS] Sega CD (USA) (v1.10).bin",
+          "altName": "Sega CD (NA) (1.10 Rev B)",
+          "region": "USA",
+          "version": "1.10 Rev B",
+          "size": null,
+          "md5": "2efd74e3232ff260e371b99f84024f7f",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1992-10-11."
+        },
+        {
+          "name": "[BIOS] Mega-CD (Europe) (v1.00).bin",
+          "altName": "Sega Mega-CD (EU) (1.00)",
+          "region": "Europe",
+          "version": "1.00",
+          "size": null,
+          "md5": "e66fa1dc5820d254611fdcdba0662372",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1992-10-27."
+        },
+        {
+          "name": "[BIOS] Mega-CD 2 (Japan) (v2.00C).bin",
+          "altName": "Sega Mega-CD 2 (Funai Model) (Japan) (2.00)",
+          "region": "Japan",
+          "version": "2.00",
+          "size": null,
+          "md5": "683a8a9e273662561172468dfa2858eb",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1992-12-22. Funai-manufactured model."
+        },
+        {
+          "name": "[BIOS] Sega CD 2 (USA) (v2.00).bin",
+          "altName": "Sega CD 2 (Funai Model) (NA) (2.00)",
+          "region": "USA",
+          "version": "2.00",
+          "size": null,
+          "md5": "310a9081d2edf2d316ab38813136725e",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-03-14. Funai-manufactured model."
+        },
+        {
+          "name": "[BIOS] LaserActive (Japan) (v1.02).bin",
+          "altName": "LaserActive (Japan) (1.02)",
+          "region": "Japan",
+          "version": "1.02",
+          "size": null,
+          "md5": "a5a2f9aae57d464bc66b80ee79c3da6e",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-03-29. Pioneer LaserActive Mega-CD PAC."
+        },
+        {
+          "name": "[BIOS] LaserActive (USA) (v1.02).bin",
+          "altName": "LaserActive (NA) (1.02)",
+          "region": "USA",
+          "version": "1.02",
+          "size": null,
+          "md5": "691c3fd368211280d268645c0efd2eff",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-03-29. Pioneer LaserActive Mega-CD PAC."
+        },
+        {
+          "name": "[BIOS] Mega-CD 2 (Europe) (v2.00).bin",
+          "altName": "Sega Mega-CD II (Funai Model) (EU) (2.00)",
+          "region": "Europe",
+          "version": "2.00",
+          "size": null,
+          "md5": "9b562ebf2d095bf1dabadbc1881f519a",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-03-30. Funai-manufactured model."
+        },
+        {
+          "name": "[BIOS] Sega CD 2 (USA) (v2.00W).bin",
+          "altName": "Sega CD 2 (Funai Model) (NA) (2.00 Rev A)",
+          "region": "USA",
+          "version": "2.00 Rev A",
+          "size": null,
+          "md5": "854b9150240a198070150e4566ae1290",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-06-01. Funai-manufactured model."
+        },
+        {
+          "name": "[BIOS] Mega-CD 2 (Europe) (v2.00W).bin",
+          "altName": "Sega Mega-CD II (Funai Model) (EU) (2.00 Rev A)",
+          "region": "Europe",
+          "version": "2.00 Rev A",
+          "size": null,
+          "md5": "b10c0a97abc57b758497d3fae6ab35a4",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-06-01. Funai-manufactured model."
+        },
+        {
+          "name": "[BIOS] Sega CD 2 (USA) (v2.11X).bin",
+          "altName": "Sega CD 2 (Sony Model) (NA) (2.11)",
+          "region": "USA",
+          "version": "2.11",
+          "size": null,
+          "md5": "ecc837c31d77b774c6e27e38f828aa9a",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-06-21. Sony-manufactured model."
+        },
+        {
+          "name": "[BIOS] Mega-LD 1.05 BIOS.bin",
+          "altName": "LaserActive (Japan) (1.05)",
+          "region": "Japan",
+          "version": "1.05",
+          "size": null,
+          "md5": "927df773f9a1c7de94a72420b2d538dd",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-08-10. Pioneer LaserActive Mega-LD PAC."
+        },
+        {
+          "name": "[BIOS] CDX (USA) (v2.21X).bin",
+          "altName": "Sega CDX (NA) (2.21x)",
+          "region": "USA",
+          "version": "2.21x",
+          "size": null,
+          "md5": "baca1df271d7c11fe50087c0358f4eb5",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-09-07."
+        },
+        {
+          "name": "[BIOS] Multi-Mega (Europe) (v2.21X).bin",
+          "altName": "Sega Multi-Mega (EU) (2.21x)",
+          "region": "Europe",
+          "version": "2.21x",
+          "size": null,
+          "md5": "ae52bad8ad2ef483d87fb472e521294d",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-09-16."
+        },
+        {
+          "name": "[BIOS] LaserActive (USA) (v1.04).bin",
+          "altName": "LaserActive (NA) (1.04)",
+          "region": "USA",
+          "version": "1.04",
+          "size": null,
+          "md5": "0e7393cd0951d6dde818fcd4cd819466",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-09-22. Pioneer LaserActive Mega-CD PAC."
+        },
+        {
+          "name": "[BIOS] us_xeye_931227.bin",
+          "altName": "JVC X'Eye (NA) (2.00)",
+          "region": "USA",
+          "version": "2.00",
+          "size": null,
+          "md5": "82ce2363f7ddc620b9c255d35833118f",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993-12-27."
+        },
+        {
+          "name": "[BIOS] WonderMega M2 (Japan) (v2.00).bin",
+          "altName": "Victor Wondermega M2 (Japan) (2.00)",
+          "region": "Japan",
+          "version": "2.00",
+          "size": null,
+          "md5": "d32f50fb7f4355c45d5db306a0d38fa4",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993."
+        },
+        {
+          "name": "[BIOS] MPR-15768-T.bin",
+          "altName": "Aiwa CSD-G1M (JP) (2.11)",
+          "region": "Japan",
+          "version": "2.11",
+          "size": null,
+          "md5": "7e85dd6ae3ecf51eac71cd6ced8fdc6d",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1993."
+        }
+      ]
+    },
+    {
+      "shortName": "32X",
+      "longName": "32X",
+      "bioses": [
+        {
+          "name": "[BIOS] 32X M68000 (USA).bin",
+          "altName": "Sega 32X",
+          "region": "USA",
+          "version": null,
+          "size": null,
+          "md5": "6a5433f6a132a2b683635819a6dcf085",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1994. Main 68000 boot ROM component."
+        },
+        {
+          "name": "[BIOS] 32X SH-2 Master (USA).bin",
+          "altName": "Sega 32X",
+          "region": "USA",
+          "version": null,
+          "size": null,
+          "md5": "f88354ec482be09aeccd76a97bb75868",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1994. SH-2 master CPU boot ROM component."
+        },
+        {
+          "name": "[BIOS] 32X SH-2 Slave (USA).bin",
+          "altName": "Sega 32X",
+          "region": "USA",
+          "version": null,
+          "size": null,
+          "md5": "7f041b6a55cd7423a6c08a219335269e",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1994. SH-2 slave CPU boot ROM component."
+        }
+      ]
+    },
+    {
+      "shortName": "SS",
+      "longName": "Saturn",
+      "bioses": [
+        {
+          "name": "Sega Saturn BIOS v1.00 (1994)(Sega)(JP)(M6).bin",
+          "altName": "Saturn (JP) (1.00)",
+          "region": "Japan",
+          "version": "1.00",
+          "size": null,
+          "md5": "af5828fdff51384f99b3c4926be27762",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1994."
+        },
+        {
+          "name": "Sega Saturn BIOS v1.003 (1994)(Sega)(JP)(M6).bin",
+          "altName": "Development kit (JP) (1.003)",
+          "region": "Japan",
+          "version": "1.003",
+          "size": null,
+          "md5": "74570fed4d44b2682b560c8cd44b8b6a",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1994. Development kit BIOS."
+        },
+        {
+          "name": "Sega Saturn BIOS v1.01 (1995)(Sega)(JP)(M6).bin",
+          "altName": "Saturn (JP) (1.01)",
+          "region": "Japan",
+          "version": "1.01",
+          "size": null,
+          "md5": "85ec9ca47d8f6807718151cbcca8b964",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1995."
+        },
+        {
+          "name": "Sega Saturn BIOS v1.00a (1995)(Sega)(US)(M6).bin",
+          "altName": "Saturn (US/EU) (1.00a)",
+          "region": "USA, Europe",
+          "version": "1.00a",
+          "size": null,
+          "md5": "f273555d7d91e8a5a6bfd9bcf066331c",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1995."
+        },
+        {
+          "name": "Sega Saturn BIOS v1.01a (1995)(Sega)(EU)(M6).bin",
+          "altName": "Saturn (US/EU) (1.01a)",
+          "region": "USA, Europe",
+          "version": "1.01a",
+          "size": null,
+          "md5": "3240872c70984b6cbfda1586cab68dbe",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1995."
+        },
+        {
+          "name": "Victor V-Saturn BIOS v1.01 (1995)(JVC - Sega)(JP)(M6).bin",
+          "altName": "V-Saturn (1.01)",
+          "region": "Japan",
+          "version": "1.01",
+          "size": null,
+          "md5": "ac4e4b6522e200c0d23d371a8cecbfd3",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1995. JVC V-Saturn clone hardware."
+        },
+        {
+          "name": "Hitachi Hi-Saturn BIOS v1.01 (1995)(Hitachi - Sega)(JP)(M6).bin",
+          "altName": "HiSaturn (1.01)",
+          "region": "Japan",
+          "version": "1.01",
+          "size": null,
+          "md5": "3ea3202e2634cb47cb90f3a05c015010",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1995. Hitachi Hi-Saturn clone hardware."
+        },
+        {
+          "name": "Hitachi Hi-Saturn BIOS v1.02 (1995)(Hitachi - Sega)(JP)(M6).bin",
+          "altName": "HiSaturn (1.02)",
+          "region": "Japan",
+          "version": "1.02",
+          "size": null,
+          "md5": "cb2cebc1b6e573b7c44523d037edcd45",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1995. Hitachi Hi-Saturn clone hardware."
+        },
+        {
+          "name": "Hitachi GameNavi HiSaturn 1.03.bin",
+          "altName": "Game & Car Navi HiSaturn (1.03)",
+          "region": "Japan",
+          "version": "1.03",
+          "size": null,
+          "md5": "0306c0e408d6682dd2d86324bd4ac661",
+          "sha1": null,
+          "sha256": null,
+          "notes": "1995. Hitachi Game & Car Navi HiSaturn clone hardware."
+        }
+      ]
+    },
+    {
+      "shortName": "DC",
+      "longName": "Dreamcast",
+      "bioses": [
+        {
+          "name": "BIOS (All).bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": null,
+          "md5": "d407fcf70b56acb84b8c77c93b0e5327",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Dreamcast console boot ROM (combined regions dump)."
+        },
+        {
+          "name": "BIOS.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": null,
+          "md5": "e10c53c2f8b90bab96ead2d368858623",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Dreamcast console boot ROM."
+        },
+        {
+          "name": "Flash (All).bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": null,
+          "md5": "93a9766f14159b403178ac77417c6b68",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Dreamcast system flash memory (combined regions dump)."
+        },
+        {
+          "name": "Flash.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": null,
+          "md5": "0a93f7940c455905bea6e392dfde92a4",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Dreamcast system flash memory."
+        },
+        {
+          "name": "Utopia CD Loader V1.1.cdi",
+          "altName": null,
+          "region": null,
+          "version": "1.1",
+          "size": null,
+          "md5": "965014e4ea7247c24c8a746d2a219df7",
+          "sha1": null,
+          "sha256": null,
+          "notes": "CDI disc image of the Utopia boot CD loader used to run backups/homebrew."
+        },
+        {
+          "name": "Utopia CD Loader V1.1.nrg",
+          "altName": null,
+          "region": null,
+          "version": "1.1",
+          "size": null,
+          "md5": "70a3385cb638912f8637a8f1e9300727",
+          "sha1": null,
+          "sha256": null,
+          "notes": "Nero disc image of the Utopia boot CD loader used to run backups/homebrew."
+        },
+        {
+          "name": "VMS BIOS (Full).bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": null,
+          "md5": "4bffb9b29b9aeb29aa618f3891a300ce",
+          "sha1": null,
+          "sha256": null,
+          "notes": "BIOS for the Dreamcast Visual Memory System (VMU/VMS) memory card."
+        }
+      ]
+    }
+  ]
+}
