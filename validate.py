@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate every data/*.json file for structural correctness.
+Validate every data/*.json file for structural correctness, plus notes/*.md.
 
 Checks:
   - Valid JSON
@@ -12,9 +12,10 @@ Checks:
   - No duplicate BIOS 'name' within the same console
   - No duplicate manufacturer slugs across files (would collide on m/<slug>.html)
   - Filename matches the manufacturer's slug (data/sony.json ↔ "Sony")
+  - Every notes/*.md and notes/*/*.md file matches an actual manufacturer/console
+    (catches typos that would silently make a note file never get picked up by build.py)
 
 Exits non-zero on any failure and prints a report of every issue found.
-Uses only the Python 3 standard library.
 """
 
 import json
@@ -24,6 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
+NOTES_DIR = ROOT / "notes"
 
 REQUIRED_BIOS_KEYS = {
     "name", "altName", "region", "version", "size",
@@ -149,6 +151,68 @@ def validate_file(path: Path, seen_slugs: dict) -> list:
     return errors
 
 
+def collect_mfr_consoles(files) -> dict:
+    """Best-effort map of manufacturer slug -> set of console slugs, for
+    cross-checking notes/ against data/. Malformed entries are skipped
+    (validate_file already reports those separately)."""
+    mfr_consoles: dict = {}
+    for path in files:
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(doc, dict):
+            continue
+        mfr = doc.get("manufacturer")
+        if not isinstance(mfr, str) or not mfr.strip():
+            continue
+        consoles = doc.get("consoles")
+        if not isinstance(consoles, list):
+            continue
+        slug = slugify(mfr)
+        console_slugs = set()
+        for console in consoles:
+            if not isinstance(console, dict):
+                continue
+            long_name = console.get("longName")
+            if isinstance(long_name, str) and long_name.strip():
+                console_slugs.add(slugify(long_name))
+        mfr_consoles[slug] = console_slugs
+    return mfr_consoles
+
+
+def validate_notes(mfr_consoles: dict) -> list:
+    errors: list = []
+    if not NOTES_DIR.exists():
+        return errors
+
+    for path in sorted(NOTES_DIR.glob("*.md")):
+        slug = path.stem
+        if slug not in mfr_consoles:
+            errors.append(
+                f"notes/{path.name}: no manufacturer slugifies to '{slug}' — "
+                f"check for a typo or a stale note file"
+            )
+
+    for sub in sorted(p for p in NOTES_DIR.iterdir() if p.is_dir()):
+        mfr_slug = sub.name
+        if mfr_slug not in mfr_consoles:
+            errors.append(
+                f"notes/{mfr_slug}/: no manufacturer slugifies to '{mfr_slug}' — "
+                f"check for a typo or a stale notes directory"
+            )
+            continue
+        for path in sorted(sub.glob("*.md")):
+            console_slug = path.stem
+            if console_slug not in mfr_consoles[mfr_slug]:
+                errors.append(
+                    f"notes/{mfr_slug}/{path.name}: no console in data/{mfr_slug}.json "
+                    f"slugifies to '{console_slug}' — check for a typo or a stale note file"
+                )
+
+    return errors
+
+
 def main() -> int:
     files = sorted(DATA_DIR.glob("*.json"))
     if not files:
@@ -159,6 +223,8 @@ def main() -> int:
     all_errors: list = []
     for path in files:
         all_errors.extend(validate_file(path, seen_slugs))
+
+    all_errors.extend(validate_notes(collect_mfr_consoles(files)))
 
     if all_errors:
         print(f"Found {len(all_errors)} issue(s):", file=sys.stderr)

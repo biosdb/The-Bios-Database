@@ -62,11 +62,21 @@ The filename determines the manufacturer's page URL — e.g. `data/sony.json` �
 ## Local preview
 
 ```bash
+pip install -r requirements.txt
 python build.py
 # then open index.html in your browser
 # or serve locally so relative links to m/*.html work everywhere:
 python -m http.server 8000
 ```
+
+## Notes and links
+
+Freeform Markdown notes and external links can be added alongside the hash data, kept in a separate `notes/` directory so the JSON stays clean for automated tooling:
+
+- `notes/<manufacturer-slug>.md` — shown at the top of that manufacturer's page.
+- `notes/<manufacturer-slug>/<console-slug>.md` — shown inside that console's card, above its BIOS table.
+
+Both are entirely optional — add one only where you have something worth saying (background, links to further reading, expected filenames for emulators, etc). Slugs must match the manufacturer name / console `longName` the same way `data/<manufacturer>.json` filenames do; `python validate.py` will flag a note file that doesn't match anything. See `notes/sony.md` and `notes/sony/playstation.md` for examples.
 
 ## Checking a hash
 

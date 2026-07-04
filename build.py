@@ -16,10 +16,15 @@ import re
 import shutil
 from pathlib import Path
 
+import markdown
+
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
+NOTES_DIR = ROOT / "notes"
 OUTPUT_INDEX = ROOT / "index.html"
 MFR_DIR = ROOT / "m"
+
+MD_EXTENSIONS = ["extra", "sane_lists"]
 
 
 def slugify(name: str) -> str:
@@ -27,6 +32,27 @@ def slugify(name: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = re.sub(r"-+", "-", s).strip("-")
     return s or "unknown"
+
+
+def render_markdown_file(path: Path):
+    """Render a Markdown file to HTML, or return None if it doesn't exist / is empty."""
+    if not path.is_file():
+        return None
+    text = path.read_text(encoding="utf-8").strip()
+    if not text:
+        return None
+    return markdown.markdown(text, extensions=MD_EXTENSIONS)
+
+
+def load_manufacturer_notes(mfr_slug: str):
+    """notes/<mfr-slug>.md — optional freeform intro shown on the manufacturer page."""
+    return render_markdown_file(NOTES_DIR / f"{mfr_slug}.md")
+
+
+def load_console_notes(mfr_slug: str, console_long_name: str):
+    """notes/<mfr-slug>/<console-slug>.md — optional freeform notes/links for one console."""
+    console_slug = slugify(console_long_name)
+    return render_markdown_file(NOTES_DIR / mfr_slug / f"{console_slug}.md")
 
 
 def load_manufacturers():
@@ -261,6 +287,21 @@ __SHARED_STYLES__
   .size { font-family: var(--mono); font-size: 12.5px; color: #cfd6e4; white-space: nowrap; }
   .alt-name { color: var(--muted); font-size: 12px; margin-top: 2px; }
   .notes { color: var(--muted); font-size: 12.5px; max-width: 260px; }
+  .mfr-notes, .console-notes { font-size: 14px; line-height: 1.6; color: var(--text); }
+  .mfr-notes { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
+  .console-notes { padding: 12px 16px 16px; border-top: 1px solid var(--border); }
+  .mfr-notes > :first-child, .console-notes > :first-child { margin-top: 0; }
+  .mfr-notes > :last-child, .console-notes > :last-child { margin-bottom: 0; }
+  .mfr-notes a, .console-notes a { color: var(--accent); }
+  .mfr-notes ul, .mfr-notes ol, .console-notes ul, .console-notes ol { padding-left: 22px; }
+  .mfr-notes code, .console-notes code { font-family: var(--mono); font-size: 0.9em;
+    background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
+  .mfr-notes pre, .console-notes pre { background: var(--panel-2); padding: 10px 12px;
+    border-radius: 8px; overflow-x: auto; }
+  .mfr-notes pre code, .console-notes pre code { background: none; padding: 0; }
+  .mfr-notes table, .console-notes table { font-size: 13px; }
+  .mfr-notes blockquote, .console-notes blockquote { margin: 0; padding-left: 12px;
+    border-left: 3px solid var(--border); color: var(--muted); }
   @media (max-width: 800px) {
     thead { display: none; }
     tbody tr { display: block; padding: 12px; border-bottom: 1px solid var(--border); }
@@ -290,6 +331,7 @@ __SHARED_STYLES__
     <div id="consoles"></div>
     <div class="no-results" id="no-results" style="display:none;">No matching entries.</div>
   </div>
+  __MFR_NOTES__
 </div>
 <footer>
   Edit <code>data/__MFR_SLUG__.json</code> via pull request to contribute.
@@ -297,6 +339,7 @@ __SHARED_STYLES__
 
 <script>
 const DATA = __DATA__;
+const CONSOLE_NOTES = __CONSOLE_NOTES__;
 
 const $ = (id) => document.getElementById(id);
 const searchEl = $("search");
@@ -388,6 +431,9 @@ function renderConsoleCard(g, rows, isOpen) {
   const title = g.shortName
     ? `${escapeHtml(g.longName)} <span class="console-meta">(${escapeHtml(g.shortName)})</span>`
     : escapeHtml(g.longName);
+  const notesHtml = CONSOLE_NOTES[g.longName]
+    ? `<div class="console-notes">${CONSOLE_NOTES[g.longName]}</div>`
+    : "";
   return `<details class="console-card" data-key="${escapeHtml(g.key)}"${isOpen ? " open" : ""}>
     <summary>
       <span>${title}</span>
@@ -408,6 +454,7 @@ function renderConsoleCard(g, rows, isOpen) {
       </thead>
       <tbody>${rows.map(renderRow).join("")}</tbody>
     </table>
+    ${notesHtml}
   </details>`;
 }
 
@@ -455,8 +502,14 @@ regionEl.addEventListener("change", filterAndRender);
 """
 
 
+def to_script_json(obj) -> str:
+    """json.dumps, but safe to embed inside a <script> tag (guards against a
+    literal '</script>' in string data ending the block early)."""
+    return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
+
+
 def write_index(index_payload):
-    payload = json.dumps(index_payload, ensure_ascii=False)
+    payload = to_script_json(index_payload)
     html_out = (INDEX_TEMPLATE
                 .replace("__SHARED_STYLES__", SHARED_STYLES)
                 .replace("__MANUFACTURERS__", payload))
@@ -469,13 +522,26 @@ def write_manufacturer_page(doc):
     console_count = len({r["longName"] for r in rows}) or len(doc["consoles"])
     summary = (f"{len(rows)} BIOS entr{'y' if len(rows) == 1 else 'ies'} "
                f"across {console_count} console{'' if console_count == 1 else 's'}.")
-    payload = json.dumps(rows, ensure_ascii=False)
+    payload = to_script_json(rows)
+
+    mfr_notes = load_manufacturer_notes(slug)
+    mfr_notes_html = f'<div class="mfr-notes">{mfr_notes}</div>' if mfr_notes else ""
+
+    console_notes = {}
+    for console in doc["consoles"]:
+        html = load_console_notes(slug, console["longName"])
+        if html:
+            console_notes[console["longName"]] = html
+    console_notes_payload = to_script_json(console_notes)
+
     html_out = (MFR_TEMPLATE
                 .replace("__SHARED_STYLES__", SHARED_STYLES)
                 .replace("__MFR_NAME__", doc["manufacturer"])
                 .replace("__MFR_SLUG__", slug)
                 .replace("__SUMMARY__", summary)
-                .replace("__DATA__", payload))
+                .replace("__MFR_NOTES__", mfr_notes_html)
+                .replace("__DATA__", payload)
+                .replace("__CONSOLE_NOTES__", console_notes_payload))
     (MFR_DIR / f"{slug}.html").write_text(html_out, encoding="utf-8")
 
 
