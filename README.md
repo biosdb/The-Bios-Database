@@ -70,7 +70,7 @@ python -m http.server 8000
 python check_hashes.py a860e8c0b6d573d191e4ec7db1b1e4f6 300c20df6731a33952ded8c436f7f186d25d3492
 ```
 
-If any given hash matches a known entry, the rest are cross-checked against that entry's recorded values, and a mismatch is flagged as a warning. If none of the given hashes match anything, it reports them as unknown.
+If any given hash matches a known entry, the rest are cross-checked against that entry's recorded values, and a mismatch is flagged as a warning. If nothing matches this site's data, it falls back to checking [libretro-database](https://github.com/libretro/libretro-database)'s `dat/System.dat` (fetched over the network and cached in `.cache/`) before reporting the hashes as entirely unknown. Pass `--offline` to skip that fallback, or `--refresh-dats` to force re-downloading the cached copy.
 
 ## First-time GitHub setup
 
