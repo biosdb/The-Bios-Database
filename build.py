@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build script for BIOS Hash Lookup site.
+Build script for BIOS Database site.
 
 Reads data/*.json — one file per manufacturer, with BIOSes nested under
 consoles — and generates:
@@ -132,7 +132,7 @@ INDEX_TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BIOS Hash Lookup</title>
+<title>The BIOS Database</title>
 <style>
 __SHARED_STYLES__
   .mfr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -152,8 +152,8 @@ __SHARED_STYLES__
 <body>
 <header>
   <div class="container">
-    <h1>BIOS Hash Lookup</h1>
-    <p>MD5, SHA1, and SHA256 hashes for game console and computer BIOS files. Pick a manufacturer to browse.</p>
+    <h1>The BIOS Database</h1>
+    <p>A dataset of MD5, SHA1, and SHA256 hashes for game console and computer BIOS files. Pick a manufacturer to browse.</p>
   </div>
 </header>
 <div class="container">
@@ -224,7 +224,7 @@ MFR_TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>__MFR_NAME__ — BIOS Hash Lookup</title>
+<title>__MFR_NAME__ - The BIOS Database</title>
 <style>
 __SHARED_STYLES__
   .console-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
