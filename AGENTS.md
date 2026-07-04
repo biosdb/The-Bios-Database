@@ -16,6 +16,7 @@ There is no backend, no database, no runtime dependencies. Everything is static 
 ├── README.md                    ← human-facing docs
 ├── build.py                     ← generator: reads data/*.json → writes index.html + m/*.html
 ├── validate.py                  ← data integrity checker (run in CI on PRs)
+├── check_hashes.py              ← CLI: look up given hash(es) against data/*.json
 ├── data/
 │   ├── <manufacturer>.json      ← one file per manufacturer (source of truth)
 │   └── ...
@@ -33,9 +34,10 @@ There is no backend, no database, no runtime dependencies. Everything is static 
 |---|---|
 | Build the site | `python build.py` |
 | Validate all data files | `python validate.py` |
+| Check hash(es) against the database | `python check_hashes.py <hash> [<hash> ...]` |
 | Preview locally | `python -m http.server 8000` (after building) |
 
-Both scripts use only the Python 3 standard library. Do not add third-party dependencies without a strong reason.
+All scripts use only the Python 3 standard library. Do not add third-party dependencies without a strong reason.
 
 ## Data model
 
