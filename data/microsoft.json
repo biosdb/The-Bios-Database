@@ -1,0 +1,203 @@
+{
+  "manufacturer": "Microsoft",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "MSX",
+      "bioses": [
+        {
+          "name": "CARTS.SHA",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 33152,
+          "md5": "74b0f217fa0e2b8bb5a2f8e2ecc69da3",
+          "sha1": "bf5fb954db868e523febccc68549ed9187961076",
+          "sha256": "0a09940701f40647a2715271b43c9ab0d82bd488871427ad627b7e0f462f5dda",
+          "crc32": "d42f4444",
+          "notes": null
+        },
+        {
+          "name": "CYRILLIC.FNT",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "85b38e4128bbc300e675f55b278683a8",
+          "sha1": "000ac11b702a4c42e40f135df12fa5f2f13e20a1",
+          "sha256": "c09517f2cc738775b78ee3794e7a9283d9456d11fd704948d6db752d4106a444",
+          "crc32": "73af9bc3",
+          "notes": null
+        },
+        {
+          "name": "DISK.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "80dcd1ad1a4cf65d64b7ba10504e8190",
+          "sha1": "032cb1c1c75b9a191fa1230978971698d9d2a17f",
+          "sha256": "31740a761447d7590c304338d389b0ae114546a8b9f79c9ffd5e374f80b7d354",
+          "crc32": "721f61df",
+          "notes": null
+        },
+        {
+          "name": "FMPAC.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 65536,
+          "md5": "6f69cc8b5ed761b03afd78000dfb0e19",
+          "sha1": "9d789166e3caf28e4742fe933d962e99618c633d",
+          "sha256": "3cfe44646b69a622656b96305f1b975f48ca018839f7946895f7a1352d9720aa",
+          "crc32": "0e84505d",
+          "notes": null
+        },
+        {
+          "name": "FMPAC16.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "af8537262df8df267072f359399a7635",
+          "sha1": "2dc4517ebd5a061f9b5aa6b449cc4d4a2073540c",
+          "sha256": "e91f36f9664c650b2273adb515d3a544469413f3a8e7555b7ff31dafd2d29dcc",
+          "crc32": "5d6c4d27",
+          "notes": null
+        },
+        {
+          "name": "ITALIC.FNT",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "c83e50e9f33b8dd893c414691822740d",
+          "sha1": "401dd6692dc80628e5f68b7c79be0b0ebbc4d3ee",
+          "sha256": "5387320fdfb627767bf93acc71aaab820e60f054e50716403c26243909f9ad84",
+          "crc32": "c90ec498",
+          "notes": null
+        },
+        {
+          "name": "KANJI.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "febe8782b466d7c3b16de6d104826b34",
+          "sha1": "84a645becec0a25d3ab7a909cde1b242699a8662",
+          "sha256": "56785703b14f252ce77be586716dbf5d94125e93b9e6069ff26f7686566cd91a",
+          "crc32": "c9651b32",
+          "notes": null
+        },
+        {
+          "name": "MSX.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "aa95aea2563cd5ec0a0919b44cc17d47",
+          "sha1": "409e82adac40f6bdd18eb6c84e8b2fbdc7fb5498",
+          "sha256": "999564a371dd2fdf7fbe8d853e82a68d557c27b7d87417639b2fa17704b83f78",
+          "crc32": "94ee12f3",
+          "notes": null
+        },
+        {
+          "name": "MSX2.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "ec3a01c91f24fbddcbcab0ad301bc9ef",
+          "sha1": "6103b39f1e38d1aa2d84b1c3219c44f1abb5436e",
+          "sha256": "4bc4ae85ca5f28246cd3e7b7e017d298ddd375603657f84ef2c7954bc2d9b919",
+          "crc32": "6cdaf3a5",
+          "notes": null
+        },
+        {
+          "name": "MSX2EXT.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "2183c2aff17cf4297bdb496de78c2e8a",
+          "sha1": "5c1f9c7fb655e43d38e5dd1fcc6b942b2ff68b02",
+          "sha256": "6c6f421a10c428d960b7ecc990f99af1c638147f747bddca7b0bf0e2ab738300",
+          "crc32": "66237ecf",
+          "notes": null
+        },
+        {
+          "name": "MSX2P.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "6d8c0ca64e726c82a4b726e9b01cdf1e",
+          "sha1": "e2fbd56e42da637609d23ae9df9efd1b4241b18a",
+          "sha256": "9501a609be7d92e53fbd75fa65c8317563035d617744664892863ed54463db51",
+          "crc32": "00870134",
+          "notes": null
+        },
+        {
+          "name": "MSX2PEXT.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "7c8243c71d8f143b2531f01afa6a05dc",
+          "sha1": "fe0254cbfc11405b79e7c86c7769bd6322b04995",
+          "sha256": "36000685128f95ff515a128973f8d439116c1a1a8e38c1777293a428894434a2",
+          "crc32": "b8ba44d3",
+          "notes": null
+        },
+        {
+          "name": "MSX_8020-20bios.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "364a1a579fe5cb8dba54519bcfcdac0d",
+          "sha1": "e998f0c441f4f1800ef44e42cd1659150206cf79",
+          "sha256": "1c85dac5536fa3ba6f2cb70deba02ff680b34ac6cc787d2977258bd663a99555",
+          "crc32": "a317e6b4",
+          "notes": null
+        },
+        {
+          "name": "MSXDOS2.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 65536,
+          "md5": "6418d091cd6907bbcf940324339e43bb",
+          "sha1": "c36c9e0f96738a340381e23b4f97245388801a46",
+          "sha256": "08d582fda65f22e4397353855e828539a64df08a540e5d64706b3362ea09be17",
+          "crc32": "1c430991",
+          "notes": null
+        },
+        {
+          "name": "PAINTER.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 65536,
+          "md5": "403cdea1cbd2bb24fae506941f8f655e",
+          "sha1": "7fd2a28c4fdaeb140f3c8c8fb90271b1472c97b9",
+          "sha256": "62e646cc9f0d50422016f12a77995be5547649b5961b58c883ff4d48baac280f",
+          "crc32": "1bda68a3",
+          "notes": null
+        },
+        {
+          "name": "RS232.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16640,
+          "md5": "279efd1eae0d358eecd4edc7d9adedf3",
+          "sha1": "7aec0134ad6a5177f4056fcb6047083e8e00529b",
+          "sha256": "4df4236ea4687fc729eba6c5bf57a9ac1eceda0c012c5bbe5170b8d722ab9387",
+          "crc32": "ab6874f8",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "manufacturer": "Atari",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "400/800",
+      "bioses": [
+        {
+          "name": "ATARIBAS.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "0bac0c6a50104045d902df4503a4c30b",
+          "sha1": "3693c9cb9bf3b41bae1150f7a8264992468fc8c0",
+          "sha256": "4988cb41121921f997ab17a59dd1909fece9273699eba0c6fbaafae104aa27b0",
+          "crc32": "7d684184",
+          "notes": null
+        },
+        {
+          "name": "ATARIOSA.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 10240,
+          "md5": "eb1f32f5d9f382db1bbfb8d7f9cb343a",
+          "sha1": "6dd53356159a129ed12367beb3b24a771d41adb0",
+          "sha256": "eac2e609e9d1f4bbb37081182604502d9d9bdf4112103fd7ab53b99d46a6c61c",
+          "crc32": "72b3fed4",
+          "notes": null
+        },
+        {
+          "name": "ATARIOSB.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 10240,
+          "md5": "a3e8d617c95d08031fe1b20d541434b2",
+          "sha1": "f1f0741b1d34fb4350cf7cb8ab3b6ea11cdd8174",
+          "sha256": "bc6012f8ca2f7dde21ae895899b1d2af572ffaa28f819b84911ddb6a0bd8a5c7",
+          "crc32": "3e28a1fe",
+          "notes": null
+        },
+        {
+          "name": "ATARIXL.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "06daac977823773a3eea3422fd26a703",
+          "sha1": "ae4f523ba08b6fd59f3cae515a2b2410bbd98f55",
+          "sha256": "a77050b2d81db2d11eaa3dbafd8ec2531b478abcc3bcc4b0d846b634e885edb1",
+          "crc32": "1f9cd270",
+          "notes": null
+        },
+        {
+          "name": "BB01R4_OS.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "b7a2a04677d34f069eeb643d5238bf86",
+          "sha1": "decde89fbae90adb591ad2fc553d35f49030c129",
+          "sha256": "cd4ff8302e379b6645ad14b22b5f3862c6b13d31414a5e788132b83b83e06237",
+          "crc32": "1eaf4002",
+          "notes": null
+        },
+        {
+          "name": "XEGAME.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "d7eb37aec6960cba36bc500e0e5d00bc",
+          "sha1": "a107db7f16a1129cf9d933c9cf4f013b068c9e82",
+          "sha256": "ea68d6abe371993811537931db616d0c16f4a16a4934582af5c7db1b4b76056f",
+          "crc32": "bdca01fb",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "5200",
+      "bioses": [
+        {
+          "name": "5200.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "281f20ea4320404ec820fb7ec0693b38",
+          "sha1": "6ad7a1e8c9fad486fbec9498cb48bf5bc3adc530",
+          "sha256": "06b250f18983d058c0f156ce7ee88ae48b6eaf11e6f10f21dccf6ac7ffb6a6af",
+          "crc32": "4248d3e3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "7800",
+      "bioses": [
+        {
+          "name": "7800 BIOS (E).rom",
+          "altName": null,
+          "region": "Europe",
+          "version": null,
+          "size": 16384,
+          "md5": "397bb566584be7b9764e7a68974c4263",
+          "sha1": "5a140136a16d1d83e4ff32a19409ca376a8df874",
+          "sha256": "63e1884e27c89d47e968e2c31dd268e17b415be590865739d5b366c76c123c48",
+          "crc32": "d5b61170",
+          "notes": null
+        },
+        {
+          "name": "7800 BIOS (U).rom",
+          "altName": null,
+          "region": "USA",
+          "version": null,
+          "size": 4096,
+          "md5": "0763f1ffb006ddbe32e52d497ee848ae",
+          "sha1": "d9d134bb6b36907c615a594cc7688f7bfcef5b43",
+          "sha256": "7d94551defcd8e7b045a34255654d6d169a683f63062d51dee3eedabf2042db0",
+          "crc32": "5d13730c",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Lynx",
+      "bioses": [
+        {
+          "name": "Atari_LYNX_boot.img",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 512,
+          "md5": "fcd403db69f54290b51035d82f835e7b",
+          "sha1": "e4ed47fae31693e016b081c6bda48da5b70d7ccb",
+          "sha256": "c26a36c1990bcf841155e5a6fea4d2ee1a4d53b3cc772e70f257a962ad43b383",
+          "crc32": "0d973c9d",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "ST",
+      "bioses": [
+        {
+          "name": "tos.img",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 196608,
+          "md5": "c1c57ce48e8ee4135885cee9e63a68a2",
+          "sha1": "735793fdba07fe8d5295caa03484f6ef3de931f5",
+          "sha256": "8a5914bb8559ebfd71fa075302a1d7335e0ac594bc3ea75e54fc666176141e9d",
+          "crc32": "d3c32283",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "manufacturer": "Philips",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Videopac",
+      "bioses": [
+        {
+          "name": "O2_G7400_bios.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1024,
+          "md5": "c500ff71236068e0dc0d0603d265ae76",
+          "sha1": "5130243429b40b01a14e1304d0394b8459a6fbae",
+          "sha256": "8e0413c324a748ca2e493652b8089aa1db129e1ba115b5f58a99e32cebe063e1",
+          "crc32": "e20a9f41",
+          "notes": null
+        },
+        {
+          "name": "O2_PhillipsC52.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1024,
+          "md5": "f1071cdb0b6b10dde94d3bc8a6146387",
+          "sha1": "a6120aed50831c9c0d95dbdf707820f601d9452e",
+          "sha256": "2ab1b2c7f4b28a74d0ecf3e073088fac19ce40866404420c70576e1862bb5502",
+          "crc32": "a318e8d6",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Videopac+",
+      "bioses": [
+        {
+          "name": "jopac.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1024,
+          "md5": "279008e4a0db2dc5f1c048853b033828",
+          "sha1": "54b8d2c1317628de51a85fc1c424423a986775e4",
+          "sha256": "dd48b75c56dbe1524dee18defa448a74f648653eb209ccba93066a7a0fe6a074",
+          "crc32": "11647ca5",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "CD-i",
+      "bioses": [
+        {
+          "name": "cdimono2.zip",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 244291,
+          "md5": "97aa5f47030cd9fdb679d4fafbb0e332",
+          "sha1": "9492247203b71c12d88fad0a5437376941c7870a",
+          "sha256": "2302aaeab1f6b74523f43a4d00983b4fea9ff1692a9b27ccf17e6ac7e6e66b32",
+          "crc32": "4eab5eda",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "manufacturer": "Apple",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Macintosh II",
+      "bioses": [
+        {
+          "name": "MacII.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "66223be1497460f1e60885eeb35e03cc",
+          "sha1": "db6b504744281369794e26ba71a6e385cf6227fa",
+          "sha256": "97f2a22bdb8972bfcc1f16aff1ebbe157887c26787a1c81747a9842fa7b97a06",
+          "crc32": "4df6d054",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

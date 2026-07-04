@@ -1,0 +1,227 @@
+{
+  "manufacturer": "Enterprise",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Enterprise 64/128",
+      "bioses": [
+        {
+          "name": "basic20.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "8e18edce4a7acb2c33cc0ab18f988482",
+          "sha1": "61d0987b906146e21b94f265d5b51b4938c986a9",
+          "sha256": "142084e0ce310cf3cd1b02edf41072c8bfeb2de2846c099f64956b3f26e2b141",
+          "crc32": "1228de34",
+          "notes": null
+        },
+        {
+          "name": "basic21.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "e972fe42b398c9ff1d93ff014786aec6",
+          "sha1": "03bbb386cf530e804363acdfc1d13e64cf28af2e",
+          "sha256": "c46ffd233b473092c99af3ca8aa321c3bf0605208157738ae46af661eeda7ccf",
+          "crc32": "55f96251",
+          "notes": null
+        },
+        {
+          "name": "brd.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "6af0402906944fd134004b85097c8524",
+          "sha1": "f34f0c330b44dbf2548329bea954d5991dec30ca",
+          "sha256": "2fd576332216ba723e3f777961d76ee4cf14a4962ab7880037e046068004fab1",
+          "crc32": "6999d6a3",
+          "notes": null
+        },
+        {
+          "name": "epd19hft.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "12cfc9c7e48c8a16c2e09edbd926d467",
+          "sha1": "8f28fe73d13e94dd1da02519908ecc6eebe104f6",
+          "sha256": "2d32eb6f246a5a52de513a7a3b550cd6af219820d70292fa86e0f3dc2b458e8e",
+          "crc32": "bd503eeb",
+          "notes": null
+        },
+        {
+          "name": "epfileio.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "a68ebcbc73a4d2178d755b7755bf18fe",
+          "sha1": "2f9077bcd89b1ec42dbdcd55d335bdbaf361eff3",
+          "sha256": "752ca9938e9d7748f6a4d2a05803d5d98641fe7b9c482271903baed2f8633af2",
+          "crc32": "60c79925",
+          "notes": null
+        },
+        {
+          "name": "exdos13.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "ddff70c014d1958dc75378b6c9aab6f8",
+          "sha1": "cb43ab3676b93c279f1ed8ffcb0d4dcd4b34e631",
+          "sha256": "0abdab797f6dcb15356d4ec4c9ab0e1830793710417ddf9db89d7650dc3c8acc",
+          "crc32": "e0135929",
+          "notes": null
+        },
+        {
+          "name": "exos20.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "5ad3baaad3b5156d6b60b34229a676fb",
+          "sha1": "6033a0535136c40c47137e4d1cd9273c06d5fdff",
+          "sha256": "f1eb6cd3e3fc2475e07eb13a5a6aeaea71acd938e54b815f9417610cbb52d228",
+          "crc32": "d421795f",
+          "notes": null
+        },
+        {
+          "name": "exos21.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "f36f24cbb87745fbd2714e4df881db09",
+          "sha1": "55315b20fecb4441a07ee4bc5dc7153f396e0a2e",
+          "sha256": "ff370bb0bb0ae85f87861d837d82071d64257b129731c5e549ef5da8ade4356b",
+          "crc32": "982a3b44",
+          "notes": null
+        },
+        {
+          "name": "exos24uk.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 65536,
+          "md5": "55af78f877a21ca45eb2df68a74fcc60",
+          "sha1": "cf12e971623a54bf8c4f891ca3a36d969f205c49",
+          "sha256": "eb81a76dc76f7d026bc4a8c216ee9c5ee717d8b8bd210d3a0a5d48e4c90009a3",
+          "crc32": "c099a5e3",
+          "notes": null
+        },
+        {
+          "name": "hun.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "22167938f142c222f40992839aa21a06",
+          "sha1": "325a5e28c2a0d896711f8829e7ff14fed5dd4103",
+          "sha256": "0226f77f7ed03d01a5c606dc42249e740d7768909d0f1a32cf78f6c9e71f7452",
+          "crc32": "596ab6d6",
+          "notes": null
+        },
+        {
+          "name": "tvc22_ext.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "5ce95a26ceed5bec73995d83568da9cf",
+          "sha1": "abf119cf947ea32defd08b29a8a25d75f6bd4987",
+          "sha256": "d35394333f2da0d5d597483d4c4af06b2492a74d0451b58ce3dad48bb5fdcfab",
+          "crc32": "05e1c3a8",
+          "notes": null
+        },
+        {
+          "name": "tvc22_sys.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "8c54285f541930cde766069942bad0f2",
+          "sha1": "f2572ee83d09fc08f4de4a62f101c8bb301a9505",
+          "sha256": "72d17d1af7845a12e88985bb8f491a81b8657a659ecf1dc4d8028449f7318da6",
+          "crc32": "79fa818c",
+          "notes": null
+        },
+        {
+          "name": "tvc_dos12d.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "88dc7876d584f90e4106f91444ab23b7",
+          "sha1": "072c6160d4e7d406f5d8f5b1b66066c797d35561",
+          "sha256": "eb61023d15285c9bf35f7aefe87affa9e04c11bc13be6a7ec88813a93d79a63a",
+          "crc32": "1466aed4",
+          "notes": null
+        },
+        {
+          "name": "tvcfileio.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "a2cf86ba8e7fc58b242137fe59036832",
+          "sha1": "98889c3a56b11dedf077f866ed2e12d51b604113",
+          "sha256": "822d76ccacf7e228477acdb7165f474512408c2fdf3edb93dfabdafdf0a69bd1",
+          "crc32": "950e32fd",
+          "notes": null
+        },
+        {
+          "name": "zt18hfnt.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "3082dc488d32f30a612761b99074199b",
+          "sha1": "283be1ce417a759a3368bb4bbe72f692fd43ca6d",
+          "sha256": "07126ca406816c597ba8340f8a6109d5dcaef1c2ddff9e8943148e3733c2747a",
+          "crc32": "76c9dbf6",
+          "notes": null
+        },
+        {
+          "name": "zt19uk.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "228540b6be83ae2acd7569c8ff0f91d0",
+          "sha1": "b7af62f0bc95fdca4b31d236f8327dafc80f83b7",
+          "sha256": "51b40b91503668d8e79b11f16b67ffef070f34b2076b1b78d69506842e685d37",
+          "crc32": "d6deedf1",
+          "notes": null
+        },
+        {
+          "name": "zx128.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "85fede415f4294cc777517d7eada482e",
+          "sha1": "16375d42ea109b47edded7a16028de7fdb3013a1",
+          "sha256": "c1ff621d7910105d4ee45c31e9fd8fd0d79a545c78b66c69a562ee1ffbae8d72",
+          "crc32": "2cbe8995",
+          "notes": null
+        },
+        {
+          "name": "zx48.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "4c42a2f075212361c3117015b107ff68",
+          "sha1": "5ea7c2b824672e914525d1d5c419d71b84a426a2",
+          "sha256": "d55daa439b673b0e3f5897f99ac37ecb45f974d1862b4dadb85dec34af99cb42",
+          "crc32": "ddee531f",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

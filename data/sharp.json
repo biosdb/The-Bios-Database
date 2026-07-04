@@ -1,0 +1,101 @@
+{
+  "manufacturer": "Sharp",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "X1",
+      "bioses": [
+        {
+          "name": "FNT0808.X1",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "851e4a5936f17d13f8c39a980cf00d77",
+          "sha1": "1c1a0d8c9f4c446ccd7470516b215ddca5052fb2",
+          "sha256": "42139ed610747190c8ca9046c799907b52582c0d642b5f52f1548d9c1d4a86f8",
+          "crc32": "e3995a57",
+          "notes": null
+        },
+        {
+          "name": "iplrom.x1",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "eeeea1cd29c6e0e8b094790ae969bfa7",
+          "sha1": "d3395e9aeb5b8bbba7654dd471bcd8af228ee69a",
+          "sha256": "e6295a523008688421991b651ab61de392b28c67bec9efbf040b0004e4b70a2a",
+          "crc32": "e70011d3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "X68000",
+      "bioses": [
+        {
+          "name": "cgrom.dat",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 786432,
+          "md5": "cb0a5cfcf7247a7eab74bb2716260269",
+          "sha1": "8d72c5b4d63bb14c5dbdac495244d659aa1498b6",
+          "sha256": "c4e47e1480af0b00b330a49650480c8caa34054a6e97db7ae03cbade9890185d",
+          "crc32": "9f3195f1",
+          "notes": null
+        },
+        {
+          "name": "iplrom.dat",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "7fd4caabac1d9169e289f0f7bbf71d8e",
+          "sha1": "0ed038ed2133b9f78c6e37256807424e0d927560",
+          "sha256": "8ead1d0f4ebb9c59a7fa118596f819e191c310442a00c56ab5ec5e9e7a189677",
+          "crc32": "72bdf532",
+          "notes": null
+        },
+        {
+          "name": "iplrom30.dat",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "f373003710ab4322642f527f567e020a",
+          "sha1": "239e9124568c862c31d9ec0605e32373ea74b86a",
+          "sha256": "bdba942ab9c633a3172fbf1a8579849df52c0eeb0da8a3411402f4564d035a27",
+          "crc32": "e8f8fdad",
+          "notes": null
+        },
+        {
+          "name": "iplromco.dat",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "cc78d4f4900f622bd6de1aed7f52592f",
+          "sha1": "77511fc58798404701f66b6bbc9cbde06596eba7",
+          "sha256": "02ee212ef089924e760056dd5a481dc634da614a5c377899f1e379cec87b2e22",
+          "crc32": "6c7ef608",
+          "notes": null
+        },
+        {
+          "name": "iplromxv.dat",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "0617321daa182c3f3d6f41fd02fb3275",
+          "sha1": "e33cdcdb69cd257b0b211ef46e7a8b144637db57",
+          "sha256": "743436ba571b73ba7d9e12cde2767d05f2885e1ec275fbc3cd0904994675b79a",
+          "crc32": "00eeb408",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

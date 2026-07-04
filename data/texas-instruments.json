@@ -1,0 +1,47 @@
+{
+  "manufacturer": "Texas Instruments",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "TI-83",
+      "bioses": [
+        {
+          "name": "ti83.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "d4448d09bbfde687c04f9e3310e023ab",
+          "sha1": "ef66dad3e7b2b6a86f326765e7dfd7d1a308ad8f",
+          "sha256": "f8f511f9fecff51d7561ad2cc4195fc89f2829db94616cf08c302ea1ba64d8be",
+          "crc32": "4bf05697",
+          "notes": null
+        },
+        {
+          "name": "ti83plus.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "8011181f810b5ec4e9d6a03f0e14257a",
+          "sha1": "1fddd44d54f3ff12bfb548fcb03ce36b5a4f295a",
+          "sha256": "85363d8e699fe0ef3d73fe633a9f73078f8292a33b6150aa7abb1304af7485cc",
+          "crc32": "58f14c79",
+          "notes": null
+        },
+        {
+          "name": "ti83se.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2097152,
+          "md5": "c6ff8204c5c81b7be34614dbbd690c8b",
+          "sha1": "8177bc6d5489d575cbfa9a004d097fc08c6f8c86",
+          "sha256": "55c318616fad4fc32335c59f97fbca21f0a02424bece13b088cc11e0af73d993",
+          "crc32": "200dd7d0",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

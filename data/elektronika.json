@@ -1,0 +1,107 @@
+{
+  "manufacturer": "Elektronika",
+  "consoles": [
+    {
+      "shortName": "BK",
+      "longName": "BK-0010/BK-0011M",
+      "bioses": [
+        {
+          "name": "B11M_BOS.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "fe4627d1e3a1535874085050733263e7",
+          "sha1": "7e9a30e38d7b78981999821640a68a201bb6df01",
+          "sha256": "c001943dc7dc693db9aed04e12c274919805c02db3659d65d4ac43d64269fc89",
+          "crc32": "8ffd5efa",
+          "notes": null
+        },
+        {
+          "name": "B11M_EXT.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "dc52f365d56fa1951f5d35b1101b9e3f",
+          "sha1": "f087af69044432a1ef2431a72ac06946e32f2dd3",
+          "sha256": "4f796684c72a64f49bcb3594518f206f9f6060902711e2045eb09ccd95ee7b27",
+          "crc32": "b2e4c33c",
+          "notes": null
+        },
+        {
+          "name": "BAS11M_0.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "946f6f23ded03c0e26187f0b3ca75993",
+          "sha1": "9d76f3eefd64e032c763fa1ebf9cd3d9bd22317a",
+          "sha256": "eefb7deff07ee7134edd9de068bf92d58481d45ee38c283a923a5b55c7f51809",
+          "crc32": "e71f9339",
+          "notes": null
+        },
+        {
+          "name": "BAS11M_1.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "1e6637f32aa7d1de03510030cac40bcf",
+          "sha1": "34fa37599f2f9eb607390ef2458a3c22d87f09a9",
+          "sha256": "56f2e1bd7397c71528fd3c6df41239480f3c9ee3af460584bd41a4060c35a5fc",
+          "crc32": "4c68ff59",
+          "notes": null
+        },
+        {
+          "name": "BASIC10.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 24576,
+          "md5": "3fa774326d75410a065659aea80252f0",
+          "sha1": "af7eae90c398ec12942a408fa5ac2722e331738c",
+          "sha256": "24be347356715352fcab480ed1559302d47d598255980a32150eba1431b462b8",
+          "crc32": "4181ecb6",
+          "notes": null
+        },
+        {
+          "name": "DISK_327.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "5015228eeeb238e65da8edcd1b6dfac7",
+          "sha1": "28eefbb63047b26e4aec104aeeca74e2f9d0276c",
+          "sha256": "2879521f48f8f799d2e91908878187bcb223dcfa9149c5d5158ea79c0c5bd671",
+          "crc32": "ed8a43ae",
+          "notes": null
+        },
+        {
+          "name": "FOCAL10.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 24576,
+          "md5": "5737f972e8638831ab71e9139abae052",
+          "sha1": "6386e58bc1bba5e76baec9e8a1ca4b99dc3c573f",
+          "sha256": "bc0817b0bee227c83132c6b28bbeb64b02a4787461fc8c9d082674fe578e7e24",
+          "crc32": "b90a52e8",
+          "notes": null
+        },
+        {
+          "name": "MONIT10.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "95f8c41c6abf7640e35a6a03cecebd01",
+          "sha1": "4e83a94ae5155bbea14d7331a5a8db82457bd5ae",
+          "sha256": "c93f3e7d3342f747f6c55a3b5ebb8c1840d3d118e80dc5d274f645dc2b393688",
+          "crc32": "26c6e8a0",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

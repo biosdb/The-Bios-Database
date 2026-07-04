@@ -1,0 +1,71 @@
+{
+  "manufacturer": "Palm",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Palm OS",
+      "bioses": [
+        {
+          "name": "bootloader-dbvz.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 512,
+          "md5": "9da101cd2317830649a31f8fa46debec",
+          "sha1": "cea669f6d740f29ca248d2e8837a4b4f86fbe75a",
+          "sha256": "f47fba1e9e6324c51fcf2bf44781880e91b4decc2baa9d7e07ae9bdd03b3493b",
+          "crc32": "a975efe4",
+          "notes": null
+        },
+        {
+          "name": "palmos40-en-m500.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2359296,
+          "md5": "abed11421f47bbf3f654af618e0c6a8a",
+          "sha1": "a368b40751dd017163c9c1a615d6f3506b7dcbdf",
+          "sha256": "3c52a3ba757f685e9ac85dc70877d016a9f115b3349f34608d87fd25a5e69b7c",
+          "crc32": "9261a5aa",
+          "notes": null
+        },
+        {
+          "name": "palmos41-en-m515.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 4194304,
+          "md5": "83cb1d1c76e568b916dc2e7c0bf669f6",
+          "sha1": "cc4898ee8cae4669fc19e184c5b560c770e731b3",
+          "sha256": "a50fe4545c171cdb1883bf41ceb6f3af2df94e9d7488f1d171fc7c84d4c6fa78",
+          "crc32": "6481a088",
+          "notes": null
+        },
+        {
+          "name": "palmos52-en-t3.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16777216,
+          "md5": "a46861541c63b20aba7bf172b0d853e1",
+          "sha1": "3d4fc4a7c0b86342cab5a7f53b0b77737b48a0d2",
+          "sha256": "118a324bbee341f1d3f704c7a10f61176ef8c2915a63489144776dbc8d9f1330",
+          "crc32": "443752f6",
+          "notes": null
+        },
+        {
+          "name": "palmos60-en-t3.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16777216,
+          "md5": "c2fae3ff41cc4f94be0fdaed1523ea99",
+          "sha1": "858c62e21d3a42d2e70641d001a46ad44e923614",
+          "sha256": "49d4008780831a4c024a9ead2f07adfb81f113cfcea248c51c49652fb0da3389",
+          "crc32": "25314c62",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

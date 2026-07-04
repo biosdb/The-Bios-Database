@@ -1,0 +1,23 @@
+{
+  "manufacturer": "VTech",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "CreatiVision",
+      "bioses": [
+        {
+          "name": "bioscv.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "3b1ef759d8e3fb4071582efd33dd05f9",
+          "sha1": "5ac620c529e4965efb5560fe824854a44c983757",
+          "sha256": "5e3c95e10217007c5159a2ba3a60672888f5f8c87ba375a81ca9013e268b7bc8",
+          "crc32": "c3c590c6",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

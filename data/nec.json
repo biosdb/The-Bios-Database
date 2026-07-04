@@ -1,0 +1,413 @@
+{
+  "manufacturer": "NEC",
+  "consoles": [
+    {
+      "shortName": "PCE",
+      "longName": "PC Engine/TurboGrafx-16",
+      "bioses": [
+        {
+          "name": "gecard.pce",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "6d2cb14fc3e1f65ceb135633d1694122",
+          "sha1": "014881a959e045e00f4db8f52955200865d40280",
+          "sha256": "4b86bb96a48a4ca8375fc0109631d0b1d64f255a03b01de70594d40788ba6c3d",
+          "crc32": "51a12d90",
+          "notes": null
+        },
+        {
+          "name": "syscard1.pce",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "2b7ccb3d86baa18f6402c176f3065082",
+          "sha1": "a39a66da7de6ba94ab84d04eef7afeec7d4ee66a",
+          "sha256": "afe9f27f91ac918348555b86298b4f984643eafa2773196f2c5441ea84f0c3bb",
+          "crc32": "3f9f95a4",
+          "notes": null
+        },
+        {
+          "name": "syscard2.pce",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "3cdd6614a918616bfc41c862e889dd79",
+          "sha1": "88da02e2503f7c32810f5d93a34849d470742b6d",
+          "sha256": "0deb13845c7e44ea78a25bbbe324afd60a0ec29ea5a4cf5780349f1598d24cd3",
+          "crc32": "283b74e0",
+          "notes": null
+        },
+        {
+          "name": "syscard2u.pce",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "94279f315e8b52904f65ab3108542afe",
+          "sha1": "2bea3dac98f84b2f2f469fa77ea720b8770d598d",
+          "sha256": "edba5be43803b180e1d64ca678c3f8bdbf07180c9e2a65a5db69ad635951e6cc",
+          "crc32": "ff2a5ec3",
+          "notes": null
+        },
+        {
+          "name": "syscard3.pce",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "38179df8f4ac870017db21ebcbf53114",
+          "sha1": "79f5ff55dd10187c7fd7b8daab0b3ffbd1f56a2c",
+          "sha256": "e11527b3b96ce112a037138988ca72fd117a6b0779c2480d9e03eaebece3d9ce",
+          "crc32": "6d9a73ef",
+          "notes": null
+        },
+        {
+          "name": "syscard3u.pce",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "0754f903b52e3b3342202bdafb13efa5",
+          "sha1": "d02611d99921986147c753df14c7349b31d71950",
+          "sha256": "cadac2725711b3c442bcf237b02f5a5210c96f17625c35fa58f009e0ed39e4db",
+          "crc32": "2b5b75fe",
+          "notes": null
+        },
+        {
+          "name": "upd7801g.s01",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "635a978fd40db9a18ee44eff449fc126",
+          "sha1": "6e89d1227581c76441a53d605f9e324185f1da33",
+          "sha256": "248ec2f28294316558475ba0e416da19cfff0a5dd8ad3525a484a9be67b8a290",
+          "crc32": "7ac06182",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "PC-98",
+      "bioses": [
+        {
+          "name": "2608_bd.wav",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 19192,
+          "md5": "d94546e70f17fd899be8df3544ab6cbb",
+          "sha1": "0a56c142ef40cec50f3ee56a6e42d0029c9e2818",
+          "sha256": "802fb0ce40878e98335fc56d11eff6382982e9f09ebc83055b0a469df13f7900",
+          "crc32": "bb038714",
+          "notes": null
+        },
+        {
+          "name": "2608_hh.wav",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 36722,
+          "md5": "08c54a0c1f774a5538a848a6665a34b4",
+          "sha1": "12f676cef249b82480b6f19c454e234b435ca7b6",
+          "sha256": "216c81ff9a84af0dfbf21dd8df6827c25fca9fdeefe9bc8426f7a00d6ff2264e",
+          "crc32": "9898b372",
+          "notes": null
+        },
+        {
+          "name": "2608_rim.wav",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 5288,
+          "md5": "465ea0768b27da404aec45dfc501404b",
+          "sha1": "c65592330c9dd84011151daed52f9aec926b7e56",
+          "sha256": "6f7d1996001c74452a9ca68b41a2767925b5b947c699096a8ad15bbc658af5a3",
+          "crc32": "638864c1",
+          "notes": null
+        },
+        {
+          "name": "2608_sd.wav",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 15558,
+          "md5": "d71004351c8bbfdad53b18222c061d49",
+          "sha1": "3c79663ef74c0b0439d13351326eb1c52a657008",
+          "sha256": "e5877cd1e4821cbbc9a450491a189032c82906c05f7fc9f2e48ee0d06b3ad18c",
+          "crc32": "542cc58c",
+          "notes": null
+        },
+        {
+          "name": "2608_tom.wav",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 23092,
+          "md5": "96a4ead13f364734f79b0c58af2f0e1f",
+          "sha1": "9513fb4a3f41e75a972a273a5104cbd834c1e2c5",
+          "sha256": "8e2c9ccfa8caff03dbd0d945d7c1d4de15292817409fe6fabda07f008f97dbc6",
+          "crc32": "93c57bba",
+          "notes": null
+        },
+        {
+          "name": "2608_top.wav",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 57016,
+          "md5": "593cff6597ab9380d822b8f824fd2c28",
+          "sha1": "aa4a8f766a86b830687d5083fd3b9db0652f46fc",
+          "sha256": "d7bcf2da99a09589096e9bcee98da43303c588cca4e89b1a263adace52038cd3",
+          "crc32": "ab73a296",
+          "notes": null
+        },
+        {
+          "name": "bios.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 98304,
+          "md5": "cd237e16e7e77c06bb58540e9e9fca68",
+          "sha1": "76a7360502fa0296ea93b4c537174610a834d367",
+          "sha256": "d0f5b6d96a01295ab5436d7852d2c9eea1faa87fcf016b7e6599cdd689266cd2",
+          "crc32": "0a682b93",
+          "notes": null
+        },
+        {
+          "name": "font.bmp",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 524350,
+          "md5": "7da1e5b7c482d4108d22a5b09631d967",
+          "sha1": "b4f14e58030ed40fff2dc312b58ea4440bdf8cc5",
+          "sha256": "41535bd7242c07d69ec5427584d31f068ca4eb996ca95246caed4e3573a494e6",
+          "crc32": "d271798b",
+          "notes": null
+        },
+        {
+          "name": "font.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 288768,
+          "md5": "38d32748ae49d1815b0614970849fd40",
+          "sha1": "78ba9960f135372825ab7244b5e4e73a810002ff",
+          "sha256": "8db165d567e13bce3f50ee495975671faa5a0ff332dcb08e187aa91125c81ec6",
+          "crc32": "456d9fc7",
+          "notes": null
+        },
+        {
+          "name": "itf.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "72ea51443070f0e9212bfc9b793ee28e",
+          "sha1": "a2fb11c000ed7c976520622cfb7940ed6ddc904e",
+          "sha256": "94b4f1bde239372cd691cc4a228677dad6dbc787b26c3f952a512139de6ed60e",
+          "crc32": "c1815325",
+          "notes": null
+        },
+        {
+          "name": "N88.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "4f984e04a99d56c4cfe36115415d6eb8",
+          "sha1": "3b31fc68fa7f47b21c1a1cb027b86b9e87afbfff",
+          "sha256": "cf0b48f5541f5efd54a006d1a6042dd7ce613ccc69e13f2f41ca678569b5d650",
+          "crc32": "a0fc0473",
+          "notes": null
+        },
+        {
+          "name": "n88_0.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "e28fe3f520bea594350ea8fb00395370",
+          "sha1": "d1ae642aed4f0584eeb81ff50180db694e5101d4",
+          "sha256": "8b584cd9143a670ddfce657ca65067c86f6be1db757a3085f48b1479ac6e8cf3",
+          "crc32": "61984bab",
+          "notes": null
+        },
+        {
+          "name": "n88_1.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "a8e298da7ac947669bcb1ff25cee0a83",
+          "sha1": "4ae4d37409ff99411a623da9f6a44192170a854e",
+          "sha256": "810936574cdf68849822a1570046091f0bad0590dee3635dbc89a4cc4e099555",
+          "crc32": "7ad5d943",
+          "notes": null
+        },
+        {
+          "name": "n88_2.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "9d03154fd9abfc28c4e6d4dc705e6e23",
+          "sha1": "e94278682ef9e9bbb82201f72c50382748dcea2a",
+          "sha256": "7d361b1bfd8523cd580bd9ca73902154556fbf45f60f0f539beef397d9462646",
+          "crc32": "6aee9a4e",
+          "notes": null
+        },
+        {
+          "name": "n88_3.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "e1791f8154f1cdf22b576a1a365b6e1f",
+          "sha1": "af452aed79b072c4d17985830b7c5dca64d4b412",
+          "sha256": "3dc431af6e0c724582a3aa49e5c22cb9cc99d8298a4cce500e62bbaf1bc4bffb",
+          "crc32": "692cbcd8",
+          "notes": null
+        },
+        {
+          "name": "n88jisho.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "2e548679423370262f36cbde38a22789",
+          "sha1": "deef0cc2a9734ba891a6d6c022aa70ffc66f783e",
+          "sha256": "25773eaee3af617db08d26602d8f4cdc7d42ed946ca510d3b1d96fe1645af63c",
+          "crc32": "bd6eb062",
+          "notes": null
+        },
+        {
+          "name": "n88knj2.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "898a3b7b6c3326e8b2069765bca2b944",
+          "sha1": "b86b932cb4ce34472e0fe0f01a4a4350e15dcb53",
+          "sha256": "5c31df4b892e730d1ba7f80fd5583e838ae5583ba52408088da74b9ff422e5fe",
+          "crc32": "96d1ef44",
+          "notes": null
+        },
+        {
+          "name": "N88N.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "2ff07b8769367321128e03924af668a0",
+          "sha1": "5b922ed9de07d2a729bdf1da7b57c50ddf08809a",
+          "sha256": "11c3c727d7d12d0c7e044dd02ce154a5715bd7a2b8a9007132645962c7803881",
+          "crc32": "27e1857d",
+          "notes": null
+        },
+        {
+          "name": "N88SUB.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "793f86784e5608352a5d7f03f03e0858",
+          "sha1": "bb7103a0818850a039c67ff666a31ce49a8d516f",
+          "sha256": "9dc63118728a171ce2ed437ad38ef280b8b7bcf4a5a95fedf18946501b010456",
+          "crc32": "2158d307",
+          "notes": null
+        },
+        {
+          "name": "sound.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "524473c1a5a03b17e21d86a0408ff827",
+          "sha1": "d5dbc4fea3b8367024d363f5351baecd6adcd8ef",
+          "sha256": "667a0e17189cc9f28185386ac6fe86784164740992a662b0a6fb0e00713b20e8",
+          "crc32": "fe9f57f2",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": "PC-88",
+      "longName": "PC-8801",
+      "bioses": [
+        {
+          "name": "KANJI1.ROM",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "d81c6d5d7ad1a4bbbd6ae22a01257603",
+          "sha1": "82e11a177af6a5091dd67f50a2f4bafda84d6556",
+          "sha256": "7608040cffb1951e5cc567abb63f75b5746777a1ba96196c1b75606b793bb4bb",
+          "crc32": "6178bd43",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "PC-FX",
+      "bioses": [
+        {
+          "name": "PCFX_bios.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "08e36edbea28a017f79f8d4f7ff9b6d7",
+          "sha1": "1a77fd83e337f906aecab27a1604db064cf10074",
+          "sha256": "4b44ccf5d84cc83daa2e6a2bee00fdafa14eb58bdf5859e96d8861a891675417",
+          "crc32": "76ffb97a",
+          "notes": null
+        },
+        {
+          "name": "PCFX_fx-scsi.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "430e9745f9235c515bc8e652d6ca3004",
+          "sha1": "65482a23ac5c10a6095aee1db5824cca54ead6e5",
+          "sha256": "7a2cf2cf33dc03e4520ad5ccd770ed967c0087fde540dca72b0e9ebd0e585623",
+          "crc32": "f3e60e5e",
+          "notes": null
+        },
+        {
+          "name": "pcfxga.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "5885bc9a64bf80d4530b9b9b978ff587",
+          "sha1": "a9372202a5db302064c994fcda9b24d29bb1b41c",
+          "sha256": "5ec043ebe56690b4264513e067404cacecfc45059ed228489ba96d4eec9e30a4",
+          "crc32": "41c3776b",
+          "notes": null
+        },
+        {
+          "name": "pcfxv101.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "e2fb7c7220e3a7838c2dd7e401a7f3d8",
+          "sha1": "8b662f7548078be52a871565e19511ccca28c5c8",
+          "sha256": "285b247298aa42b411ad67555e9f591b851c25d26c69ffdf6906786b8c99df18",
+          "crc32": "236102c9",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
