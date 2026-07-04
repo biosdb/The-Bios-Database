@@ -37,7 +37,7 @@ There is no backend, no database, no runtime dependencies. Everything is static 
 | Check hash(es) against the database | `python check_hashes.py <hash> [<hash> ...]` |
 | Preview locally | `python -m http.server 8000` (after building) |
 
-All scripts use only the Python 3 standard library. Do not add third-party dependencies without a strong reason.
+All scripts use only the Python 3 standard library. Do not add third-party dependencies without a strong reason. `check_hashes.py` is the one exception to "no network access" — it falls back to fetching libretro-database's `dat/System.dat` (cached in `.cache/`, gitignored) when a hash isn't found in `data/*.json`; `build.py` and `validate.py` remain fully offline.
 
 ## Data model
 
