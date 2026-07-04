@@ -14,6 +14,7 @@
           "md5": "3153447d155fb8bfc66a4d1c41e399b9",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1986. Early US prototype BIOS, model M404."
         },
         {
@@ -25,6 +26,7 @@
           "md5": "626b3453613e43d5a47908a8944ba583",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1986. US prototype BIOS."
         },
         {
@@ -36,6 +38,7 @@
           "md5": "840481177270d5642a14ca71ee72844c",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1986."
         },
         {
@@ -47,6 +50,7 @@
           "md5": "bdb34f2c471e5d0c358eeec621f9d029",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1987."
         },
         {
@@ -58,6 +62,7 @@
           "md5": "24a519c53f67b00640d0048ef7089105",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1987."
         },
         {
@@ -69,6 +74,7 @@
           "md5": "02cbb2e348945c9ac41e37502a58ca76",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1988. Hang-On/Safari Hunt built in."
         },
         {
@@ -80,6 +86,7 @@
           "md5": "5cd8f62cd8786af0226e6d2248279338",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1988. Hang-On built in."
         },
         {
@@ -91,6 +98,7 @@
           "md5": "08b81aa6be18b92daef1b875deecf824",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1988. Missile Defense 3-D built in."
         },
         {
@@ -102,6 +110,7 @@
           "md5": "e8b26871629b938887757a64798df6dc",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1990. Alex Kidd in Miracle World built in."
         },
         {
@@ -113,6 +122,7 @@
           "md5": "4187d96beaf36385e681a3cf3bd1663d",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1991. Sonic the Hedgehog built in; Master System II."
         },
         {
@@ -124,6 +134,7 @@
           "md5": "e49e63328c78fe3d24ae32bf903583e0",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Date not given by source (N/A). Alex Kidd in Miracle World built in; Samsung-rebranded Master System clone."
         }
       ]
@@ -141,6 +152,7 @@
           "md5": "d3293ebaaa7f4eb2a6766b68a0fb4609",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1990-05."
         }
       ]
@@ -158,6 +170,7 @@
           "md5": "bc6ae4e1db01a2f349d9af392bf7e2bd",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1991-12."
         },
         {
@@ -169,6 +182,7 @@
           "md5": "29ad9ce848b49d0f9cefc294137f653c",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1991-12."
         },
         {
@@ -180,6 +194,7 @@
           "md5": "cc049159d7e744c15eee080c241273b4",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1991-12."
         },
         {
@@ -191,6 +206,7 @@
           "md5": "278a9397d192149e84e820ac621a8edd",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1991-12-17."
         },
         {
@@ -202,6 +218,7 @@
           "md5": "a3ddcc8483b0368141adfd99d9a1e466",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1991-12."
         },
         {
@@ -213,6 +230,7 @@
           "md5": "bdeb4c47da613946d422d97d98b21cda",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1991-12-28."
         },
         {
@@ -224,6 +242,7 @@
           "md5": "732b60960226caf33df6b487f376de69",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1992-02-06."
         },
         {
@@ -235,6 +254,7 @@
           "md5": "3dcb4e9924b0df8fa5d7252a9cd43f78",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1992-05-01. Dumped from a Japanese Model 2 sample/prototype."
         },
         {
@@ -246,6 +266,7 @@
           "md5": "96ea588d647f2ab1f291279fc691663c",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1992."
         },
         {
@@ -257,6 +278,7 @@
           "md5": "2efd74e3232ff260e371b99f84024f7f",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1992-10-11."
         },
         {
@@ -268,6 +290,7 @@
           "md5": "e66fa1dc5820d254611fdcdba0662372",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1992-10-27."
         },
         {
@@ -279,6 +302,7 @@
           "md5": "683a8a9e273662561172468dfa2858eb",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1992-12-22. Funai-manufactured model."
         },
         {
@@ -290,6 +314,7 @@
           "md5": "310a9081d2edf2d316ab38813136725e",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-03-14. Funai-manufactured model."
         },
         {
@@ -301,6 +326,7 @@
           "md5": "a5a2f9aae57d464bc66b80ee79c3da6e",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-03-29. Pioneer LaserActive Mega-CD PAC."
         },
         {
@@ -312,6 +338,7 @@
           "md5": "691c3fd368211280d268645c0efd2eff",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-03-29. Pioneer LaserActive Mega-CD PAC."
         },
         {
@@ -323,6 +350,7 @@
           "md5": "9b562ebf2d095bf1dabadbc1881f519a",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-03-30. Funai-manufactured model."
         },
         {
@@ -334,6 +362,7 @@
           "md5": "854b9150240a198070150e4566ae1290",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-06-01. Funai-manufactured model."
         },
         {
@@ -345,6 +374,7 @@
           "md5": "b10c0a97abc57b758497d3fae6ab35a4",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-06-01. Funai-manufactured model."
         },
         {
@@ -356,6 +386,7 @@
           "md5": "ecc837c31d77b774c6e27e38f828aa9a",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-06-21. Sony-manufactured model."
         },
         {
@@ -367,6 +398,7 @@
           "md5": "927df773f9a1c7de94a72420b2d538dd",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-08-10. Pioneer LaserActive Mega-LD PAC."
         },
         {
@@ -378,6 +410,7 @@
           "md5": "baca1df271d7c11fe50087c0358f4eb5",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-09-07."
         },
         {
@@ -389,6 +422,7 @@
           "md5": "ae52bad8ad2ef483d87fb472e521294d",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-09-16."
         },
         {
@@ -400,6 +434,7 @@
           "md5": "0e7393cd0951d6dde818fcd4cd819466",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-09-22. Pioneer LaserActive Mega-CD PAC."
         },
         {
@@ -411,6 +446,7 @@
           "md5": "82ce2363f7ddc620b9c255d35833118f",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993-12-27."
         },
         {
@@ -422,6 +458,7 @@
           "md5": "d32f50fb7f4355c45d5db306a0d38fa4",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993."
         },
         {
@@ -433,6 +470,7 @@
           "md5": "7e85dd6ae3ecf51eac71cd6ced8fdc6d",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1993."
         }
       ]
@@ -450,6 +488,7 @@
           "md5": "6a5433f6a132a2b683635819a6dcf085",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1994. Main 68000 boot ROM component."
         },
         {
@@ -461,6 +500,7 @@
           "md5": "f88354ec482be09aeccd76a97bb75868",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1994. SH-2 master CPU boot ROM component."
         },
         {
@@ -472,6 +512,7 @@
           "md5": "7f041b6a55cd7423a6c08a219335269e",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1994. SH-2 slave CPU boot ROM component."
         }
       ]
@@ -489,6 +530,7 @@
           "md5": "af5828fdff51384f99b3c4926be27762",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1994."
         },
         {
@@ -500,6 +542,7 @@
           "md5": "74570fed4d44b2682b560c8cd44b8b6a",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1994. Development kit BIOS."
         },
         {
@@ -511,6 +554,7 @@
           "md5": "85ec9ca47d8f6807718151cbcca8b964",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1995."
         },
         {
@@ -522,6 +566,7 @@
           "md5": "f273555d7d91e8a5a6bfd9bcf066331c",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1995."
         },
         {
@@ -533,6 +578,7 @@
           "md5": "3240872c70984b6cbfda1586cab68dbe",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1995."
         },
         {
@@ -544,6 +590,7 @@
           "md5": "ac4e4b6522e200c0d23d371a8cecbfd3",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1995. JVC V-Saturn clone hardware."
         },
         {
@@ -555,6 +602,7 @@
           "md5": "3ea3202e2634cb47cb90f3a05c015010",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1995. Hitachi Hi-Saturn clone hardware."
         },
         {
@@ -566,6 +614,7 @@
           "md5": "cb2cebc1b6e573b7c44523d037edcd45",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1995. Hitachi Hi-Saturn clone hardware."
         },
         {
@@ -577,6 +626,7 @@
           "md5": "0306c0e408d6682dd2d86324bd4ac661",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "1995. Hitachi Game & Car Navi HiSaturn clone hardware."
         }
       ]
@@ -594,6 +644,7 @@
           "md5": "d407fcf70b56acb84b8c77c93b0e5327",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Dreamcast console boot ROM (combined regions dump)."
         },
         {
@@ -605,6 +656,7 @@
           "md5": "e10c53c2f8b90bab96ead2d368858623",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Dreamcast console boot ROM."
         },
         {
@@ -616,6 +668,7 @@
           "md5": "93a9766f14159b403178ac77417c6b68",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Dreamcast system flash memory (combined regions dump)."
         },
         {
@@ -627,6 +680,7 @@
           "md5": "0a93f7940c455905bea6e392dfde92a4",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Dreamcast system flash memory."
         },
         {
@@ -638,6 +692,7 @@
           "md5": "965014e4ea7247c24c8a746d2a219df7",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "CDI disc image of the Utopia boot CD loader used to run backups/homebrew."
         },
         {
@@ -649,6 +704,7 @@
           "md5": "70a3385cb638912f8637a8f1e9300727",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Nero disc image of the Utopia boot CD loader used to run backups/homebrew."
         },
         {
@@ -660,6 +716,7 @@
           "md5": "4bffb9b29b9aeb29aa618f3891a300ce",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "BIOS for the Dreamcast Visual Memory System (VMU/VMS) memory card."
         }
       ]

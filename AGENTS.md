@@ -58,6 +58,7 @@ Each `data/<manufacturer>.json` follows this exact shape:
           "md5": "8dd7d5296a650fac7319bce665a6a53c",
           "sha1": "10155d8d6e6e832d6ea66db9bc098321fb5e8ebf",
           "sha256": null,
+          "crc32": null,
           "notes": "Original US BIOS, released 1995"
         }
       ]
@@ -68,9 +69,11 @@ Each `data/<manufacturer>.json` follows this exact shape:
 
 **Required fields:** `manufacturer` (top level), `consoles[].longName`, `consoles[].bioses[].name`.
 
-**Optional fields** (set to `null`, never omit): `shortName`, `altName`, `region`, `version`, `size`, `md5`, `sha1`, `sha256`, `notes`.
+**Optional fields** (set to `null`, never omit): `shortName`, `altName`, `region`, `version`, `size`, `md5`, `sha1`, `sha256`, `crc32`, `notes`.
 
-**Hash format:** lowercase hex only. MD5 = 32 chars, SHA1 = 40 chars, SHA256 = 64 chars. `null` if unknown — do not invent values.
+**Hash format:** lowercase hex only. MD5 = 32 chars, SHA1 = 40 chars, SHA256 = 64 chars, CRC32 = 8 chars. `null` if unknown — do not invent values.
+
+**CRC32** is intentionally not shown in the web UI (it's too short to add real verification power alongside MD5/SHA1/SHA256 at this dataset's size) but is kept in the data for contributors cross-referencing DAT-based tools (No-Intro, Redump, clrmamepro) that key off it.
 
 **Size format:** raw byte count as a non-negative integer (e.g. `524288` for a 512 KiB BIOS), or `null` if unknown. The site formats it for display using binary units (B, KiB, MiB, GiB, TiB) — do not pre-format the value.
 
