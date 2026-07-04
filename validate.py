@@ -7,7 +7,7 @@ Checks:
   - Required top-level fields ('manufacturer', 'consoles')
   - Each console has 'longName' and a 'bioses' list
   - Each BIOS has a non-empty 'name'
-  - Hash fields (md5, sha1, sha256) are lowercase hex of the right length, or null
+  - Hash fields (md5, sha1, sha256, crc32) are lowercase hex of the right length, or null
   - Optional fields are present as keys (may be null) — no missing keys
   - No duplicate BIOS 'name' within the same console
   - No duplicate manufacturer slugs across files (would collide on m/<slug>.html)
@@ -27,9 +27,9 @@ DATA_DIR = ROOT / "data"
 
 REQUIRED_BIOS_KEYS = {
     "name", "altName", "region", "version", "size",
-    "md5", "sha1", "sha256", "notes",
+    "md5", "sha1", "sha256", "crc32", "notes",
 }
-HASH_LENGTHS = {"md5": 32, "sha1": 40, "sha256": 64}
+HASH_LENGTHS = {"md5": 32, "sha1": 40, "sha256": 64, "crc32": 8}
 HEX_RE = re.compile(r"^[0-9a-f]+$")
 
 

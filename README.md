@@ -33,6 +33,7 @@ Each `data/<manufacturer>.json` file looks like this:
           "md5": "8dd7d5296a650fac7319bce665a6a53c",
           "sha1": "10155d8d6e6e832d6ea66db9bc098321fb5e8ebf",
           "sha256": null,
+          "crc32": null,
           "notes": "Original US BIOS, released 1995"
         }
       ]
@@ -41,7 +42,7 @@ Each `data/<manufacturer>.json` file looks like this:
 }
 ```
 
-**BIOS fields:** `name` (required), plus optional `altName`, `region`, `version`, `size`, `md5`, `sha1`, `sha256`, `notes`. Use `null` for any optional field that isn't known. The `size` field is a raw byte count (integer), which the site formats as B, KiB, MiB, GiB, or TiB automatically.
+**BIOS fields:** `name` (required), plus optional `altName`, `region`, `version`, `size`, `md5`, `sha1`, `sha256`, `crc32`, `notes`. Use `null` for any optional field that isn't known. The `size` field is a raw byte count (integer), which the site formats as B, KiB, MiB, GiB, or TiB automatically. `crc32` is stored for contributors who cross-reference DAT-based tools (No-Intro, Redump, clrmamepro) but is not displayed on the site.
 
 ## Adding a BIOS entry
 

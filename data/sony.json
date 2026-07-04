@@ -12,8 +12,9 @@
           "version": "1.0",
           "size": 524288,
           "md5": "239665b1a3dade1b5a52c06338011044",
-          "sha1": null,
+          "sha1": "343883a7b555646da8cee54aadd2795b6e7dd070",
           "sha256": null,
+          "crc32": "3b601fc8",
           "notes": "Released 09/22/1994. Earliest PlayStation BIOS revision."
         },
         {
@@ -25,6 +26,7 @@
           "md5": "2118230527a9f51bd9216e32fa912842",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 01/24/1994. Development board BIOS."
         },
         {
@@ -34,8 +36,9 @@
           "version": "1.1",
           "size": 524288,
           "md5": "849515939161e62f6b866f6853006780",
-          "sha1": null,
+          "sha1": "b06f4a861f74270be819aa2a07db8d0563a7cc4e",
           "sha256": null,
+          "crc32": "3539def6",
           "notes": "Released 01/22/1995."
         },
         {
@@ -47,6 +50,7 @@
           "md5": "dc2b9bf8da62ec93e868cfd29f0d067d",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 05/07/1995. Development board BIOS."
         },
         {
@@ -56,8 +60,9 @@
           "version": "2.0",
           "size": 524288,
           "md5": "54847e693405ffeb0359c6287434cbef",
-          "sha1": null,
+          "sha1": "20b98f3d80f11cbf5a7bfd0779b0e63760ecc62c",
           "sha256": null,
+          "crc32": "9bb87c4b",
           "notes": "Released 05/10/1995."
         },
         {
@@ -67,8 +72,9 @@
           "version": "2.1",
           "size": 524288,
           "md5": "cba733ceeff5aef5c32254f1d617fa62",
-          "sha1": null,
+          "sha1": "e38466a4ba8005fba7e9e3c7b9efeba7205bee3f",
           "sha256": null,
+          "crc32": "bc190209",
           "notes": "Released 07/17/1995."
         },
         {
@@ -80,6 +86,7 @@
           "md5": "da27e8b6dab242d8f91a9b25d80c63b8",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 07/17/1995. Development board BIOS."
         },
         {
@@ -91,6 +98,7 @@
           "md5": "417b34706319da7cf001e76e40136c23",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 07/17/1995."
         },
         {
@@ -102,6 +110,7 @@
           "md5": "57a06303dfa9cf9351222dfcbb4a29d9",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 12/04/1995."
         },
         {
@@ -113,6 +122,7 @@
           "md5": "81328b966e6dcf7ea1e32e55e1c104bb",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 12/04/1995. Variant revision."
         },
         {
@@ -122,8 +132,9 @@
           "version": "2.2",
           "size": 524288,
           "md5": "924e392ed05558ffdb115408c263dccf",
-          "sha1": null,
+          "sha1": "10155d8d6e6e832d6ea66db9bc098321fb5e8ebf",
           "sha256": null,
+          "crc32": "37157331",
           "notes": "Released 12/04/1995. One of the most common NTSC-U/C BIOS revisions."
         },
         {
@@ -135,6 +146,7 @@
           "md5": "e2110b8a2b97a8e0b857a45d32f7e187",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 12/04/1995."
         },
         {
@@ -146,6 +158,7 @@
           "md5": "ca5cfc321f916756e3f0effbfaeba13b",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 03/06/1996. Development board BIOS, revision D."
         },
         {
@@ -155,8 +168,9 @@
           "version": "3.0",
           "size": 524288,
           "md5": "8dd7d5296a650fac7319bce665a6a53c",
-          "sha1": null,
+          "sha1": "b05def971d8ec59f346f2d9ac21fb742e3eb6917",
           "sha256": null,
+          "crc32": "ff3eeb8c",
           "notes": "Released 09/09/1996."
         },
         {
@@ -166,8 +180,9 @@
           "version": "3.0",
           "size": 524288,
           "md5": "490f666e1afb15b7362b406ed1cea246",
-          "sha1": null,
+          "sha1": "0555c6fae8906f3f09baf5988f00e55f88e9f30b",
           "sha256": null,
+          "crc32": "8d8cb7e4",
           "notes": "Released 11/18/1996. Very common NTSC-U/C BIOS revision."
         },
         {
@@ -177,8 +192,9 @@
           "version": "3.0",
           "size": 524288,
           "md5": "32736f17079d0b2b7024407c39bd3050",
-          "sha1": null,
+          "sha1": "f6bc2d1f5eb6593de7d089c425ac681d6fffd3f0",
           "sha256": null,
+          "crc32": "d786f0b9",
           "notes": "Released 01/06/1997."
         },
         {
@@ -190,6 +206,7 @@
           "md5": "8e4c14f567745eff2f0408c8129f72a6",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 08/18/1997."
         },
         {
@@ -201,6 +218,7 @@
           "md5": "b84be139db3ee6cbd075630aa20a6553",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 11/14/1997. \"Watermarked\" region-free revision."
         },
         {
@@ -210,8 +228,9 @@
           "version": "4.1",
           "size": 524288,
           "md5": "1e68c231d0896b7eadcad1d7d8e76129",
-          "sha1": null,
+          "sha1": "14df4f6c1e367ce097c11deae21566b4fe5647a9",
           "sha256": null,
+          "crc32": "502224b6",
           "notes": "Released 12/16/1997."
         },
         {
@@ -221,8 +240,9 @@
           "version": "4.1",
           "size": 524288,
           "md5": "b9d9a0286c33dc6b7237bb13cd46fdee",
-          "sha1": null,
+          "sha1": "8d5de56a79954f29e9006929ba3fed9b6a418c1d",
           "sha256": null,
+          "crc32": "318178bf",
           "notes": "Released 12/16/1997."
         },
         {
@@ -232,8 +252,9 @@
           "version": "4.3",
           "size": 524288,
           "md5": "8abc1b549a4a80954addc48ef02c4521",
-          "sha1": null,
+          "sha1": "339a48f4fcf63e10b5b867b8c93cfd40945faf6c",
           "sha256": null,
+          "crc32": "f2af798b",
           "notes": "Released 03/11/2000. PSone (slim) BIOS."
         },
         {
@@ -245,6 +266,7 @@
           "md5": "9a09ab7e49b422c007e6d54d7c49b965",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 03/24/2000. PSone (slim) BIOS."
         },
         {
@@ -254,8 +276,9 @@
           "version": "4.4",
           "size": 524288,
           "md5": "b10f5e0e3d9eb60e5159690680b1e774",
-          "sha1": null,
+          "sha1": "beb0ac693c0dc26daf5665b3314db81480fa5c7c",
           "sha256": null,
+          "crc32": "0bad7ea9",
           "notes": "Released 03/24/2000. PSone (slim) BIOS."
         },
         {
@@ -265,8 +288,9 @@
           "version": "4.5",
           "size": 524288,
           "md5": "6e3735ff4c7dc899ee98981385f6f3d0",
-          "sha1": null,
+          "sha1": "dcffe16bd90a723499ad46c641424981338d8378",
           "sha256": null,
+          "crc32": "171bdcec",
           "notes": "Released 05/25/2000. PSone (slim) BIOS."
         },
         {
@@ -276,8 +300,9 @@
           "version": "4.5",
           "size": 524288,
           "md5": "de93caec13d1a141a40a79f5c86168d6",
-          "sha1": null,
+          "sha1": "dbc7339e5d85827c095764fc077b41f78fd2ecae",
           "sha256": null,
+          "crc32": "76b880e5",
           "notes": "Released 05/25/2000. PSone (slim) BIOS."
         },
         {
@@ -287,8 +312,9 @@
           "version": "4.5",
           "size": 524288,
           "md5": "c53ca5908936d412331790f4426c6c33",
-          "sha1": null,
+          "sha1": "96880d1ca92a016ff054be5159bb06fe03cb4e14",
           "sha256": null,
+          "crc32": "5660f34f",
           "notes": "Released 05/25/2000. Also distributed as romw.bin. Used for PS1 emulation on the PSP and on the PlayStation Classic (SCPH-1000R)."
         },
         {
@@ -300,6 +326,7 @@
           "md5": "476d68a94ccec3b9c8303bbd1daf2810",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 05/25/2000. Also distributed as romJP.bin. Used on the Japanese PlayStation Classic (SCPH-1000R)."
         }
       ]
@@ -317,6 +344,7 @@
           "md5": "d8f485717a5237285e4d7c5f881b7f32",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Released 10/27/2000."
         }
       ]
@@ -334,6 +362,7 @@
           "md5": "c02a6fbb1b27359f84e92fae8bc21316",
           "sha1": null,
           "sha256": null,
+          "crc32": null,
           "notes": "Embedded PlayStation backward-compatibility BIOS extracted from PS3 system firmware versions 3.66-3.74. Internal version stamp dated 06/23/2003."
         },
         {
@@ -341,10 +370,11 @@
           "altName": "PS3 Firmware 4.00-4.86",
           "region": "Region-free",
           "version": "5.0",
-          "size": null,
+          "size": 524288,
           "md5": "81bbe60ba7a3d1cea1d48c14cbcc647b",
-          "sha1": null,
+          "sha1": "c40146361eb8cf670b19fdc9759190257803cab7",
           "sha256": null,
+          "crc32": "2f53b852",
           "notes": "Embedded PlayStation backward-compatibility BIOS extracted from PS3 system firmware versions 4.00-4.86. Internal version stamp dated 06/23/2003."
         }
       ]
