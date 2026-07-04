@@ -62,6 +62,16 @@ python build.py
 python -m http.server 8000
 ```
 
+## Checking a hash
+
+`check_hashes.py` looks up one or more hashes against `data/*.json` without needing a build. Hash type (MD5/SHA1/SHA256/CRC32) is auto-detected by length, so you can pass them in any order:
+
+```bash
+python check_hashes.py a860e8c0b6d573d191e4ec7db1b1e4f6 300c20df6731a33952ded8c436f7f186d25d3492
+```
+
+If any given hash matches a known entry, the rest are cross-checked against that entry's recorded values, and a mismatch is flagged as a warning. If none of the given hashes match anything, it reports them as unknown.
+
 ## First-time GitHub setup
 
 1. Push this repo to GitHub.
