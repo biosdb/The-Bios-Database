@@ -101,5 +101,6 @@ If any given hash matches a known entry, the rest are cross-checked against that
 - Instant client-side search on both the index and per-manufacturer pages.
 - Filter by console and region on manufacturer pages.
 - One-click copy for any hash value.
+- Light/Dark/Auto theme toggle (defaults to dark, remembered via localStorage).
 - Mobile-friendly responsive layout.
 - Zero runtime dependencies — pure static HTML/CSS/JS.
