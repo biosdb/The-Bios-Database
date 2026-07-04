@@ -276,13 +276,14 @@ MFR_TEMPLATE = r"""<!DOCTYPE html>
 __SHARED_STYLES__
   .console-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
     margin-bottom: 12px; overflow: hidden; }
-  .console-card > summary { cursor: pointer; padding: 14px 16px; display: flex;
-    align-items: center; justify-content: space-between; gap: 12px; list-style: none;
-    font-size: 15px; font-weight: 600; user-select: none; }
+  .console-card > summary { cursor: pointer; padding: 14px 40px 14px 16px; position: relative;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    list-style: none; font-size: 15px; font-weight: 600; user-select: none; }
   .console-card > summary::-webkit-details-marker { display: none; }
   .console-card > summary::after { content: "\25BE"; color: var(--muted);
-    transition: transform 0.15s; flex-shrink: 0; }
-  .console-card[open] > summary::after { transform: rotate(180deg); }
+    transition: transform 0.15s; position: absolute; right: 16px; top: 50%;
+    transform: translateY(-50%); }
+  .console-card[open] > summary::after { transform: translateY(-50%) rotate(180deg); }
   .console-card > summary:hover { background: var(--panel-2); }
   .console-meta { color: var(--muted); font-weight: 400; font-size: 12.5px; }
   table { width: 100%; border-collapse: collapse; margin-top: 8px;
