@@ -1,6 +1,12 @@
-# BIOS Hash Lookup
+# The BIOS Database
 
 A static, searchable website hosted on GitHub Pages that provides MD5, SHA1, and SHA256 hashes for game console and computer BIOS files.
+
+This has been "vibe coded" with human verification, the initial datasets were generated using AI to cross-reference mulitple datasets.
+
+The aim is to have a simple front-end for users to reference to aid searching/validating; as I found this information being sporadic with things being based on release groups etc 
+
+The side effect is that the json datasets should be nice for automated tooling to parse too.
 
 ## How it works
 
