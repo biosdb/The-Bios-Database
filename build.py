@@ -227,12 +227,25 @@ MFR_TEMPLATE = r"""<!DOCTYPE html>
 <title>__MFR_NAME__ — BIOS Hash Lookup</title>
 <style>
 __SHARED_STYLES__
+  .console-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    margin-bottom: 12px; overflow: hidden; }
+  .console-card > summary { cursor: pointer; padding: 14px 16px; display: flex;
+    align-items: center; justify-content: space-between; gap: 12px; list-style: none;
+    font-size: 15px; font-weight: 600; user-select: none; }
+  .console-card > summary::-webkit-details-marker { display: none; }
+  .console-card > summary::after { content: "\25BE"; color: var(--muted);
+    transition: transform 0.15s; flex-shrink: 0; }
+  .console-card[open] > summary::after { transform: rotate(180deg); }
+  .console-card > summary:hover { background: var(--panel-2); }
+  .console-meta { color: var(--muted); font-weight: 400; font-size: 12.5px; }
   table { width: 100%; border-collapse: collapse; margin-top: 8px;
     background: var(--panel); border-radius: 10px; overflow: hidden;
     border: 1px solid var(--border); }
+  .console-card table { margin-top: 0; border-radius: 0; border: none; background: transparent;
+    border-top: 1px solid var(--border); }
   thead th { background: var(--panel-2); text-align: left; padding: 10px 12px;
     font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px;
-    color: var(--muted); border-bottom: 1px solid var(--border); position: sticky; top: 60px; }
+    color: var(--muted); border-bottom: 1px solid var(--border); }
   tbody td { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 14px; vertical-align: top; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: rgba(78,161,255,0.05); }
@@ -246,7 +259,6 @@ __SHARED_STYLES__
   .region-tag { display: inline-block; background: var(--panel-2); padding: 2px 8px;
     border-radius: 999px; font-size: 12px; color: var(--muted); border: 1px solid var(--border); }
   .size { font-family: var(--mono); font-size: 12.5px; color: #cfd6e4; white-space: nowrap; }
-  .console-name { font-weight: 600; }
   .alt-name { color: var(--muted); font-size: 12px; margin-top: 2px; }
   .notes { color: var(--muted); font-size: 12.5px; max-width: 260px; }
   @media (max-width: 800px) {
@@ -269,31 +281,13 @@ __SHARED_STYLES__
 <div class="container">
   <div class="search-bar">
     <input type="text" id="search" placeholder="Search BIOS name, console, region, hash..." autofocus>
-    <select id="console-filter">
-      <option value="">All consoles</option>
-    </select>
     <select id="region-filter">
       <option value="">All regions</option>
     </select>
     <span class="count" id="count"></span>
   </div>
   <div id="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>Console</th>
-          <th>BIOS</th>
-          <th>Region</th>
-          <th>Version</th>
-          <th>Size</th>
-          <th>MD5</th>
-          <th>SHA1</th>
-          <th>SHA256</th>
-          <th>Notes</th>
-        </tr>
-      </thead>
-      <tbody id="tbody"></tbody>
-    </table>
+    <div id="consoles"></div>
     <div class="no-results" id="no-results" style="display:none;">No matching entries.</div>
   </div>
 </div>
@@ -306,11 +300,11 @@ const DATA = __DATA__;
 
 const $ = (id) => document.getElementById(id);
 const searchEl = $("search");
-const consoleEl = $("console-filter");
 const regionEl = $("region-filter");
-const tbody = $("tbody");
+const consolesEl = $("consoles");
 const countEl = $("count");
 const noResults = $("no-results");
+const openState = {};
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({
@@ -330,19 +324,25 @@ function formatSize(bytes) {
 }
 
 function populateFilters() {
-  const consoles = [...new Set(DATA.map(r => r.longName).filter(Boolean))].sort();
   const regions = [...new Set(DATA.map(r => r.region).filter(Boolean))].sort();
-  for (const c of consoles) {
-    const opt = document.createElement("option");
-    opt.value = c; opt.textContent = c;
-    consoleEl.appendChild(opt);
-  }
   for (const r of regions) {
     const opt = document.createElement("option");
     opt.value = r; opt.textContent = r;
     regionEl.appendChild(opt);
   }
 }
+
+function groupByConsole(rows) {
+  const map = new Map();
+  for (const r of rows) {
+    const key = r.longName + "|" + r.shortName;
+    if (!map.has(key)) map.set(key, { key, longName: r.longName, shortName: r.shortName, rows: [] });
+    map.get(key).rows.push(r);
+  }
+  return [...map.values()];
+}
+
+const GROUPS = groupByConsole(DATA);
 
 function hashCell(value) {
   if (!value) return '<span class="empty">—</span>';
@@ -369,9 +369,7 @@ function renderRow(r) {
     ? `<span class="size" title="${r.size} bytes">${escapeHtml(sizeFmt)}</span>`
     : '<span class="empty">—</span>';
   const notes = r.notes ? escapeHtml(r.notes) : "";
-  const consoleLabel = escapeHtml(r.longName) + (r.shortName ? ' (' + escapeHtml(r.shortName) + ')' : '');
   return `<tr>
-    <td data-label="Console"><div class="console-name">${consoleLabel}</div></td>
     <td data-label="BIOS">
       <div>${escapeHtml(r.name)}</div>
       ${alt}
@@ -386,32 +384,70 @@ function renderRow(r) {
   </tr>`;
 }
 
+function renderConsoleCard(g, rows, isOpen) {
+  const title = g.shortName
+    ? `${escapeHtml(g.longName)} <span class="console-meta">(${escapeHtml(g.shortName)})</span>`
+    : escapeHtml(g.longName);
+  return `<details class="console-card" data-key="${escapeHtml(g.key)}"${isOpen ? " open" : ""}>
+    <summary>
+      <span>${title}</span>
+      <span class="console-meta">${rows.length} BIOS${rows.length === 1 ? "" : "es"}</span>
+    </summary>
+    <table>
+      <thead>
+        <tr>
+          <th>BIOS</th>
+          <th>Region</th>
+          <th>Version</th>
+          <th>Size</th>
+          <th>MD5</th>
+          <th>SHA1</th>
+          <th>SHA256</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>${rows.map(renderRow).join("")}</tbody>
+    </table>
+  </details>`;
+}
+
 function filterAndRender() {
   const q = searchEl.value.trim().toLowerCase();
-  const console_ = consoleEl.value;
   const region = regionEl.value;
+  const filtersActive = !!q || !!region;
 
-  const filtered = DATA.filter(r => {
-    if (console_ && r.longName !== console_) return false;
-    if (region && r.region !== region) return false;
-    if (!q) return true;
-    const sizeFmt = formatSize(r.size) || "";
-    const haystack = [
-      r.longName, r.shortName, r.name, r.altName,
-      r.region, r.version, sizeFmt, r.md5, r.sha1, r.sha256, r.notes
-    ].join(" ").toLowerCase();
-    return haystack.includes(q);
-  });
+  let totalMatches = 0;
+  const cards = GROUPS.map(g => {
+    const nameMatches = q && (g.longName.toLowerCase().includes(q) || g.shortName.toLowerCase().includes(q));
+    const rows = g.rows.filter(r => {
+      if (region && r.region !== region) return false;
+      if (!q || nameMatches) return true;
+      const sizeFmt = formatSize(r.size) || "";
+      const haystack = [
+        r.name, r.altName, r.region, r.version, sizeFmt, r.md5, r.sha1, r.sha256, r.notes
+      ].join(" ").toLowerCase();
+      return haystack.includes(q);
+    });
+    if (rows.length === 0) return "";
+    totalMatches += rows.length;
+    const isOpen = openState[g.key] !== undefined ? openState[g.key] : filtersActive;
+    return renderConsoleCard(g, rows, isOpen);
+  }).join("");
 
-  tbody.innerHTML = filtered.map(renderRow).join("");
-  countEl.textContent = filtered.length + " of " + DATA.length + " entries";
-  noResults.style.display = filtered.length === 0 ? "block" : "none";
+  consolesEl.innerHTML = cards;
+  countEl.textContent = totalMatches + " of " + DATA.length + " entries";
+  noResults.style.display = totalMatches === 0 ? "block" : "none";
 }
+
+consolesEl.addEventListener("toggle", (e) => {
+  if (e.target.matches("details.console-card")) {
+    openState[e.target.dataset.key] = e.target.open;
+  }
+}, true);
 
 populateFilters();
 filterAndRender();
 searchEl.addEventListener("input", filterAndRender);
-consoleEl.addEventListener("change", filterAndRender);
 regionEl.addEventListener("change", filterAndRender);
 </script>
 </body>
