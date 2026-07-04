@@ -131,7 +131,35 @@ SHARED_STYLES = r"""
     --muted: #8b93a7;
     --accent: #4ea1ff;
     --accent-dim: #2b6cb0;
+    --hash-text: #cfd6e4;
+    --success: #58d68d;
     --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  :root[data-theme="light"] {
+    --bg: #f6f7f9;
+    --panel: #ffffff;
+    --panel-2: #eef1f5;
+    --border: #dde2e8;
+    --text: #1a1d23;
+    --muted: #5c6470;
+    --accent: #1a66d1;
+    --accent-dim: #a9c9f0;
+    --hash-text: #33404f;
+    --success: #17824f;
+  }
+  @media (prefers-color-scheme: light) {
+    :root[data-theme="system"] {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --panel-2: #eef1f5;
+      --border: #dde2e8;
+      --text: #1a1d23;
+      --muted: #5c6470;
+      --accent: #1a66d1;
+      --accent-dim: #a9c9f0;
+      --hash-text: #33404f;
+      --success: #17824f;
+    }
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
@@ -139,10 +167,19 @@ SHARED_STYLES = r"""
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
   header { padding: 24px 20px 12px; border-bottom: 1px solid var(--border); }
-  header .container { max-width: 1200px; margin: 0 auto; }
+  header .container { max-width: 1200px; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
+  header .container > div:first-child { min-width: 0; }
   header h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: 0.2px; }
   header p { margin: 0; color: var(--muted); font-size: 14px; }
   .crumbs { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  .theme-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 8px;
+    overflow: hidden; flex-shrink: 0; }
+  .theme-toggle button { background: var(--panel); color: var(--muted); border: none;
+    padding: 6px 12px; font-size: 12.5px; font-family: inherit; cursor: pointer; transition: 0.15s; }
+  .theme-toggle button + button { border-left: 1px solid var(--border); }
+  .theme-toggle button:hover { color: var(--text); background: var(--panel-2); }
+  .theme-toggle button.active { background: var(--accent); color: #fff; font-weight: 600; }
   .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
   .search-bar { position: sticky; top: 0; background: var(--bg); padding: 16px 0 12px;
     z-index: 10; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
@@ -173,12 +210,45 @@ SHARED_STYLES = r"""
     border-left: 3px solid var(--border); color: var(--muted); }
 """
 
+# Applied before first paint so a stored "light"/"system" preference doesn't
+# flash dark first. Default (no stored preference) is dark, never auto-detected.
+THEME_INIT_SCRIPT = r"""<script>
+(function () {
+  try {
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "dark");
+  } catch (e) {}
+})();
+</script>"""
+
+THEME_TOGGLE_HTML = r"""<div class="theme-toggle" role="group" aria-label="Theme">
+      <button type="button" data-theme-choice="light">Light</button>
+      <button type="button" data-theme-choice="dark">Dark</button>
+      <button type="button" data-theme-choice="system">Auto</button>
+    </div>
+    <script>
+    (function () {
+      var root = document.documentElement;
+      var buttons = document.querySelectorAll(".theme-toggle button");
+      function apply(theme) {
+        root.setAttribute("data-theme", theme);
+        try { localStorage.setItem("theme", theme); } catch (e) {}
+        buttons.forEach(function (b) { b.classList.toggle("active", b.dataset.themeChoice === theme); });
+      }
+      var current = root.getAttribute("data-theme") || "dark";
+      buttons.forEach(function (b) {
+        b.classList.toggle("active", b.dataset.themeChoice === current);
+        b.addEventListener("click", function () { apply(b.dataset.themeChoice); });
+      });
+    })();
+    </script>"""
+
 INDEX_TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The BIOS Database</title>
+__THEME_INIT__
 <style>
 __SHARED_STYLES__
   .mfr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -198,8 +268,11 @@ __SHARED_STYLES__
 <body>
 <header>
   <div class="container">
-    <h1>The BIOS Database</h1>
-    <p>A dataset of MD5, SHA1, and SHA256 hashes for game console and computer BIOS files. Pick a manufacturer to browse.</p>
+    <div>
+      <h1>The BIOS Database</h1>
+      <p>A dataset of MD5, SHA1, and SHA256 hashes for game console and computer BIOS files. Pick a manufacturer to browse.</p>
+    </div>
+    __THEME_TOGGLE__
   </div>
 </header>
 <div class="container">
@@ -272,6 +345,7 @@ MFR_TEMPLATE = r"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>__MFR_NAME__ - The BIOS Database</title>
+__THEME_INIT__
 <style>
 __SHARED_STYLES__
   .console-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
@@ -297,16 +371,16 @@ __SHARED_STYLES__
   tbody td { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 14px; vertical-align: top; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: rgba(78,161,255,0.05); }
-  .hash { font-family: var(--mono); font-size: 12.5px; color: #cfd6e4;
+  .hash { font-family: var(--mono); font-size: 12.5px; color: var(--hash-text);
     word-break: break-all; display: inline-flex; align-items: center; gap: 6px; }
   .hash button { background: transparent; border: 1px solid var(--border); color: var(--muted);
     border-radius: 6px; padding: 2px 6px; font-size: 11px; cursor: pointer; transition: 0.15s; }
   .hash button:hover { color: var(--accent); border-color: var(--accent-dim); }
-  .hash button.copied { color: #58d68d; border-color: #58d68d; }
+  .hash button.copied { color: var(--success); border-color: var(--success); }
   .empty { color: var(--muted); font-style: italic; }
   .region-tag { display: inline-block; background: var(--panel-2); padding: 2px 8px;
     border-radius: 999px; font-size: 12px; color: var(--muted); border: 1px solid var(--border); }
-  .size { font-family: var(--mono); font-size: 12.5px; color: #cfd6e4; white-space: nowrap; }
+  .size { font-family: var(--mono); font-size: 12.5px; color: var(--hash-text); white-space: nowrap; }
   .alt-name { color: var(--muted); font-size: 12px; margin-top: 2px; }
   .notes { color: var(--muted); font-size: 12.5px; max-width: 260px; }
   @media (max-width: 800px) {
@@ -321,9 +395,12 @@ __SHARED_STYLES__
 <body>
 <header>
   <div class="container">
-    <div class="crumbs"><a href="../index.html">← All manufacturers</a></div>
-    <h1>__MFR_NAME__</h1>
-    <p>__SUMMARY__</p>
+    <div>
+      <div class="crumbs"><a href="../index.html">← All manufacturers</a></div>
+      <h1>__MFR_NAME__</h1>
+      <p>__SUMMARY__</p>
+    </div>
+    __THEME_TOGGLE__
   </div>
 </header>
 <div class="container">
@@ -521,6 +598,8 @@ def write_index(index_payload):
     index_notes_html = f'<div class="page-notes">{index_notes}</div>' if index_notes else ""
     html_out = (INDEX_TEMPLATE
                 .replace("__SHARED_STYLES__", SHARED_STYLES)
+                .replace("__THEME_INIT__", THEME_INIT_SCRIPT)
+                .replace("__THEME_TOGGLE__", THEME_TOGGLE_HTML)
                 .replace("__MANUFACTURERS__", payload)
                 .replace("__INDEX_NOTES__", index_notes_html))
     OUTPUT_INDEX.write_text(html_out, encoding="utf-8")
@@ -546,6 +625,8 @@ def write_manufacturer_page(doc):
 
     html_out = (MFR_TEMPLATE
                 .replace("__SHARED_STYLES__", SHARED_STYLES)
+                .replace("__THEME_INIT__", THEME_INIT_SCRIPT)
+                .replace("__THEME_TOGGLE__", THEME_TOGGLE_HTML)
                 .replace("__MFR_NAME__", doc["manufacturer"])
                 .replace("__MFR_SLUG__", slug)
                 .replace("__SUMMARY__", summary)
