@@ -1,0 +1,23 @@
+{
+  "manufacturer": "Magnavox",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Odyssey²",
+      "bioses": [
+        {
+          "name": "o2rom.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1024,
+          "md5": "562d5ebf9e030a40d6fabfc2f33139fd",
+          "sha1": "b2e1955d957a475de2411770452eff4ea19f4cee",
+          "sha256": "cb0c5d9ed64f7c1d8870333451832638885b9aa3d7013f0c05fd2a20a5e5bfef",
+          "crc32": "8016a315",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

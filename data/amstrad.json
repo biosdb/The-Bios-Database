@@ -1,0 +1,59 @@
+{
+  "manufacturer": "Amstrad",
+  "consoles": [
+    {
+      "shortName": "CPC",
+      "longName": "CPC",
+      "bioses": [
+        {
+          "name": "amsdos.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "25629dfe870d097469c217b95fdc1c95",
+          "sha1": "39102c8e9cb55fcc0b9b62098780ed4a3cb6a4bb",
+          "sha256": "ea65e0fb44ee93ede4b6c507509b7e5ddf497fb7155023bea91ef229469fa04d",
+          "crc32": "1fe22ecd",
+          "notes": null
+        },
+        {
+          "name": "cpc464.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "a993f85b88ac4350cf4d41554e87fe4f",
+          "sha1": "56d39c463da60968d93e58b4ba0e675829412a20",
+          "sha256": "00960d9bf75b2b90856c970f1aa078e1e2aa028b2c104f1dded0262f5d37b15e",
+          "crc32": "40852f25",
+          "notes": null
+        },
+        {
+          "name": "cpc6128.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "b96280dc6c95a48857b4b8eb931533ae",
+          "sha1": "5977adbad3f7c1e0e082cd02fe76a700d9860c30",
+          "sha256": "31c3668c67bea027dab698ece233c9434d9324f9ba7dac84db58f400b6689562",
+          "crc32": "9e827fe1",
+          "notes": null
+        },
+        {
+          "name": "cpc664.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "5a384a2310f472c7857888371c00ed66",
+          "sha1": "073a7665527b5bd8a148747a3947dbd3328682c8",
+          "sha256": "1fcb20cf169f170774bf94954db9372c95edd038a5cb8e5199774552b93f8747",
+          "crc32": "9ab5a036",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "manufacturer": "The 3DO Company",
+  "consoles": [
+    {
+      "shortName": "3DO",
+      "longName": "3DO",
+      "bioses": [
+        {
+          "name": "3do_arcade_saot.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "8970fc987ab89a7f64da9f8a8c4333ff",
+          "sha1": "520d3d1b5897800af47f92efd2444a26b7a7dead",
+          "sha256": "72a88b5b47b76bd5604b30c102c948fa7e0ee90ccbc83aba496c45cf90b5a0e7",
+          "crc32": "b832da9a",
+          "notes": null
+        },
+        {
+          "name": "goldstar.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "8639fd5e549bd6238cfee79e3e749114",
+          "sha1": "c4a2e5336f77fb5f743de1eea2cda43675ee2de7",
+          "sha256": "4162ec1bc0f0f449c0457413e8ae8d1e8e351e67e0ccca20d0ac86813e7cfe9b",
+          "crc32": "b6f5028b",
+          "notes": null
+        },
+        {
+          "name": "panafz1-kanji.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 933636,
+          "md5": "b8dc97f778a6245c58e064b0312e8281",
+          "sha1": "acd39a8fee1b9d2950d5ab447846c11fb31af63e",
+          "sha256": "303cd0812f2d2f3e703fe901c5d54e1e94c5c78f7e6c9321c2ca66fafa4f9bc6",
+          "crc32": "a8e9447c",
+          "notes": null
+        },
+        {
+          "name": "panafz1.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "f47264dd47fe30f73ab3c010015c155b",
+          "sha1": "34bf189111295f74d7b7dfc1f304d98b8d36325a",
+          "sha256": "41b5b8e7c44e55eaf5cfd4f2a58df42f4a1bbc776723368fb25bf118dd631b1b",
+          "crc32": "c8c8ff89",
+          "notes": null
+        },
+        {
+          "name": "panafz10-norsa.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "1477bda80dc33731a65468c1f5bcbee9",
+          "sha1": "f05e642322c03694f06a809c0b90fc27ac73c002",
+          "sha256": "6f01a5679334b879c11adffb92d04b216a7437c588881d276880d1a6fd97aa3a",
+          "crc32": "230e6feb",
+          "notes": null
+        },
+        {
+          "name": "panafz10.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "51f2f43ae2f3508a14d9f56597e2d3ce",
+          "sha1": "3c912300775d1ad730dc35757e279c274c0acaad",
+          "sha256": "8d72334395cfc98e44c89804eabf036cf95a23645353e7fe8ab886445a3b6354",
+          "crc32": "58242cee",
+          "notes": null
+        },
+        {
+          "name": "panafz10e-anvil-norsa.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "cf11bbb5a16d7af9875cca9de9a15e09",
+          "sha1": "2765c7b4557cc838b32567d2428d088980295159",
+          "sha256": "b24aa655e48ece1ec22a26fdafbf7620b609b4cab8ae16e4570f7f89c3047438",
+          "crc32": "9a186221",
+          "notes": null
+        },
+        {
+          "name": "panafz10e-anvil.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "a48e6746bd7edec0f40cff078f0bb19f",
+          "sha1": "a900371f0cdcdc03f79557f11d406fd71251a5fd",
+          "sha256": "bf83957563970804fa90d0fee02e25c3befe054209d9df488c019715a80b455a",
+          "crc32": "2495c500",
+          "notes": null
+        },
+        {
+          "name": "panafz10ja-anvil-kanji.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "428577250f43edc902ea239c50d2240d",
+          "sha1": "2e857b957803d0331fd229328df01f3ffab69eee",
+          "sha256": "4db281ad37c21ede8cbe343b349f4cd6c3ffc3c47ae2e0de8cedaf043faea97a",
+          "crc32": "ff7393de",
+          "notes": null
+        },
+        {
+          "name": "panafz1j-kanji.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "c23fb5d5e6bb1c240d02cf968972be37",
+          "sha1": "884515605ee243577ab20767ef8c1a7368e4e407",
+          "sha256": "8974193e76cf255ebc40fe20b95b405db2cc1ea07910584380e50c6d9ca181aa",
+          "crc32": "45f478b1",
+          "notes": null
+        },
+        {
+          "name": "panafz1j-norsa.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "f6c71de7470d16abe4f71b1444883dc8",
+          "sha1": "a417587ae3b0b8ef00c830920c21af8bee88e419",
+          "sha256": "2ae90b7f69e94829dd38fa634f1619f5a5486865773efc248f5b1e06776f94e1",
+          "crc32": "82ce67c6",
+          "notes": null
+        },
+        {
+          "name": "panafz1j.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "a496cfdded3da562759be3561317b605",
+          "sha1": "ec7ec62d60ec0459a14ed56ebc66761ef3c80efc",
+          "sha256": "f356b28b1b35ec27c8697f70d9e0118c4f20609ac5586b9ee4f9241aea96336b",
+          "crc32": "d9493adc",
+          "notes": null
+        },
+        {
+          "name": "sanyotry.bin",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "35fa1a1ebaaeea286dc5cd15487c13ea",
+          "sha1": "b01c53da256dde43ffec4ad3fc3adfa8d635e943",
+          "sha256": "c1e6bf926afd48d5ea408871a23ba6b4a9b07da411246185ab3d7bb5e435b039",
+          "crc32": "d5cbc509",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

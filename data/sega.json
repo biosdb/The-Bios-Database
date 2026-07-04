@@ -37,7 +37,7 @@
           "size": 8192,
           "md5": "840481177270d5642a14ca71ee72844c",
           "sha1": "c315672807d8ddb8d91443729405c766dd95cae7",
-          "sha256": null,
+          "sha256": "477617917a12a30f9f43844909dc2de6e6a617430f5c9a36306c86414a670d50",
           "crc32": "0072ed54",
           "notes": "1986."
         },
@@ -61,7 +61,7 @@
           "size": 8192,
           "md5": "24a519c53f67b00640d0048ef7089105",
           "sha1": "a8c1b39a2e41137835eda6a5de6d46dd9fadbaf2",
-          "sha256": null,
+          "sha256": "67846e26764bd862f19179294347f7353a4166b62ac4198a5ec32933b7da486e",
           "crc32": "48d44a13",
           "notes": "1987."
         },
@@ -151,7 +151,7 @@
           "size": 2048,
           "md5": "d3293ebaaa7f4eb2a6766b68a0fb4609",
           "sha1": "3f50b76b0529db7f79c396b5e808cc0786ffc311",
-          "sha256": null,
+          "sha256": "5a5497f47bf3892d60476151494b8e5b7949e6db728ed513d162095d54de1b9a",
           "crc32": "3f888cf4",
           "notes": "1990-05."
         }
@@ -205,7 +205,7 @@
           "size": 131072,
           "md5": "278a9397d192149e84e820ac621a8edd",
           "sha1": "4846f448160059a7da0215a5df12ca160f26dd69",
-          "sha256": null,
+          "sha256": "923eb9da740f98ab1572085e3d351e2c0982df0906b0b99efb68a9997c94cf8f",
           "crc32": "9d2da8f2",
           "notes": "1991-12-17."
         },
@@ -277,7 +277,7 @@
           "size": 131072,
           "md5": "2efd74e3232ff260e371b99f84024f7f",
           "sha1": "f4f315adcef9b8feb0364c21ab7f0eaf5457f3ed",
-          "sha256": null,
+          "sha256": "807384678ef259494d943eddb6954dfc7069693d0dde0c424e2028488d88e81a",
           "crc32": "c6d10268",
           "notes": "1992-10-11."
         },
@@ -289,7 +289,7 @@
           "size": 131072,
           "md5": "e66fa1dc5820d254611fdcdba0662372",
           "sha1": "f891e0ea651e2232af0c5c4cb46a0cae2ee8f356",
-          "sha256": null,
+          "sha256": "16735df92fcc1d0fc6a1eced244867e95281c5006340926082b74e363e073dc4",
           "crc32": "529ac15a",
           "notes": "1992-10-27."
         },
@@ -529,7 +529,7 @@
           "size": 524288,
           "md5": "af5828fdff51384f99b3c4926be27762",
           "sha1": "2b8cb4f87580683eb4d760e4ed210813d667f0a2",
-          "sha256": null,
+          "sha256": "ae4058627bb5db9be6d8d83c6be95a4aa981acc8a89042e517e73317886c8bc2",
           "crc32": "2aba43c2",
           "notes": "1994."
         },
@@ -541,7 +541,7 @@
           "size": 524288,
           "md5": "74570fed4d44b2682b560c8cd44b8b6a",
           "sha1": "7b23b53d62de0f29a23e423d0fe751dfb469c2fa",
-          "sha256": null,
+          "sha256": "cc1e1b7f88f1c6e6fc35994bae2c2292e06fdae258c79eb26a1f1391e72914a8",
           "crc32": "b3c63c25",
           "notes": "1994. Development kit BIOS."
         },
@@ -553,7 +553,7 @@
           "size": 524288,
           "md5": "85ec9ca47d8f6807718151cbcca8b964",
           "sha1": "df94c5b4d47eb3cc404d88b33a8fda237eaf4720",
-          "sha256": null,
+          "sha256": "dcfef4b99605f872b6c3b6d05c045385cdea3d1b702906a0ed930df7bcb7deac",
           "crc32": "224b752c",
           "notes": "1995."
         },
@@ -565,7 +565,7 @@
           "size": 524288,
           "md5": "f273555d7d91e8a5a6bfd9bcf066331c",
           "sha1": "3bb41feb82838ab9a35601ac666de5aacfd17a58",
-          "sha256": null,
+          "sha256": "87293093fad802fcff31fcab427a16caff1acbc5184899b8383b360fd58efb73",
           "crc32": "f90f0089",
           "notes": "1995."
         },
@@ -577,7 +577,7 @@
           "size": 524288,
           "md5": "3240872c70984b6cbfda1586cab68dbe",
           "sha1": "faa8ea183a6d7bbe5d4e03bb1332519800d3fbc3",
-          "sha256": null,
+          "sha256": "96e106f740ab448cf89f0dd49dfbac7fe5391cb6bd6e14ad5e3061c13330266f",
           "crc32": "4afcf0fa",
           "notes": "1995."
         },
@@ -589,7 +589,7 @@
           "size": 524288,
           "md5": "ac4e4b6522e200c0d23d371a8cecbfd3",
           "sha1": "4154e11959f3d5639b11d7902b3a393a99fb5776",
-          "sha256": null,
+          "sha256": "53b303bb5965e4c6aa4310b389e761401f45d71f1459f3a46cf50b588aceddd5",
           "crc32": "e4d61811",
           "notes": "1995. JVC V-Saturn clone hardware."
         },
@@ -601,7 +601,7 @@
           "size": 524288,
           "md5": "3ea3202e2634cb47cb90f3a05c015010",
           "sha1": "49d8493008fa715ca0c94d99817a5439d6f2c796",
-          "sha256": null,
+          "sha256": "feb733e0a1578eb8a6ff9c7f32b0b7319336bcf98f461a5f608e73159f672f4e",
           "crc32": "721e1b60",
           "notes": "1995. Hitachi Hi-Saturn clone hardware."
         },
@@ -613,7 +613,7 @@
           "size": 524288,
           "md5": "cb2cebc1b6e573b7c44523d037edcd45",
           "sha1": "8a22710e09ce75f39625894366cafe503ed1942d",
-          "sha256": null,
+          "sha256": "1d964171c979f87ca120d77fdb0d98063bb75bfa219bb180aeb650c528ce054e",
           "crc32": "3408dbf4",
           "notes": "1995. Hitachi Hi-Saturn clone hardware."
         },
@@ -655,7 +655,7 @@
           "size": 2097152,
           "md5": "e10c53c2f8b90bab96ead2d368858623",
           "sha1": "8951d1bb219ab2ff8583033d2119c899cc81f18c",
-          "sha256": null,
+          "sha256": "88d6a666495ad14ab5988d8cb730533cfc94ec2cfd53a7eeda14642ab0d4abf9",
           "crc32": "89f2b1a1",
           "notes": "Dreamcast console boot ROM."
         },
@@ -679,7 +679,7 @@
           "size": 131072,
           "md5": "0a93f7940c455905bea6e392dfde92a4",
           "sha1": "94d44d7f9529ec1642ba3771ed3c5f756d5bc872",
-          "sha256": null,
+          "sha256": "dd8b365521a9c08bb4c170da3592212580f7251f35a45d6083774d1c030bc3e3",
           "crc32": "c611b498",
           "notes": "Dreamcast system flash memory."
         },

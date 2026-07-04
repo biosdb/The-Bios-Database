@@ -1,0 +1,47 @@
+{
+  "manufacturer": "Fairchild",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Channel F",
+      "bioses": [
+        {
+          "name": "ChannelF_SL31253.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1024,
+          "md5": "ac9804d4c0e9d07e33472e3726ed15c3",
+          "sha1": "81193965a374d77b99b4743d317824b53c3e3c78",
+          "sha256": "876a263d28d8f9e9f51785b91269393f06599debae9ba2ef1cba67a283504e2c",
+          "crc32": "04694ed9",
+          "notes": null
+        },
+        {
+          "name": "ChannelF_SL31254.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1024,
+          "md5": "da98f4bb3242ab80d76629021bb27585",
+          "sha1": "8f70d1b74483ba3a37e86cf16c849d601a8c3d2c",
+          "sha256": "a8d2c0d958b8ea0ee2855b5416993c149a3050cb3c85b781404d3c2a233defc1",
+          "crc32": "9c047ba3",
+          "notes": null
+        },
+        {
+          "name": "ChannelF_sl90025.rom",
+          "altName": null,
+          "region": null,
+          "version": null,
+          "size": 1024,
+          "md5": "95d339631d867c8f1d15a5f2ec26069d",
+          "sha1": "759e2ed31fbde4a2d8daf8b9f3e0dffebc90dae2",
+          "sha256": "bf3755d849438034f3ff92bde357310074c09088b22cf33e512ec06c65d4eaab",
+          "crc32": "015c1e38",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

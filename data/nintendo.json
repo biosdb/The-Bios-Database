@@ -14,7 +14,7 @@
           "md5": "32fbbd84168d3482956eb3c5051637f5",
           "sha1": "4ed31ec6b0b175bb109c0eb5fd3d193da823339f",
           "sha256": "cf053eccb4ccafff9e67339d4e78e98dce7d1ed59be819d2a1ba2232c6fce1c7",
-          "crc32": null,
+          "crc32": "59c8598e",
           "notes": "Game Boy (DMG-01)"
         },
         {
@@ -50,7 +50,7 @@
           "md5": "d574d4f9c12f305074798f54c091a8b4",
           "sha1": "aa2f50a77dfb4823da96ba99309085a3c6278515",
           "sha256": "0e4ddff32fc9d1eeaae812a157dd246459b00c9e14f2f61751f661f32361e360",
-          "crc32": null,
+          "crc32": "ec8a83b9",
           "notes": "Super Gameboy SNES Adaptor BIOS - No Logo"
         },
         {
@@ -62,7 +62,7 @@
           "md5": "e0430bca9925fb9882148fd2dc2418c1",
           "sha1": "93407ea10d2f30ab96a314d8eca44fe160aea734",
           "sha256": "fd243c4fb27008986316ce3df29e9cfbcdc0cd52704970555a8bb76edbec3988",
-          "crc32": null,
+          "crc32": "53d0dd63",
           "notes": "Super Gameboy SNES Adaptor BIOS - No Logo - Register value change to detect hardware."
         }
       ]
@@ -80,7 +80,7 @@
           "md5": "dbfce9db9deaa2567f6a84fde55f9680",
           "sha1": "1293d68bf9643bc4f36954c1e80e38f39864e436",
           "sha256": "b4f2e416a35eef52cba161b159c7c8523a92594facb924b3ede0d722867c50c7",
-          "crc32": null,
+          "crc32": "41884e46",
           "notes": null
         },
         {
@@ -146,7 +146,7 @@
           "md5": "a860e8c0b6d573d191e4ec7db1b1e4f6",
           "sha1": "300c20df6731a33952ded8c436f7f186d25d3492",
           "sha256": "fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570",
-          "crc32": null,
+          "crc32": "81977335",
           "notes": "Gameboy Advance (AGB)"
         }
       ]
@@ -187,8 +187,8 @@
           "size": 4194304,
           "md5": "8d3d9f294b6e174bc7b1d2fd1c727530",
           "sha1": "bf861922dcb78c316360e3e742f4f70ff63c9bc3",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "806400ec0df94b0755de6c5b8249d6b6a9866124c5ddbdac198bde22499bfb8b",
+          "crc32": "7f933ce2",
           "notes": "N64 Disk Drive (64DD)"
         }
       ]
@@ -205,8 +205,8 @@
           "size": 1984,
           "md5": "1e4fb124a3a886865acb574f388c803d",
           "sha1": "daad4113713ed776fbd47727762bca81ba74915f",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "45a1c7f28b9ad585e67f047abe9c1c956724bfcab8c9011002af4274e7c50e8f",
+          "crc32": "aed3c14d",
           "notes": null
         }
       ]
@@ -223,8 +223,8 @@
           "size": 2097152,
           "md5": "fc924a7c879b661abc37cec4f018fdf3",
           "sha1": "a1837968288253ed541f2b11440b68f5a9b33875",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "5b2f2617cc63f1861a1f4ae44bb135caf10e202b5b9b79271daaf60f8caaf37d",
+          "crc32": "6dac1f2a",
           "notes": "DOL-001 (CPU-10 or CPU-11)"
         },
         {
@@ -235,8 +235,8 @@
           "size": 2097152,
           "md5": "019e39822a9ca3029124f74dd4d55ac4",
           "sha1": "239eacd86527ff9a75aeb7282da65797baeef010",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "92f1411fb2c3e6c37bb6a5819d01f84f945fda31cfe26db8c81d997ed471a62e",
+          "crc32": "d5e6feea",
           "notes": "DOL-001 (CPU-11, CPU-20 or CPU-30) - DOL-101"
         },
         {
@@ -247,8 +247,8 @@
           "size": 2097152,
           "md5": "b17148254a5799684c7d783206504926",
           "sha1": "ef9194ab4804aa0aa8540d846caf291b28331165",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "7c833f95839c226699108b93ab6acbe772788bfa3f05132b8ced5e78f5bc9a26",
+          "crc32": "86573808",
           "notes": null
         },
         {
@@ -259,8 +259,8 @@
           "size": 2097152,
           "md5": "0cdda509e2da83c85bfe423dd87346cc",
           "sha1": "f27c63e5394e2fd1606f70df004c4fc2d6027700",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "a782522d3b941da91b0f7ef23adc3120efa8b74e0e23a0deecd2a98d79343176",
+          "crc32": "4f319f43",
           "notes": "DOL-001"
         },
         {
@@ -271,8 +271,8 @@
           "size": 2097152,
           "md5": "339848a0b7c2124cf155276c1e79cbd0",
           "sha1": "f3cd0c7c61cbcefa85e7de3aff4cfa50bc508714",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "7973d3f9922b7d7f2b71648939036bc984ac9feee92ed10b5175803aeb8a4696",
+          "crc32": "667d0b64",
           "notes": "DOL-001"
         },
         {
@@ -283,8 +283,8 @@
           "size": 2097152,
           "md5": "db92574caab77a7ec99d4605fd6f2450",
           "sha1": "80b8744ff5e43585392f55546bd03a673d11ef5f",
-          "sha256": null,
-          "crc32": null,
+          "sha256": "85ffcbc834238eb24c87fce27ba7b438cc53a77db013a0a7c59c78e0af08cb84",
+          "crc32": "ad1b7f16",
           "notes": "DOL-001"
         }
       ]
