@@ -288,8 +288,8 @@ __SHARED_STYLES__
   .alt-name { color: var(--muted); font-size: 12px; margin-top: 2px; }
   .notes { color: var(--muted); font-size: 12.5px; max-width: 260px; }
   .mfr-notes, .console-notes { font-size: 14px; line-height: 1.6; color: var(--text); }
-  .mfr-notes { margin-top: 12px; }
-  .console-notes { padding: 4px 16px 16px; border-top: 1px solid var(--border); }
+  .mfr-notes { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
+  .console-notes { padding: 12px 16px 16px; border-top: 1px solid var(--border); }
   .mfr-notes > :first-child, .console-notes > :first-child { margin-top: 0; }
   .mfr-notes > :last-child, .console-notes > :last-child { margin-bottom: 0; }
   .mfr-notes a, .console-notes a { color: var(--accent); }
@@ -317,7 +317,6 @@ __SHARED_STYLES__
     <div class="crumbs"><a href="../index.html">← All manufacturers</a></div>
     <h1>__MFR_NAME__</h1>
     <p>__SUMMARY__</p>
-    __MFR_NOTES__
   </div>
 </header>
 <div class="container">
@@ -332,6 +331,7 @@ __SHARED_STYLES__
     <div id="consoles"></div>
     <div class="no-results" id="no-results" style="display:none;">No matching entries.</div>
   </div>
+  __MFR_NOTES__
 </div>
 <footer>
   Edit <code>data/__MFR_SLUG__.json</code> via pull request to contribute.
@@ -439,7 +439,6 @@ function renderConsoleCard(g, rows, isOpen) {
       <span>${title}</span>
       <span class="console-meta">${rows.length} BIOS${rows.length === 1 ? "" : "es"}</span>
     </summary>
-    ${notesHtml}
     <table>
       <thead>
         <tr>
@@ -455,6 +454,7 @@ function renderConsoleCard(g, rows, isOpen) {
       </thead>
       <tbody>${rows.map(renderRow).join("")}</tbody>
     </table>
+    ${notesHtml}
   </details>`;
 }
 
