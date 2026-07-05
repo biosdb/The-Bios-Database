@@ -24,6 +24,8 @@ NOTES_DIR = ROOT / "notes"
 OUTPUT_INDEX = ROOT / "index.html"
 MFR_DIR = ROOT / "m"
 
+REPO_URL = "https://github.com/biosdb/The-Bios-Database"
+
 MD_EXTENSIONS = ["extra", "sane_lists"]
 
 
@@ -416,7 +418,7 @@ __SHARED_STYLES__
   __MFR_NOTES__
 </div>
 <footer>
-  Edit <code>data/__MFR_SLUG__.json</code> via pull request to contribute.
+  Edit <a href="__REPO_URL__/blob/main/data/__MFR_SLUG__.json"><code>data/__MFR_SLUG__.json</code></a> via pull request to contribute.__MFR_NOTES_LINK__
 </footer>
 
 <script>
@@ -613,6 +615,11 @@ def write_manufacturer_page(doc):
 
     mfr_notes = load_manufacturer_notes(slug)
     mfr_notes_html = f'<div class="page-notes">{mfr_notes}</div>' if mfr_notes else ""
+    notes_file_exists = (NOTES_DIR / f"{slug}.md").exists()
+    mfr_notes_link = (
+        f' &middot; <a href="{REPO_URL}/blob/main/notes/{slug}.md"><code>notes/{slug}.md</code></a>'
+        if notes_file_exists else ""
+    )
 
     console_notes = {}
     for console in doc["consoles"]:
@@ -627,8 +634,10 @@ def write_manufacturer_page(doc):
                 .replace("__THEME_TOGGLE__", THEME_TOGGLE_HTML)
                 .replace("__MFR_NAME__", doc["manufacturer"])
                 .replace("__MFR_SLUG__", slug)
+                .replace("__REPO_URL__", REPO_URL)
                 .replace("__SUMMARY__", summary)
                 .replace("__MFR_NOTES__", mfr_notes_html)
+                .replace("__MFR_NOTES_LINK__", mfr_notes_link)
                 .replace("__DATA__", payload)
                 .replace("__CONSOLE_NOTES__", console_notes_payload))
     (MFR_DIR / f"{slug}.html").write_text(html_out, encoding="utf-8")
