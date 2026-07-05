@@ -3,6 +3,60 @@
   "consoles": [
     {
       "shortName": null,
+      "longName": "Xbox",
+      "bioses": [
+        {
+          "name": "xbox-3944.bin",
+          "altName": "Xbox BIOS v3944",
+          "region": null,
+          "version": "3944",
+          "size": 1048576,
+          "md5": "e8b39b98cf775496c1c76e4f7756e6ed",
+          "sha1": "67054fc88bda94e33e86f1b19be60efec0724fb6",
+          "sha256": "2bda1753b6e535af95fa9d7f7c6b1ce746f4de3f470856814e63a72d94bcb3b8",
+          "crc32": "32a9ecb6",
+          "notes": null
+        },
+        {
+          "name": "xbox-4034.bin",
+          "altName": "Xbox BIOS v4034",
+          "region": null,
+          "version": "4034",
+          "size": 1048576,
+          "md5": "b49a417511b2dbb485aa255a32a319d1",
+          "sha1": "ab676b712204fb1728bf89f9cd541a8f5a64ab97",
+          "sha256": "6053cec50eea1f246ae830c31a4d0ddc75a0fcc1530c168e125a8995433b65fa",
+          "crc32": "0d6fc88f",
+          "notes": null
+        },
+        {
+          "name": "xbox-4817.bin",
+          "altName": "Xbox BIOS v4817",
+          "region": null,
+          "version": "4817",
+          "size": 1048576,
+          "md5": "430b3edf0f1ea5c77f47845ed3cbd22b",
+          "sha1": "dc955bd4d3ca71e01214a49e5d0aba615270c03c",
+          "sha256": "db0587bce6f4708fdc2a07757470495652f85da7e12cc772db1bf45627cf5099",
+          "crc32": "3f30863a",
+          "notes": null
+        },
+        {
+          "name": "xbox-5101.bin",
+          "altName": "Xbox BIOS v5101",
+          "region": null,
+          "version": "5101",
+          "size": 262144,
+          "md5": "769898e9682e1f5d065b5961460d03e6",
+          "sha1": "5108e1025f48071c07a6823661d708c66dee97a9",
+          "sha256": "f8b77144401dd403d79a2cb370c141a69db47c5eddf28ab63414e538f03310b6",
+          "crc32": "e8a9224e",
+          "notes": "256KB variant; differs in size from the standard 1MB retail BIOSes."
+        }
+      ]
+    },
+    {
+      "shortName": null,
       "longName": "MSX",
       "bioses": [
         {
