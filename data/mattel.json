@@ -28,6 +28,78 @@
           "sha256": "a80b6841182547d08635ad30a6af71441c4c9eed9391b3dd22feb30d8e50cc85",
           "crc32": "683a4158",
           "notes": null
+        },
+        {
+          "name": "ECS.bin",
+          "altName": "Intellivision Entertainment Computer System ROM",
+          "region": null,
+          "version": null,
+          "size": 24576,
+          "md5": "2e72a9a2b897d330a35c8b07a6146c52",
+          "sha1": "b7ccb38b881d7f8426cd6f1f8a7aabbd31784fc5",
+          "sha256": "2fcea60039c4a8836b9bb71e391d70a145c724b4dae516be733fe842ba6687c7",
+          "crc32": "ea790a06",
+          "notes": null
+        },
+        {
+          "name": "IVOICE.BIN",
+          "altName": "Intellivoice ROM",
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "d5530f74681ec6e0f282dab42e6b1c5f",
+          "sha1": "618563e512ff5665183664f52270fa9606c9d289",
+          "sha256": "dabade432af1523f43029057071ca8c1ed3604498c784603e8733023382ad7a5",
+          "crc32": "0de7579d",
+          "notes": null
+        },
+        {
+          "name": "level2.rom",
+          "altName": "Intellivision II Executive ROM",
+          "region": null,
+          "version": null,
+          "size": 12288,
+          "md5": "ca74822ebc2803c6635a55116ecd9539",
+          "sha1": "5e318bf5d37db5795061326fb88aac29123d4b7d",
+          "sha256": "3cd3824d2ac2743750d2179951ed812794302b885ccb4f98aa2579b352c4b00e",
+          "crc32": "0d8a132e",
+          "notes": null
+        },
+        {
+          "name": "level3.rom",
+          "altName": "Intellivision III Executive ROM",
+          "region": null,
+          "version": null,
+          "size": 14336,
+          "md5": "ecd0a5a83fca19ea860fe565fad4b061",
+          "sha1": "04a1f062cf73c3931c038434e3f299482b6bf613",
+          "sha256": "beeb3741175a8b8706cc384d5b2534ebf32e383662864054e5a0ce4d861a43bb",
+          "crc32": "bddbf843",
+          "notes": null
+        },
+        {
+          "name": "level4.rom",
+          "altName": "Intellivision Master Component Executive ROM",
+          "region": null,
+          "version": null,
+          "size": 14336,
+          "md5": "0e4c4b1638a23fd26796816cf2f83961",
+          "sha1": "752555fdd0ff23abc9f35c6e03d9d9b4c0e9677b",
+          "sha256": "89ab093f1b4234b8265122ecd4f45d7cda5c1a0b26ec929bce32c1756e826133",
+          "crc32": "1a92d54d",
+          "notes": null
+        },
+        {
+          "name": "level4P.rom",
+          "altName": "Intellivision Master Component Executive ROM (patched)",
+          "region": null,
+          "version": null,
+          "size": 504,
+          "md5": "9bc4cc42958a2a120670e5bc0bfc1d5e",
+          "sha1": "41184f5240b4b54f3804f5a22b4d78bbba52ed1d",
+          "sha256": "67dfa3f5a8a683ef0c972a4329ba6fea283586b0e52247b4e64dc183c3e7d92c",
+          "crc32": "7ff336f4",
+          "notes": null
         }
       ]
     }

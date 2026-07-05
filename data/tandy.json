@@ -1,0 +1,35 @@
+{
+  "manufacturer": "Tandy",
+  "consoles": [
+    {
+      "shortName": "CoCo3",
+      "longName": "TRS-80 Color Computer 3",
+      "bioses": [
+        {
+          "name": "coco3.rom",
+          "altName": "TRS-80 Color Computer 3 ROM",
+          "region": "USA",
+          "version": null,
+          "size": 32768,
+          "md5": "7233c6c429f3ce1c7392f28a933e0b6f",
+          "sha1": "e0d82953fb6fd03768604933df1ce8bc51fc427d",
+          "sha256": "ad358430568250eb8330a37f85361d9ce67e5ae6d5a28c17b31802cd3953a5d2",
+          "crc32": "b4c88d6c",
+          "notes": null
+        },
+        {
+          "name": "coco3p.rom",
+          "altName": "TRS-80 Color Computer 3 ROM (PAL)",
+          "region": "USA",
+          "version": null,
+          "size": 32768,
+          "md5": "4ae57e5a8e7494e5485446fefedb580b",
+          "sha1": "631e383068b1f52a8f419f4114b69501b21cf379",
+          "sha256": "c89c9df29cf93351ad5056dfe1bf861d533ad4382b0e5a98e9043aff0a4480d6",
+          "crc32": "ff050d80",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
