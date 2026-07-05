@@ -288,6 +288,60 @@
           "notes": "DOL-001"
         }
       ]
+    },
+    {
+      "shortName": "DS",
+      "longName": "Nintendo DS",
+      "bioses": [
+        {
+          "name": "bios7.bin",
+          "altName": "Nintendo DS ARM7 BIOS",
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "df692a80a5b1bc90728bc3dfc76cd948",
+          "sha1": "24f67bdea115a2c847c8813a262502ee1607b7df",
+          "sha256": "ba65f690eb04ec92db67c0e299e21ad71de087d6d5de8a9cb17a62eaab563c17",
+          "crc32": "1280f0d5",
+          "notes": null
+        },
+        {
+          "name": "bios9.bin",
+          "altName": "Nintendo DS ARM9 BIOS",
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "a392174eb3e572fed6447e956bde4b25",
+          "sha1": "bfaac75f101c135e32e2aaf541de6b1be4c8c62d",
+          "sha256": "1693983a7707ae394786fa526c0552457888a51d4e410d715ef07acd5a540555",
+          "crc32": "2ab23573",
+          "notes": null
+        },
+        {
+          "name": "firmware.bin",
+          "altName": "Nintendo DS Firmware",
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "3c704824663ce26b6a1ed4d85238ae5b",
+          "sha1": "87dae2500e889737af51f4a5b5845770a62482f5",
+          "sha256": "330c59198faec64b40e96cc875b422d340fc9ab1a9e32e9bd9b7baa1dbe6ba7f",
+          "crc32": "13046805",
+          "notes": null
+        },
+        {
+          "name": "BIOSGBA.ROM",
+          "altName": "GBA BIOS (DS GBA slot)",
+          "region": null,
+          "version": null,
+          "size": 16384,
+          "md5": "a860e8c0b6d573d191e4ec7db1b1e4f6",
+          "sha1": "300c20df6731a33952ded8c436f7f186d25d3492",
+          "sha256": "fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570",
+          "crc32": "81977335",
+          "notes": "GBA BIOS required by some DS emulators for GBA backward compatibility via Slot-2. Same ROM as the standalone GBA BIOS."
+        }
+      ]
     }
   ]
 }

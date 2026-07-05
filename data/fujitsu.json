@@ -1,0 +1,71 @@
+{
+  "manufacturer": "Fujitsu",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "FM Towns",
+      "bioses": [
+        {
+          "name": "FMT_DIC.ROM",
+          "altName": "FM Towns Dictionary ROM",
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "8fa4e553f28cfc0c30a0a1e589799942",
+          "sha1": "7564020dba71deee27184824b84dbbbb7c72aa4e",
+          "sha256": "fdec9c3b4be58426623b3266bc6f246673134c427c8683332c24381f522ecdc7",
+          "crc32": "82d1daa2",
+          "notes": null
+        },
+        {
+          "name": "FMT_DOS.ROM",
+          "altName": "FM Towns DOS ROM",
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "0585b19930d4a7f4c71bcc8a33746588",
+          "sha1": "57fd146478226f7f215caf63154c763a6d52165e",
+          "sha256": "b760d991c087c25a7e18e52f1af4bfd601f6abe8f4ebadac51f34742374cf17f",
+          "crc32": "112872ee",
+          "notes": null
+        },
+        {
+          "name": "FMT_F20.ROM",
+          "altName": "FM Towns F20 ROM",
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "ac0c7021e9bf48ca84b51ab651169a88",
+          "sha1": "1920711cb66340bb741a760de187de2f76040b8c",
+          "sha256": "dca1f314ae2f5dc937706624990b8521016ee2231558f6cbe169bbc305efb774",
+          "crc32": "9f55a20c",
+          "notes": null
+        },
+        {
+          "name": "FMT_FNT.ROM",
+          "altName": "FM Towns Font ROM",
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "b91300e55b70227ce98b59c5f02fa8dd",
+          "sha1": "a216482ea3162f348fcf77fea78e0b2e4288091a",
+          "sha256": "aa9e9565d3047c51ee418712be8daa391b0d8f21f92fc02e4616e3523ca50b9d",
+          "crc32": "dd6fd544",
+          "notes": null
+        },
+        {
+          "name": "FMT_SYS.ROM",
+          "altName": "FM Towns System ROM",
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "86fb6f7280689259f0ca839dd3dd6cde",
+          "sha1": "4cd51de4fca9bd7a3d91d09ad636fa6b47a41df5",
+          "sha256": "f1242f960ed04160e223598626dd016373625f5a60508816f9d4507dfbb7fec6",
+          "crc32": "afe4ebcf",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
