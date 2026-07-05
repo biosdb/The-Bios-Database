@@ -3,19 +3,499 @@
   "consoles": [
     {
       "shortName": null,
-      "longName": "Macintosh II",
+      "longName": "Macintosh 128K",
       "bioses": [
         {
-          "name": "MacII.ROM",
+          "name": "Macintosh 128.ROM",
+          "altName": "Macintosh 128K ROM",
+          "region": null,
+          "version": "28BA61CE",
+          "size": 65536,
+          "md5": "1d7f52d2d490524954f6afce083d9593",
+          "sha1": "9d86c883aa09f7ef5f086d9e32330ef85f1bc93b",
+          "sha256": "13fe8312cf6167a2bb4351297b48cc1ee29c523b788e58270434742bfeda864c",
+          "crc32": "6d0c8a28",
+          "notes": "64KB ROM. Apple ROM ID 28BA61CE."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh 512K",
+      "bioses": [
+        {
+          "name": "Macintosh 512K.ROM",
+          "altName": "Macintosh 512K ROM",
+          "region": null,
+          "version": "28BA4E50",
+          "size": 65536,
+          "md5": "db7e6d3205a2b48023fba5aa867ac6d6",
+          "sha1": "5b1ced181b74cecd3834c49c2a4aa1d7ffe944d7",
+          "sha256": "fe6a1ceff5b3eefe32f20efea967cdf8cd4cada291ede040600e7f6c9e2dfc0e",
+          "crc32": "cf759e0d",
+          "notes": "64KB ROM. Apple ROM ID 28BA4E50."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Plus",
+      "bioses": [
+        {
+          "name": "MacPlus v1.ROM",
+          "altName": "Macintosh Plus ROM v1",
+          "region": null,
+          "version": "4D1EEEE1",
+          "size": 131072,
+          "md5": "4d8d1e81fa606f57c7ed7188b8b5f410",
+          "sha1": "e0da7165b92dee90d8b1522429c033729fa73fd2",
+          "sha256": "c5d862605867381af6200dd52f5004cc00304a36ab996531f15e0b1f8a80bc01",
+          "crc32": "4fa5b399",
+          "notes": "128KB ROM, January 1986. Apple ROM ID 4D1EEEE1."
+        },
+        {
+          "name": "MacPlus v2.ROM",
+          "altName": "Macintosh Plus ROM v2",
+          "region": null,
+          "version": "4D1EEAE1",
+          "size": 131072,
+          "md5": "16b516e13918a439cf9031ec24353610",
+          "sha1": "73bf2eb215646e108daa0cdd874e6c843c8ce421",
+          "sha256": "06f598ff0f64c944e7c347ba55ae60c792824c09c74f4a55a32c0141bf91b8b3",
+          "crc32": "7cacd18f",
+          "notes": "128KB ROM, March 1986. Apple ROM ID 4D1EEAE1."
+        },
+        {
+          "name": "MacPlus v3.ROM",
+          "altName": "Macintosh Plus ROM v3",
+          "region": null,
+          "version": "4D1F8172",
+          "size": 131072,
+          "md5": "8a41e0754ffd1bb00d8183875c55164c",
+          "sha1": "7d2f808a045aa3a1b242764f0e2c7d13e288bf1f",
+          "sha256": "dd908e2b65772a6b1f0c859c24e9a0d3dcde17b1c6a24f4abd8955846d7895e7",
+          "crc32": "b2102e8e",
+          "notes": "128KB ROM, March 1986. Apple ROM ID 4D1F8172. Final and most widely used Mac Plus ROM revision."
+        },
+        {
+          "name": "Mac-Plus.ROM",
           "altName": null,
           "region": null,
           "version": null,
+          "size": 138576,
+          "md5": "4a89c35e11d0bcb3c174cabfa4b1cd09",
+          "sha1": "32daf772960c7ed31f41b95055968532b81d0896",
+          "sha256": "a86d539aab1af6352fc05752ec2e3d143f805219880822843c627c6184318def",
+          "crc32": "e133094a",
+          "notes": "Non-standard size (138576 bytes vs expected 131072). Sourced from macmade/Macintosh-ROMs; may include extra header or padding data."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh II",
+      "bioses": [
+        {
+          "name": "MacII v1.ROM",
+          "altName": "Macintosh II ROM v1 (800K)",
+          "region": null,
+          "version": "97851DB6",
+          "size": 262144,
+          "md5": "74f4095f7d245a9fb099a6f4a9943572",
+          "sha1": "5c264fe976f1e8495d364947c932a5e8309b4300",
+          "sha256": "cc6d754cfa7841644971718ada1121bc5f94ff954918f502a75abb0e6fd90540",
+          "crc32": "8c8b9d03",
+          "notes": "256KB ROM, March 1987. Apple ROM ID 97851DB6. Original Mac II ROM with 800K floppy support."
+        },
+        {
+          "name": "MacII.ROM",
+          "altName": "Macintosh II ROM v2 (800K)",
+          "region": null,
+          "version": "9779D2C4",
           "size": 262144,
           "md5": "66223be1497460f1e60885eeb35e03cc",
           "sha1": "db6b504744281369794e26ba71a6e385cf6227fa",
           "sha256": "97f2a22bdb8972bfcc1f16aff1ebbe157887c26787a1c81747a9842fa7b97a06",
           "crc32": "4df6d054",
+          "notes": "256KB ROM, December 1987. Apple ROM ID 9779D2C4. Revised Mac II ROM."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh SE",
+      "bioses": [
+        {
+          "name": "Mac SE.ROM",
+          "altName": "Macintosh SE ROM",
+          "region": null,
+          "version": "B2E362A8",
+          "size": 262144,
+          "md5": "9fb38bdcc0d53d9d380897ee53dc1322",
+          "sha1": "58532b7d0d49659fd5228ac334a1b094f0241968",
+          "sha256": "0dea05180e66fddb5f5577c89418de31b97e2d9dc6affe84871b031df8245487",
+          "crc32": "0f7ff80c",
+          "notes": "256KB ROM, March 1987. Apple ROM ID B2E362A8."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh IIcx",
+      "bioses": [
+        {
+          "name": "Mac-IIcx.ROM",
+          "altName": "Macintosh IIcx / IIx / II FDHD ROM",
+          "region": null,
+          "version": "97221136",
+          "size": 262144,
+          "md5": "2a8a4c7f2a38e0ab0771f59a9a0f1ee4",
+          "sha1": "753b94351d94c369616c2c87b19d568dc5e2764e",
+          "sha256": "79fae48e2d5cfde68520e46616503963f8c16430903f410514b62c1379af20cb",
+          "crc32": "ce3b966f",
+          "notes": "256KB ROM, September 1988. Apple ROM ID 97221136. Shared across the Macintosh IIx, IIcx, and II FDHD."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Portable",
+      "bioses": [
+        {
+          "name": "Mac Portable.ROM",
+          "altName": "Macintosh Portable ROM",
+          "region": null,
+          "version": "96CA3846",
+          "size": 262144,
+          "md5": "29cbf05694b611b9d340dceabc91600a",
+          "sha1": "79b468b33fc53f11e87e2e4b195aac981bf0c0a6",
+          "sha256": "3de29198fc61859ed6146dae0b84cec6c980045f4e3efd64a683aab4db8e04a4",
+          "crc32": "497348f8",
+          "notes": "256KB ROM, February 1989. Apple ROM ID 96CA3846."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh IIci",
+      "bioses": [
+        {
+          "name": "Mac IIci.ROM",
+          "altName": "Macintosh IIci ROM",
+          "region": null,
+          "version": "368CADFE",
+          "size": 524288,
+          "md5": "aaca403bed2b3870b2327b42d298b5a3",
+          "sha1": "b54f9d2ed16b63c49ed55adbe4685ebe73eb6e80",
+          "sha256": "0419966cfd7445680c0dd6ca78e8b1f4bc212e75caf56f4a5f523afa576ad3f2",
+          "crc32": "46adbf74",
+          "notes": "512KB ROM, September 1989. Apple ROM ID 368CADFE."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh SE FDHD",
+      "bioses": [
+        {
+          "name": "Mac SE FDHD.ROM",
+          "altName": "Macintosh SE FDHD ROM",
+          "region": null,
+          "version": "B306E171",
+          "size": 262144,
+          "md5": "886444d7abc1185112391b8656c7e448",
+          "sha1": "d3670a90273d12e53d86d1228c068cb660b8c9d1",
+          "sha256": "bb0cb4786e2e004b701dda9bec475598bc82a4f27eb7b11e6b78dfcee1434f71",
+          "crc32": "f530cb10",
+          "notes": "256KB ROM, August 1989. Apple ROM ID B306E171. Also known as the SE SuperDrive."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh IIfx",
+      "bioses": [
+        {
+          "name": "Mac IIfx.ROM",
+          "altName": "Macintosh IIfx ROM",
+          "region": null,
+          "version": "4147DD77",
+          "size": 524288,
+          "md5": "e76510e5734ec651a80fadd682cebf3e",
+          "sha1": "9fba3d4f672a630745d65788b1d1119afa2c6728",
+          "sha256": "f197eb70528f105e74059092a1a820f48ab0f90f39c5b3ec02041d85e6d5a5c5",
+          "crc32": "ef441bbd",
+          "notes": "512KB ROM, March 1990. Apple ROM ID 4147DD77."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Classic",
+      "bioses": [
+        {
+          "name": "Classic.ROM",
+          "altName": "Macintosh Classic ROM",
+          "region": null,
+          "version": "A49F9914",
+          "size": 524288,
+          "md5": "c229bb677cb41b84b780c9e38a09173e",
+          "sha1": "ccd10904ddc0fb6a1d216b2e9effd5ec6cf5a83d",
+          "sha256": "c1c47260bacac2473e21849925fbfdf48e5ab584aaef7c6d54569d0cb6b41cce",
+          "crc32": "510d7d38",
+          "notes": "512KB ROM, October 1990. Apple ROM ID A49F9914."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC",
+      "bioses": [
+        {
+          "name": "LC.ROM",
+          "altName": "Macintosh LC ROM",
+          "region": null,
+          "version": "350EACF0",
+          "size": 524288,
+          "md5": "5d8662dfab70ac34663d6d54393f5018",
+          "sha1": "6bef5853ae736f3f06c2b4e79772f65910c3b7d4",
+          "sha256": "129391cc72f84c2b321709cad8281e30a45e50b3cf6e7afe7434c4d32c7b9d5b",
+          "crc32": "71681726",
+          "notes": "512KB ROM, October 1990. Apple ROM ID 350EACF0."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh IIsi",
+      "bioses": [
+        {
+          "name": "Mac IIsi.ROM",
+          "altName": "Macintosh IIsi ROM",
+          "region": null,
+          "version": "36B7FB6C",
+          "size": 524288,
+          "md5": "373f0b2150bc391227b7a2e32ac5ff2c",
+          "sha1": "f923de4125aae810796527ff6e25364cf1d54eec",
+          "sha256": "b8b04d1478a609de89dd62e51165cc7ca5757f6f881e9770621d09af82890feb",
+          "crc32": "f304d973",
+          "notes": "512KB ROM, October 1990. Apple ROM ID 36B7FB6C."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Classic II",
+      "bioses": [
+        {
+          "name": "Classic II.ROM",
+          "altName": "Macintosh Classic II ROM",
+          "region": null,
+          "version": "3193670E",
+          "size": 524288,
+          "md5": "4ce45c7eb354ff70b2ea10e3b315af35",
+          "sha1": "50df69c1b6e805e12a405dc610bc2a1471b2eac2",
+          "sha256": "5e27acb45173a87e9dfd2c2a411f7cf521ff3cc8bfab083963cf4757d6ca289c",
+          "crc32": "96d2e1fd",
+          "notes": "512KB ROM, October 1991. Apple ROM ID 3193670E."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "PowerBook 100",
+      "bioses": [
+        {
+          "name": "PowerBook 100.ROM",
+          "altName": "Apple PowerBook 100 ROM",
+          "region": null,
+          "version": "96645F9C",
+          "size": 262144,
+          "md5": "dd390f7c86a730caac46fd522f8b2665",
+          "sha1": "7f3acf40b1f63612de2314a2e9fcfeafca0711fc",
+          "sha256": "62558d5faae58e1d6642a8b046f5ec432fe99073e018ac46597ec024b773b6a8",
+          "crc32": "29ac7ee9",
+          "notes": "256KB ROM, October 1991. Apple ROM ID 96645F9C."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC II",
+      "bioses": [
+        {
+          "name": "LC-II.ROM",
+          "altName": "Macintosh LC II ROM",
+          "region": null,
+          "version": "35C28F5F",
+          "size": 524288,
+          "md5": "9575cd955c99f5dd88975c5df2651549",
+          "sha1": "d5786182b62a8ffeeb9fd3f80b5511dba70318a0",
+          "sha256": "18c3de07ca15cf66dfbaa5984aca34b48a2d7b4d0d8c7656f79533899ccec0a0",
+          "crc32": "a92145b3",
+          "notes": "512KB ROM, March 1992. Apple ROM ID 35C28F5F."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh IIvx",
+      "bioses": [
+        {
+          "name": "Mac-IIvx.ROM",
+          "altName": "Macintosh IIvx ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "a207e03d7da82ac6ec63359915c17904",
+          "sha1": "560ce203d65178657ad09d03f532f86fa512bb40",
+          "sha256": "4ca9c4a7c782ae50ae09ca95b6af1e7c08ce3f8ddfea1a006d3c4ccb45ac51af",
+          "crc32": "61be06e5",
           "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Color Classic",
+      "bioses": [
+        {
+          "name": "Color-Classic.ROM",
+          "altName": "Macintosh Color Classic ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "480794341c7a55ada1869b83615a4a9a",
+          "sha1": "fd9e852e2d77fe17287ba678709b9334d4d74f1e",
+          "sha256": "645a193a7817988f54ef0ec90b6ad882b698457600a41ec8d280bee94288c534",
+          "crc32": "c84c3aa5",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC III",
+      "bioses": [
+        {
+          "name": "LC-III.ROM",
+          "altName": "Macintosh LC III ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "4ad0879af4c1e25f8d57a89af0e4987c",
+          "sha1": "74a01d6710283f152143d80635a4f80313a60916",
+          "sha256": "a0d30ea9a7038f6751371cf40f291e8512d31a7b2b870499e74bb628c34535c0",
+          "crc32": "44bfefcb",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC 475",
+      "bioses": [
+        {
+          "name": "LC-475.ROM",
+          "altName": "Macintosh LC 475 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "76fab51d93f024d805fafd8f5c8f46a3",
+          "sha1": "1d833125adf553a50f5994746c2c01aa5a1dbbf2",
+          "sha256": "9c758473a523ffe40ed0d20d27ff37216ed2df064335d7da815a89cff5607b34",
+          "crc32": "b8514689",
+          "notes": "ROM is identical to Performa-570.ROM; shared across the LC 475 and Performa 475/476/575/577/578 family."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Centris 650",
+      "bioses": [
+        {
+          "name": "Centris650.ROM",
+          "altName": "Macintosh Centris 650 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "94017d3dd800f1ac5aed2e10462fcd45",
+          "sha1": "031f13bfd726a70cfe4c73c5967861bc77297a79",
+          "sha256": "7d9cb8c3bae0e26171adf9f24bedf10bf6371ae3c9bdbcdfd3b94e5350099fb6",
+          "crc32": "3318a935",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Quadra 650",
+      "bioses": [
+        {
+          "name": "Quadra-650.ROM",
+          "altName": "Macintosh Quadra 650 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "69489153dde910a69d5ae6de5dd65323",
+          "sha1": "f2a9ce387019bf272c6e3459d961b30f28942ac5",
+          "sha256": "05ad753fb594e656cf078023ec189e09e2a7655a780de993b75b8c51ed6b09ca",
+          "crc32": "4e70e3c0",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Performa 570",
+      "bioses": [
+        {
+          "name": "Performa-570.ROM",
+          "altName": "Macintosh Performa 570 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "76fab51d93f024d805fafd8f5c8f46a3",
+          "sha1": "1d833125adf553a50f5994746c2c01aa5a1dbbf2",
+          "sha256": "9c758473a523ffe40ed0d20d27ff37216ed2df064335d7da815a89cff5607b34",
+          "crc32": "b8514689",
+          "notes": "ROM is identical to LC-475.ROM; shared across the LC 475 and Performa 475/476/575/577/578 family."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Performa 580",
+      "bioses": [
+        {
+          "name": "Performa-580.ROM",
+          "altName": "Macintosh Performa 580 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "af343f3f1362bf29cefd630687efaa25",
+          "sha1": "47cd505b6a7c46e5c0ffa29f0d5037c83e94a02f",
+          "sha256": "c1098a03786667c8bf888792590ce53b47f65bf44a75e11c24718983e1d25af8",
+          "crc32": "1735e7a5",
+          "notes": "ROM is identical to Performa-630.ROM."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Performa 630",
+      "bioses": [
+        {
+          "name": "Performa-630.ROM",
+          "altName": "Macintosh Performa 630 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "af343f3f1362bf29cefd630687efaa25",
+          "sha1": "47cd505b6a7c46e5c0ffa29f0d5037c83e94a02f",
+          "sha256": "c1098a03786667c8bf888792590ce53b47f65bf44a75e11c24718983e1d25af8",
+          "crc32": "1735e7a5",
+          "notes": "ROM is identical to Performa-580.ROM."
         }
       ]
     }
