@@ -3,6 +3,24 @@
   "consoles": [
     {
       "shortName": null,
+      "longName": "Macintosh Plus",
+      "bioses": [
+        {
+          "name": "Mac-Plus.ROM",
+          "altName": "Macintosh Plus ROM",
+          "region": null,
+          "version": null,
+          "size": 138576,
+          "md5": "4a89c35e11d0bcb3c174cabfa4b1cd09",
+          "sha1": "32daf772960c7ed31f41b95055968532b81d0896",
+          "sha256": "a86d539aab1af6352fc05752ec2e3d143f805219880822843c627c6184318def",
+          "crc32": "e133094a",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
       "longName": "Macintosh II",
       "bioses": [
         {
@@ -16,6 +34,240 @@
           "sha256": "97f2a22bdb8972bfcc1f16aff1ebbe157887c26787a1c81747a9842fa7b97a06",
           "crc32": "4df6d054",
           "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh IIcx",
+      "bioses": [
+        {
+          "name": "Mac-IIcx.ROM",
+          "altName": "Macintosh IIcx ROM",
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "2a8a4c7f2a38e0ab0771f59a9a0f1ee4",
+          "sha1": "753b94351d94c369616c2c87b19d568dc5e2764e",
+          "sha256": "79fae48e2d5cfde68520e46616503963f8c16430903f410514b62c1379af20cb",
+          "crc32": "ce3b966f",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Classic",
+      "bioses": [
+        {
+          "name": "Classic.ROM",
+          "altName": "Macintosh Classic ROM",
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "c229bb677cb41b84b780c9e38a09173e",
+          "sha1": "ccd10904ddc0fb6a1d216b2e9effd5ec6cf5a83d",
+          "sha256": "c1c47260bacac2473e21849925fbfdf48e5ab584aaef7c6d54569d0cb6b41cce",
+          "crc32": "510d7d38",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC",
+      "bioses": [
+        {
+          "name": "LC.ROM",
+          "altName": "Macintosh LC ROM",
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "5d8662dfab70ac34663d6d54393f5018",
+          "sha1": "6bef5853ae736f3f06c2b4e79772f65910c3b7d4",
+          "sha256": "129391cc72f84c2b321709cad8281e30a45e50b3cf6e7afe7434c4d32c7b9d5b",
+          "crc32": "71681726",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC II",
+      "bioses": [
+        {
+          "name": "LC-II.ROM",
+          "altName": "Macintosh LC II ROM",
+          "region": null,
+          "version": null,
+          "size": 524288,
+          "md5": "9575cd955c99f5dd88975c5df2651549",
+          "sha1": "d5786182b62a8ffeeb9fd3f80b5511dba70318a0",
+          "sha256": "18c3de07ca15cf66dfbaa5984aca34b48a2d7b4d0d8c7656f79533899ccec0a0",
+          "crc32": "a92145b3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh IIvx",
+      "bioses": [
+        {
+          "name": "Mac-IIvx.ROM",
+          "altName": "Macintosh IIvx ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "a207e03d7da82ac6ec63359915c17904",
+          "sha1": "560ce203d65178657ad09d03f532f86fa512bb40",
+          "sha256": "4ca9c4a7c782ae50ae09ca95b6af1e7c08ce3f8ddfea1a006d3c4ccb45ac51af",
+          "crc32": "61be06e5",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Color Classic",
+      "bioses": [
+        {
+          "name": "Color-Classic.ROM",
+          "altName": "Macintosh Color Classic ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "480794341c7a55ada1869b83615a4a9a",
+          "sha1": "fd9e852e2d77fe17287ba678709b9334d4d74f1e",
+          "sha256": "645a193a7817988f54ef0ec90b6ad882b698457600a41ec8d280bee94288c534",
+          "crc32": "c84c3aa5",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC III",
+      "bioses": [
+        {
+          "name": "LC-III.ROM",
+          "altName": "Macintosh LC III ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "4ad0879af4c1e25f8d57a89af0e4987c",
+          "sha1": "74a01d6710283f152143d80635a4f80313a60916",
+          "sha256": "a0d30ea9a7038f6751371cf40f291e8512d31a7b2b870499e74bb628c34535c0",
+          "crc32": "44bfefcb",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh LC 475",
+      "bioses": [
+        {
+          "name": "LC-475.ROM",
+          "altName": "Macintosh LC 475 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "76fab51d93f024d805fafd8f5c8f46a3",
+          "sha1": "1d833125adf553a50f5994746c2c01aa5a1dbbf2",
+          "sha256": "9c758473a523ffe40ed0d20d27ff37216ed2df064335d7da815a89cff5607b34",
+          "crc32": "b8514689",
+          "notes": "ROM is identical to Performa-570.ROM; shared across the LC 475 and Performa 475/476/575/577/578 family."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Centris 650",
+      "bioses": [
+        {
+          "name": "Centris650.ROM",
+          "altName": "Macintosh Centris 650 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "94017d3dd800f1ac5aed2e10462fcd45",
+          "sha1": "031f13bfd726a70cfe4c73c5967861bc77297a79",
+          "sha256": "7d9cb8c3bae0e26171adf9f24bedf10bf6371ae3c9bdbcdfd3b94e5350099fb6",
+          "crc32": "3318a935",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Quadra 650",
+      "bioses": [
+        {
+          "name": "Quadra-650.ROM",
+          "altName": "Macintosh Quadra 650 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "69489153dde910a69d5ae6de5dd65323",
+          "sha1": "f2a9ce387019bf272c6e3459d961b30f28942ac5",
+          "sha256": "05ad753fb594e656cf078023ec189e09e2a7655a780de993b75b8c51ed6b09ca",
+          "crc32": "4e70e3c0",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Performa 570",
+      "bioses": [
+        {
+          "name": "Performa-570.ROM",
+          "altName": "Macintosh Performa 570 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "76fab51d93f024d805fafd8f5c8f46a3",
+          "sha1": "1d833125adf553a50f5994746c2c01aa5a1dbbf2",
+          "sha256": "9c758473a523ffe40ed0d20d27ff37216ed2df064335d7da815a89cff5607b34",
+          "crc32": "b8514689",
+          "notes": "ROM is identical to LC-475.ROM; shared across the LC 475 and Performa 475/476/575/577/578 family."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Performa 580",
+      "bioses": [
+        {
+          "name": "Performa-580.ROM",
+          "altName": "Macintosh Performa 580 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "af343f3f1362bf29cefd630687efaa25",
+          "sha1": "47cd505b6a7c46e5c0ffa29f0d5037c83e94a02f",
+          "sha256": "c1098a03786667c8bf888792590ce53b47f65bf44a75e11c24718983e1d25af8",
+          "crc32": "1735e7a5",
+          "notes": "ROM is identical to Performa-630.ROM."
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Macintosh Performa 630",
+      "bioses": [
+        {
+          "name": "Performa-630.ROM",
+          "altName": "Macintosh Performa 630 ROM",
+          "region": null,
+          "version": null,
+          "size": 1048576,
+          "md5": "af343f3f1362bf29cefd630687efaa25",
+          "sha1": "47cd505b6a7c46e5c0ffa29f0d5037c83e94a02f",
+          "sha256": "c1098a03786667c8bf888792590ce53b47f65bf44a75e11c24718983e1d25af8",
+          "crc32": "1735e7a5",
+          "notes": "ROM is identical to Performa-580.ROM."
         }
       ]
     }
