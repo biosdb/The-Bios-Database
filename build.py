@@ -208,12 +208,12 @@ SHARED_STYLES = r"""
     border-left: 3px solid var(--border); color: var(--muted); }
 """
 
-# Applied before first paint so a stored "light"/"system" preference doesn't
-# flash dark first. Default (no stored preference) is dark, never auto-detected.
+# Applied before first paint so a stored "light"/"dark" preference doesn't
+# flash the wrong theme first. Default (no stored preference) is system/auto.
 THEME_INIT_SCRIPT = r"""<script>
 (function () {
   try {
-    document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "dark");
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "system");
   } catch (e) {}
 })();
 </script>"""
@@ -232,7 +232,7 @@ THEME_TOGGLE_HTML = r"""<div class="theme-toggle" role="group" aria-label="Theme
         try { localStorage.setItem("theme", theme); } catch (e) {}
         buttons.forEach(function (b) { b.classList.toggle("active", b.dataset.themeChoice === theme); });
       }
-      var current = root.getAttribute("data-theme") || "dark";
+      var current = root.getAttribute("data-theme") || "system";
       buttons.forEach(function (b) {
         b.classList.toggle("active", b.dataset.themeChoice === current);
         b.addEventListener("click", function () { apply(b.dataset.themeChoice); });
