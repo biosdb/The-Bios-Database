@@ -166,15 +166,13 @@ SHARED_STYLES = r"""
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  header { padding: 24px 20px 12px; border-bottom: 1px solid var(--border); }
-  header .container { max-width: 1200px; margin: 0 auto;
-    display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
-  header .container > div:first-child { min-width: 0; }
+  header { position: relative; padding: 24px 20px 12px; border-bottom: 1px solid var(--border); }
+  header .container { max-width: 1200px; margin: 0 auto; padding-right: 150px; }
   header h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: 0.2px; }
   header p { margin: 0; color: var(--muted); font-size: 14px; }
   .crumbs { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
-  .theme-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 8px;
-    overflow: hidden; flex-shrink: 0; }
+  .theme-toggle { position: absolute; top: 20px; right: 20px;
+    display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .theme-toggle button { background: var(--panel); color: var(--muted); border: none;
     padding: 6px 12px; font-size: 12.5px; font-family: inherit; cursor: pointer; transition: 0.15s; }
   .theme-toggle button + button { border-left: 1px solid var(--border); }
@@ -267,12 +265,12 @@ __SHARED_STYLES__
 </head>
 <body>
 <header>
+  __THEME_TOGGLE__
   <div class="container">
     <div>
       <h1>The BIOS Database</h1>
       <p>A dataset of MD5, SHA1, and SHA256 hashes for game console and computer BIOS files. Pick a manufacturer to browse.</p>
     </div>
-    __THEME_TOGGLE__
   </div>
 </header>
 <div class="container">
@@ -394,13 +392,13 @@ __SHARED_STYLES__
 </head>
 <body>
 <header>
+  __THEME_TOGGLE__
   <div class="container">
     <div>
       <div class="crumbs"><a href="../index.html">← All manufacturers</a></div>
       <h1>__MFR_NAME__</h1>
       <p>__SUMMARY__</p>
     </div>
-    __THEME_TOGGLE__
   </div>
 </header>
 <div class="container">
