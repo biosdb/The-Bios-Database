@@ -89,6 +89,20 @@ python check_hashes.py a860e8c0b6d573d191e4ec7db1b1e4f6 300c20df6731a33952ded8c4
 
 If any given hash matches a known entry, the rest are cross-checked against that entry's recorded values, and a mismatch is flagged as a warning. If nothing matches this site's data, it falls back to checking [libretro-database](https://github.com/libretro/libretro-database)'s `dat/System.dat` (fetched over the network and cached in `.cache/`) before reporting the hashes as entirely unknown. Pass `--offline` to skip that fallback, or `--refresh-dats` to force re-downloading the cached copy.
 
+## Hashing a file for a new entry
+
+`hash_files.py` (or the equivalent `hash_files.sh`, for systems without Python handy) computes MD5, SHA1, SHA256, and CRC32 for one or more local files:
+
+```bash
+python hash_files.py dmg_boot.bin mgb_boot.bin
+```
+
+Pass `--json` to get a ready-to-paste array of BIOS entry objects instead — the `name`, `size`, and hash fields are filled in, and everything else (`altName`, `region`, `version`, `notes`) is left `null` for you to fill in before adding it to the matching console's `bioses` array:
+
+```bash
+python hash_files.py --json dmg_boot.bin > entry.json
+```
+
 ## First-time GitHub setup
 
 1. Push this repo to GitHub.
@@ -101,6 +115,6 @@ If any given hash matches a known entry, the rest are cross-checked against that
 - Instant client-side search on both the index and per-manufacturer pages.
 - Filter by console and region on manufacturer pages.
 - One-click copy for any hash value.
-- Light/Dark/Auto theme toggle (defaults to dark, remembered via localStorage).
+- Light/Dark/Auto theme toggle (defaults to Auto, remembered via localStorage).
 - Mobile-friendly responsive layout.
 - Zero runtime dependencies — pure static HTML/CSS/JS.
