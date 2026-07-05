@@ -10,11 +10,11 @@
           "altName": "Prototype Master System (US) M404",
           "region": "USA",
           "version": null,
-          "size": null,
+          "size": 8192,
           "md5": "3153447d155fb8bfc66a4d1c41e399b9",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "4a06c8e66261611dce0305217c42138b71331701",
+          "sha256": "2a4371fadb9da65037ccd622adb77fc4c6e9a993ed2034e0e08bc320b4e9b41f",
+          "crc32": "1a15dfcc",
           "notes": "1986. Early US prototype BIOS, model M404."
         },
         {
