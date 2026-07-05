@@ -1,0 +1,1 @@
+The 68k ROM entries were sourced from [macmade/Macintosh-ROMs](https://github.com/macmade/Macintosh-ROMs), a collection of old world Macintosh ROM files covering the Classic, LC, Performa, Centris, and Quadra lines.
