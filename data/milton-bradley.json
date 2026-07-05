@@ -1,0 +1,59 @@
+{
+  "manufacturer": "Milton Bradley",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Vectrex",
+      "bioses": [
+        {
+          "name": "7931.bin",
+          "altName": "Vectrex EXEC ROM (GCE, v7931)",
+          "region": "US",
+          "version": "7931",
+          "size": 8192,
+          "md5": "a9c238473229912eb757ff3dfe6f4631",
+          "sha1": "77a220d5d98846b606dff608f7b5d00183ec3bab",
+          "sha256": "b3fbff942ea6e5ccf23c64fd20600d9517dd89d65e7edd9f676fe58804d79263",
+          "crc32": "6d2bd167",
+          "notes": "First release. GCE-branded ROM (predates MB acquisition); title screen reads 'GCE - ENTERTAINING NEW IDEAS'. Units with this ROM produce a buzz unless manually de-buzzed."
+        },
+        {
+          "name": "B796.bin",
+          "altName": "Vectrex EXEC ROM (MB, vB796)",
+          "region": "US",
+          "version": "B796",
+          "size": 8192,
+          "md5": "ab082fa8c8e632dd68589a8c7741388f",
+          "sha1": "65d07426b520ddd3115d40f255511e0fd2e20ae7",
+          "sha256": "320ccdcc1b5632ebde310b6416c26f49e2faa02c6b485a5e142a22dc616d0d14",
+          "crc32": "ba13fb57",
+          "notes": "Second release. Milton Bradley ROM; title screen reads 'VECTREX'. Units with this ROM produce a buzz unless manually de-buzzed."
+        },
+        {
+          "name": "7ADB.bin",
+          "altName": "Vectrex EXEC ROM (MB Europe, v7ADB)",
+          "region": "Europe",
+          "version": "7ADB",
+          "size": 8192,
+          "md5": "b656766cf36fffb80f06357ca4b1e8ec",
+          "sha1": "017e9fa067f6423dcc2e9cfe2ca99517bd10311d",
+          "sha256": "2ddad49fe504a9da30c6f562467435a510abf98cd1dcafcc00c15740c317d542",
+          "crc32": "a6cf7cfa",
+          "notes": "European release. Milton Bradley ROM; title screen reads 'VECTREX'. Includes a fixed version of the built-in Mine Storm game and has no buzz. Uses a different PCB; serial number series 311xxxx."
+        },
+        {
+          "name": "BIOS.BIN",
+          "altName": "Vectrex BIOS-only ROM",
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "ba9260bb961d60e718378cc16a8051d7",
+          "sha1": "b9bbf5bb0eac52d039a4a993a2d8064b862c9e28",
+          "sha256": "480cd76805efe1c87e2412d494ed03918049d7bb9da3b97a5647b768c3468eac",
+          "crc32": "f27d4371",
+          "notes": "4KB BIOS-only portion of the Vectrex ROM (without the built-in Mine Storm game). Used by some emulators that load Mine Storm separately."
+        }
+      ]
+    }
+  ]
+}
