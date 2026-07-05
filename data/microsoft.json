@@ -52,6 +52,42 @@
           "sha256": "f8b77144401dd403d79a2cb370c141a69db47c5eddf28ab63414e538f03310b6",
           "crc32": "e8a9224e",
           "notes": "256KB variant; differs in size from the standard 1MB retail BIOSes."
+        },
+        {
+          "name": "xbox-5530.bin",
+          "altName": "Xbox BIOS v5530",
+          "region": null,
+          "version": "5530",
+          "size": 262144,
+          "md5": "e455feb286dfc16272ad94d773c24460",
+          "sha1": "40fa73277013be3168135e1768b09623a987ff63",
+          "sha256": "d4873903998fa997307bba3183a2f408558ec11c1f9da9a78bee021082d5c9b5",
+          "crc32": "9569c4d3",
+          "notes": "256KB variant."
+        },
+        {
+          "name": "xbox-5713.bin",
+          "altName": "Xbox BIOS v5713",
+          "region": null,
+          "version": "5713",
+          "size": 262144,
+          "md5": "e27bbf815c67bcbf359907a68ea46978",
+          "sha1": "8b7ccc4648ccd78cdb7b65cfca09621eaf2d4238",
+          "sha256": "fcde15fdefeb8b585758e8068626ef7fcb4fff3d44b5bcc9c7e7c6bae2df800a",
+          "crc32": "58fd8173",
+          "notes": "256KB variant."
+        },
+        {
+          "name": "xbox-5838.bin",
+          "altName": "Xbox BIOS v5838",
+          "region": null,
+          "version": "5838",
+          "size": 262144,
+          "md5": "c5907d241de37c22b083b6e30fa934b0",
+          "sha1": "b9489e883c650b5e5fe2f83a32237dbf74f0e9f1",
+          "sha256": "148d279bdaa85f54f823722d55ea50eece78fc8a537e7d1efeea653b5201481f",
+          "crc32": "5be2413d",
+          "notes": "256KB variant."
         }
       ]
     },
