@@ -248,6 +248,7 @@ INDEX_TEMPLATE = r"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The BIOS Database</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 __THEME_INIT__
 <style>
 __SHARED_STYLES__
@@ -345,6 +346,7 @@ MFR_TEMPLATE = r"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>__MFR_NAME__ - The BIOS Database</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 __THEME_INIT__
 <style>
 __SHARED_STYLES__
