@@ -6,6 +6,30 @@
       "longName": "Xbox",
       "bioses": [
         {
+          "name": "mcpx_1.0.bin",
+          "altName": "Xbox MCPX Boot ROM v1.0",
+          "region": null,
+          "version": "1.0",
+          "size": 512,
+          "md5": "d49c52a4102f6df7bcf8d0617ac475ed",
+          "sha1": "5d270675b54eb8071b480e42d22a3015ac211cef",
+          "sha256": "e99e3a772bf5f5d262786aee895664eb96136196e37732fe66e14ae062f20335",
+          "crc32": "0b07d1f1",
+          "notes": "Xbox Media and Communications Processor (MCPX) boot ROM v1.0. The first code that runs on original Xbox hardware, responsible for decrypting and launching the main BIOS."
+        },
+        {
+          "name": "mcpx_1.1.bin",
+          "altName": "Xbox MCPX Boot ROM v1.1",
+          "region": null,
+          "version": "1.1",
+          "size": 512,
+          "md5": "2870d58a459c745d7cc4c6122ceb3dcb",
+          "sha1": "6c875f17f773aaec51eb434068bb6c657c4343c0",
+          "sha256": "c5824ad228be6513b252fb25822cbacb45faad97fef628febfa1f81fb003c4f6",
+          "crc32": "94ce376b",
+          "notes": "Xbox Media and Communications Processor (MCPX) boot ROM v1.1. Revised MCPX found on later Xbox hardware revisions."
+        },
+        {
           "name": "xbox-3944.bin",
           "altName": "Xbox BIOS v3944",
           "region": null,
@@ -18,6 +42,18 @@
           "notes": null
         },
         {
+          "name": "xbox-3944_256k.bin",
+          "altName": "Xbox BIOS v3944 (256K)",
+          "region": null,
+          "version": "3944",
+          "size": 262144,
+          "md5": "542c62cb976a4993c8c5027dff9638ce",
+          "sha1": "5c493f48d6cfd118206545a4e710e02820ee15a3",
+          "sha256": "af9b28f498c3b71e3869788c0a460d5454e922172beab50fd20fd7e1a03d36f6",
+          "crc32": "969ea46c",
+          "notes": "256KB flash variant of the 3944 BIOS, used on some early Xbox units with smaller flash chips."
+        },
+        {
           "name": "xbox-4034.bin",
           "altName": "Xbox BIOS v4034",
           "region": null,
@@ -28,6 +64,30 @@
           "sha256": "6053cec50eea1f246ae830c31a4d0ddc75a0fcc1530c168e125a8995433b65fa",
           "crc32": "0d6fc88f",
           "notes": null
+        },
+        {
+          "name": "xbox-4134.bin",
+          "altName": "xbox-4134.bin.bin",
+          "region": null,
+          "version": "4134",
+          "size": 1048576,
+          "md5": "c0a543ce695201aca87c51b3a5cdf8c8",
+          "sha1": "d46cef771a63dc8024fe36d7ab5b959087ac999f",
+          "sha256": "978357453611c78acbfc0526b7f9428facc327a4fc30d84f7b95b472c737eadc",
+          "crc32": "49d8055a",
+          "notes": "Xbox BIOS revision 4134."
+        },
+        {
+          "name": "xbox-4627_debug.bin",
+          "altName": "Xbox Debug BIOS v4627",
+          "region": null,
+          "version": "4627",
+          "size": 1048576,
+          "md5": "e8dd61cc6abdbd06aac185e371312dc1",
+          "sha1": "a5503364b2b07b9bb01cb6ef2fb412c25364bb7d",
+          "sha256": "1a91eedd0c409ba36e8d3a7b728cb7bce1cf7b334155ec27ff6998cbd19b26ac",
+          "crc32": "42b062e1",
+          "notes": "Xbox debug/development BIOS revision 4627."
         },
         {
           "name": "xbox-4817.bin",
