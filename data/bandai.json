@@ -28,11 +28,29 @@
           "altName": "WonderSwan Color Boot ROM",
           "region": "Japan",
           "version": null,
-          "size": 4096,
+          "size": 8192,
           "md5": "880893bd5a7d53fff826bd76a83d566e",
           "sha1": "c5ad0b8af45d762662a69f50b64161b9c8919efb",
           "sha256": "f5a5c044d84ce1681f94e9ef74287cb989784497be5bd5108df17908dfa55db2",
           "crc32": "cb06d9c3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": null,
+      "longName": "Swan Crystal",
+      "bioses": [
+        {
+          "name": "boot.pc2",
+          "altName": "Swan Crystal Boot ROM",
+          "region": "Japan",
+          "version": null,
+          "size": 8192,
+          "md5": "d3eff34719a363e586e12b700501ed91",
+          "sha1": "8270c4a72624692842a3cb9f195058f2ffba48c5",
+          "sha256": "82e96addf5ab1ce09a84b6eedaa904e4ca432756851f7e0cc0649006c183834d",
+          "crc32": "0b382c81",
           "notes": null
         }
       ]
