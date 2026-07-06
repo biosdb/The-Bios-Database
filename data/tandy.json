@@ -28,6 +28,30 @@
           "sha256": "c89c9df29cf93351ad5056dfe1bf861d533ad4382b0e5a98e9043aff0a4480d6",
           "crc32": "ff050d80",
           "notes": null
+        },
+        {
+          "name": "coco3_ext1.rom",
+          "altName": "CoCo3 Extension ROM 1",
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "8cab28f4b7311b8df63c07bb3b59bfd5",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "coco3_ext2.rom",
+          "altName": "CoCo3 Extension ROM 2",
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "171fb7a5d3b808565295b45c773abaaf",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     }

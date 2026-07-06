@@ -472,6 +472,18 @@
           "sha256": null,
           "crc32": null,
           "notes": "1993."
+        },
+        {
+          "name": "[BIOS] Sega CD 2 (USA) (Region Free).bin",
+          "altName": "US Sega CD 2 (Region Free) 930601 l_oliveira.bin",
+          "region": "Region-free",
+          "version": "2.00",
+          "size": 131072,
+          "md5": "14db9657bbaa6fbb9249752424dc0ce4",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Community-patched region-free variant by l_oliveira. Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     },

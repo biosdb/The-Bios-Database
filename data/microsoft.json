@@ -286,6 +286,18 @@
           "sha256": "4df4236ea4687fc729eba6c5bf57a9ac1eceda0c012c5bbe5170b8d722ab9387",
           "crc32": "ab6874f8",
           "notes": null
+        },
+        {
+          "name": "vg8020_basic-bios1.rom",
+          "altName": "Philips VG-8020 MSX1 BIOS",
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "a0452dbf5ace7d2e49d0a8029efed09a",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     }

@@ -3,6 +3,36 @@
   "consoles": [
     {
       "shortName": null,
+      "longName": "Apple IIgs",
+      "bioses": [
+        {
+          "name": "IIgs_rom03.rom",
+          "altName": "Apple IIgs ROM 3",
+          "region": "NTSC-U",
+          "version": "3",
+          "size": 262144,
+          "md5": "ba89edf2729a28a17cd9e0f7a0ac9a39",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "IIgs_rom01.rom",
+          "altName": "Apple IIgs ROM 01",
+          "region": "NTSC-U",
+          "version": "01",
+          "size": 131072,
+          "md5": "20a0334c447cb069a040ae5be1d938df",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
+    },
+    {
+      "shortName": null,
       "longName": "Macintosh 128K",
       "bioses": [
         {

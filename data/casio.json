@@ -1,0 +1,23 @@
+{
+  "manufacturer": "Casio",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "PV-2000",
+      "bioses": [
+        {
+          "name": "hn613128pc64.bin",
+          "altName": "Casio PV-2000 BIOS (HN613128PC64)",
+          "region": "NTSC-J",
+          "version": null,
+          "size": 16384,
+          "md5": "558540c5c6f776d88a897f2f3b8fec8f",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
+    }
+  ]
+}
