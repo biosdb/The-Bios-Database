@@ -162,6 +162,48 @@
           "notes": null
         }
       ]
+    },
+    {
+      "shortName": null,
+      "longName": "Jaguar",
+      "bioses": [
+        {
+          "name": "jagboot.rom",
+          "altName": "Jaguar ROM",
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "6e844759720226e58d55ecaf33608a13",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "jagboot1.rom",
+          "altName": "Jaguar ROM 1",
+          "region": null,
+          "version": null,
+          "size": 262144,
+          "md5": "18f0741bdb8bb9b6bb99393cb90426a2",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "jagboot2.rom",
+          "altName": "Jaguar ROM 2",
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "4af00f1c26898cf04585e1693d25faba",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
     }
   ]
 }

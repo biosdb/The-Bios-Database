@@ -1,0 +1,23 @@
+{
+  "manufacturer": "Interact",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Interact Home Computer",
+      "bioses": [
+        {
+          "name": "Interact_ROM.bin",
+          "altName": "Interact Home Computer ROM",
+          "region": "NTSC-U",
+          "version": null,
+          "size": 2048,
+          "md5": "aa9fb0e9697a009dfb9d876351dd8f48",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
+    }
+  ]
+}

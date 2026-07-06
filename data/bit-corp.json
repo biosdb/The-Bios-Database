@@ -1,0 +1,23 @@
+{
+  "manufacturer": "Bit Corp",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Gamate",
+      "bioses": [
+        {
+          "name": "gamate_boot.rom",
+          "altName": "Gamate Boot ROM",
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "ef67993a94503c4b7798b5901c7dda52",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
+    }
+  ]
+}

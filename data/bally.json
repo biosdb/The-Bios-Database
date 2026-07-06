@@ -1,0 +1,23 @@
+{
+  "manufacturer": "Bally",
+  "consoles": [
+    {
+      "shortName": null,
+      "longName": "Astrocade",
+      "bioses": [
+        {
+          "name": "astrocade.bin",
+          "altName": "Bally Professional Arcade, Astrocade '3159' BIOS (1978)(Bally Mfg. Corp.).bin",
+          "region": "NTSC-U",
+          "version": null,
+          "size": 8192,
+          "md5": "7d25a26e5c4841b364cfe6b1735eaf03",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Also sold as the Bally Professional Arcade. Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
+    }
+  ]
+}

@@ -472,6 +472,18 @@
           "sha256": null,
           "crc32": null,
           "notes": "1993."
+        },
+        {
+          "name": "[BIOS] Sega CD 2 (USA) (Region Free).bin",
+          "altName": "US Sega CD 2 (Region Free) 930601 l_oliveira.bin",
+          "region": "Region-free",
+          "version": "2.00",
+          "size": 131072,
+          "md5": "14db9657bbaa6fbb9249752424dc0ce4",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Community-patched region-free variant by l_oliveira. Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     },
@@ -628,6 +640,102 @@
           "sha256": null,
           "crc32": null,
           "notes": "1995. Hitachi Game & Car Navi HiSaturn clone hardware."
+        },
+        {
+          "name": "SAT_KoF95.bin",
+          "altName": "Saturn King of Fighters '95 ROM Cartridge",
+          "region": null,
+          "version": null,
+          "size": 2097152,
+          "md5": "255113ba943c92a54facd25a10fd780c",
+          "sha1": "a67cd4f550751f8b91de2b8b74528ab4e0c11c77",
+          "sha256": "1dd154a9fcee1816749502b5b2497bf4b1f2d973df38d0984905ee83b12d5e81",
+          "crc32": "90412e10",
+          "notes": null
+        },
+        {
+          "name": "SAT_STV_17952A-(U).bin",
+          "altName": "Sega Titan Video BIOS v17952A (USA)",
+          "region": "USA",
+          "version": null,
+          "size": 524288,
+          "md5": "249b67334cfae53810c1d1e3b93957a3",
+          "sha1": "eaf1c3e5d602e1139d2090a78d7e19f04f916794",
+          "sha256": "bac5a52794cf424271f073df228e0b0eb042dede6a3b829eb49abf155e7e0137",
+          "crc32": "d1be2adf",
+          "notes": null
+        },
+        {
+          "name": "SAT_STV_17954A-(E).bin",
+          "altName": "Sega Titan Video BIOS v17954A (Europe)",
+          "region": "Europe",
+          "version": null,
+          "size": 524288,
+          "md5": "ba2cb634c15e59d7ea5552729306f2ef",
+          "sha1": "af79cff317e5b57d49e463af16a9f616ed1eee08",
+          "sha256": "3e6f91506031badc4ebdf7fe5b4f33180222a369b575522861688d3b27322a68",
+          "crc32": "f7722da3",
+          "notes": null
+        },
+        {
+          "name": "SAT_STV_20091-(J).bin",
+          "altName": "Sega Titan Video BIOS v20091 (Japan)",
+          "region": "Japan",
+          "version": null,
+          "size": 524288,
+          "md5": "34175c7ad31acbe44f2baccc7ea065c7",
+          "sha1": "eff0f54c70bce05ff3a289bf30b1027e1c8cd117",
+          "sha256": "ac778ec04aaa4df296d30743536da3de31281f8ae5c94d7be433dcc84e25d85b",
+          "crc32": "59ed40f4",
+          "notes": null
+        },
+        {
+          "name": "SAT_Ultraman.bin",
+          "altName": "Saturn Ultraman ROM Cartridge",
+          "region": null,
+          "version": null,
+          "size": 2097152,
+          "md5": "1cd19988d1d72a3e7caa0b73234c96b4",
+          "sha1": "56c1b93da6b660bf393fbf48ca47569000ef4047",
+          "sha256": "6e3b35af6e45d9005460cfe44e3907563bde7a4636926ebd316dc84913efdd1b",
+          "crc32": "b9644b52",
+          "notes": null
+        },
+        {
+          "name": "cdb105.bin",
+          "altName": "Saturn CD Drive BIOS v1.05",
+          "region": null,
+          "version": "1.05",
+          "size": 65536,
+          "md5": "21cc63ac18d7a85420c24de5c7d51321",
+          "sha1": "eb8393058f324e922c11b43709b64fc6ca94ab86",
+          "sha256": "26c73e42d5cc24d9c3e0369eda8aa4aedbc2bda06a8168ba36458cf9b9325410",
+          "crc32": "2a2ced5c",
+          "notes": null
+        },
+        {
+          "name": "cdb106.bin",
+          "altName": "Saturn CD Drive BIOS v1.06",
+          "region": null,
+          "version": "1.06",
+          "size": 65536,
+          "md5": "2eaec1ef88f3596c2cb56190a49dfe25",
+          "sha1": "b3c20fbe57cd2eb595e9edac86817e5948dccae4",
+          "sha256": "2dfb3618b5b612bb49abbf0d1d8d53016908bb81aa8c92515f0836203e0b7f1c",
+          "crc32": "3681d3b0",
+          "notes": null
+        },
+        {
+          "name": "ygr022.bin",
+          "altName": "Saturn YGR022 CD Interface ROM",
+          "region": null,
+          "version": null,
+          "size": 65536,
+          "md5": "1f4ccf420e2189207bf018f2f5369c44",
+          "sha1": "f4f6c2aac68c352814d396ae41f81f54ad228e68",
+          "sha256": "c488cd91cbf35392047faf7fcaf9faeb96d72fc9c8f5a5039d82eca59573dcc0",
+          "crc32": "1c8b9f38",
+          "notes": null
         }
       ]
     },

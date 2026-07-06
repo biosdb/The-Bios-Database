@@ -3,6 +3,48 @@
   "consoles": [
     {
       "shortName": null,
+      "longName": "Neo Geo",
+      "bioses": [
+        {
+          "name": "neo-epo.sp1",
+          "altName": "Neo Geo AES BIOS",
+          "region": "NTSC-J",
+          "version": null,
+          "size": 131072,
+          "md5": "b11751ad42879c461d64ad2b7b2b0129",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "sfix.sfix",
+          "altName": "Neo Geo Fix Layer ROM",
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "aa2b5d0eae4158ffc0d7d63481c7830b",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "sp-s2.sp1",
+          "altName": "Neo Geo MVS BIOS",
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "2968f59f44bf328639aa79391aeeeab4",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
+    },
+    {
+      "shortName": null,
       "longName": "Neo Geo CD",
       "bioses": [
         {
@@ -148,6 +190,24 @@
           "sha256": "1c3ec20824a58e5f5cbf47ccc2c91a10f34d21cfa2791b3413cea89b0c920db8",
           "crc32": "ff3abc59",
           "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": "NGP",
+      "longName": "Neo Geo Pocket",
+      "bioses": [
+        {
+          "name": "neogeo_pocket.rom",
+          "altName": "Neo Geo Pocket / Pocket Color BIOS",
+          "region": null,
+          "version": null,
+          "size": 65536,
+          "md5": "43d0d53c69c12cc0d28f197717a1bb06",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     }

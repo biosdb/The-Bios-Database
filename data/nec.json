@@ -88,6 +88,18 @@
           "sha256": "248ec2f28294316558475ba0e416da19cfff0a5dd8ad3525a484a9be67b8a290",
           "crc32": "7ac06182",
           "notes": null
+        },
+        {
+          "name": "Super CD 3.1.pce",
+          "altName": "Super CD ROM\u00b2 System Card v3.1",
+          "region": "NTSC-J",
+          "version": "3.1",
+          "size": 262144,
+          "md5": "98d43a097a165b03df170fd5c2ad2c2f",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     },
@@ -352,6 +364,18 @@
           "sha256": "7608040cffb1951e5cc567abb63f75b5746777a1ba96196c1b75606b793bb4bb",
           "crc32": "6178bd43",
           "notes": null
+        },
+        {
+          "name": "PC8801_MKII_SR.rom",
+          "altName": "PC8801 MKII SR BIOS.rom",
+          "region": "NTSC-J",
+          "version": null,
+          "size": 393216,
+          "md5": "f1ce4d5f83717093982e5f75516b8f3c",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     },

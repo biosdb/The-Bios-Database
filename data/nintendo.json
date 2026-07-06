@@ -342,6 +342,408 @@
           "notes": "GBA BIOS required by some DS emulators for GBA backward compatibility via Slot-2. Same ROM as the standalone GBA BIOS."
         }
       ]
+    },
+    {
+      "shortName": "FDS",
+      "longName": "Famicom Disk System",
+      "bioses": [
+        {
+          "name": "disksys.rom",
+          "altName": "Famicom Disk System BIOS",
+          "region": "Japan",
+          "version": null,
+          "size": 8192,
+          "md5": "ca30b50f880eb660a320674ed365ef7a",
+          "sha1": "57fe1bdee955bb48d357e463ccbf129496930b62",
+          "sha256": "99c18490ed9002d9c6d999b9d8d15be5c051bdfa7cc7e73318053c9a994b0178",
+          "crc32": "5e607dcf",
+          "notes": null
+        },
+        {
+          "name": "FDS_disksys-nintendo.rom",
+          "altName": "Famicom Disk System BIOS (alt name)",
+          "region": "Japan",
+          "version": null,
+          "size": 8192,
+          "md5": "ca30b50f880eb660a320674ed365ef7a",
+          "sha1": "57fe1bdee955bb48d357e463ccbf129496930b62",
+          "sha256": "99c18490ed9002d9c6d999b9d8d15be5c051bdfa7cc7e73318053c9a994b0178",
+          "crc32": "5e607dcf",
+          "notes": "Alternate filename for disksys.rom; identical content."
+        }
+      ]
+    },
+    {
+      "shortName": "SGB",
+      "longName": "Super Game Boy",
+      "bioses": [
+        {
+          "name": "sgb_boot.bin",
+          "altName": "Super Game Boy Boot ROM",
+          "region": "World",
+          "version": null,
+          "size": 256,
+          "md5": "a43cbd0ab271990f434412fc5c500eff",
+          "sha1": "369e6eb5e0c975eaa52a4a3f6ee07b2a3c3c16de",
+          "sha256": "b60d493a7944ccf74c81f1e7b6bf38c2c7029e296648ea0e74cb22b10dd1fcb8",
+          "crc32": "4c866029",
+          "notes": null
+        },
+        {
+          "name": "sgb2_boot.bin",
+          "altName": "Super Game Boy 2 Boot ROM",
+          "region": "Japan",
+          "version": null,
+          "size": 256,
+          "md5": "6d507dcf3b61ce45a5717421cdd0ae95",
+          "sha1": "f282b3aaf98f8423dab7d77f1aa0192be630f2fb",
+          "sha256": "8a65465a9da7ec657726a671da9a85963cf19d2c975e499aea6b97eb37e0b6ea",
+          "crc32": "3ad83b6e",
+          "notes": null
+        },
+        {
+          "name": "sgb1.program.rom",
+          "altName": "Super Game Boy Cartridge ROM",
+          "region": "World",
+          "version": null,
+          "size": 262144,
+          "md5": "b15ddb15721c657d82c5bab6db982ee9",
+          "sha1": "973e10840db683cf3faf61bd443090786b3a9f04",
+          "sha256": "a75160f7b89b1f0e20fd2f6441bb86285c7378db5035ef6885485eaff6059376",
+          "crc32": "8a4a174f",
+          "notes": null
+        },
+        {
+          "name": "sgb2.program.rom",
+          "altName": "Super Game Boy 2 Cartridge ROM",
+          "region": "Japan",
+          "version": null,
+          "size": 524288,
+          "md5": "8ecd73eb4edf7ed7e81aef1be80031d5",
+          "sha1": "e5b2922ca137051059e4269b236d07a22c07bc84",
+          "sha256": "c172498a23d1176672931bab33b629c7d28f914a43dca9e540b8af1b37ccf2c6",
+          "crc32": "cb176e45",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "shortName": "SNES",
+      "longName": "Super Nintendo",
+      "bioses": [
+        {
+          "name": "BS-X.bin",
+          "altName": "BS-X Satellaview BIOS",
+          "region": "Japan",
+          "version": null,
+          "size": 1048576,
+          "md5": "96cf17bf589fcbfa6f8de2dc84f19fa2",
+          "sha1": "4891d739a8a8b67923681bad4fb67edab2e90e50",
+          "sha256": "a49827b45ff9ac9cf5b4658190e1428e59251bc82d8a63d8e9e0f71e439f008f",
+          "crc32": "e5a91ad4",
+          "notes": null
+        },
+        {
+          "name": "cx4.data.rom",
+          "altName": "CX4 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 3072,
+          "md5": "037ac4296b6b6a5c47c440188d3c72e3",
+          "sha1": "a002f4efba42775a31185d443f3ed1790b0e949a",
+          "sha256": "ae8d4d1961b93421ff00b3caa1d0f0ce7783e749772a3369c36b3dbf0d37ef18",
+          "crc32": "b6e76a6a",
+          "notes": null
+        },
+        {
+          "name": "SNES_dsp1.rom",
+          "altName": "DSP-1 (combined)",
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "428fdb968d54353d9c9eced1b0586671",
+          "sha1": "188d471fefea71eb53f0ee7064697ff0971b1014",
+          "sha256": "91e87d11e1c30d172556bed2211cce2efa94ba595f58c5d264809ef4d363a97b",
+          "crc32": "e359f184",
+          "notes": null
+        },
+        {
+          "name": "dsp1.data.rom",
+          "altName": "DSP-1 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "3d81b45fa0c2aa8b852dfb1ece7c0971",
+          "sha1": "589c158685fe3cf88c7ca77cb6083f0e4de9c7c3",
+          "sha256": "0b5da6533e55852ee8fc397977ec5576c5b9f1fb2e05656d8f87123a121b076e",
+          "crc32": "c8347cbd",
+          "notes": null
+        },
+        {
+          "name": "dsp1.program.rom",
+          "altName": "DSP-1 Program ROM",
+          "region": null,
+          "version": null,
+          "size": 6144,
+          "md5": "ae209fbe789fbf11a48aea5ab1197321",
+          "sha1": "c5d283604beebb3d832f15a0b3fc60d10dd4bddc",
+          "sha256": "269584b347a22953a2989494c850a7c1c027f4ca5add517a60e0c7d8833d0fac",
+          "crc32": "db9a4c92",
+          "notes": null
+        },
+        {
+          "name": "SNES_dsp1b.rom",
+          "altName": "DSP-1B (combined)",
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "332273cc0df5775d3803f2fd88e95d18",
+          "sha1": "78b724811f5f18d8c67669d9390397eb1a47a5e2",
+          "sha256": "d789cb3c36b05c0b23b6c6f23be7aa37c6e78b6ee9ceac8d2d2aa9d8c4d35fa9",
+          "crc32": "465c4e1c",
+          "notes": null
+        },
+        {
+          "name": "dsp1b.data.rom",
+          "altName": "DSP-1B Data ROM",
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "1e3f568634a7d8284020dddc0ae905bc",
+          "sha1": "19d5e822fe15ee6942e9921c3d8275a761a969df",
+          "sha256": "8546cbac530830446bb8a277f6b139d4ad64d650bdbac7e4e150e2f095665049",
+          "crc32": "37a252c6",
+          "notes": null
+        },
+        {
+          "name": "dsp1b.program.rom",
+          "altName": "DSP-1B Program ROM",
+          "region": null,
+          "version": null,
+          "size": 6144,
+          "md5": "d10f446888e097cbf500f3f663cf4f6d",
+          "sha1": "03c6c0bdb40846c42aeff6b716e1ea0e001c3ae3",
+          "sha256": "2eccb54a8f89374911f7e2db48f1b4cde855655e28103f7bda2982a5b418a187",
+          "crc32": "66a73998",
+          "notes": null
+        },
+        {
+          "name": "SNES_dsp2.rom",
+          "altName": "DSP-2 (combined)",
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "9ebbdcec67c0c01d5a0593d3cf167c9e",
+          "sha1": "198c4b1c3bfc6d69e734c5957af3dbfa26238dfb",
+          "sha256": "03ef4ef26c9f701346708cb5d07847b5203cf1b0818bf2930acd34510ffdd717",
+          "crc32": "9a984974",
+          "notes": null
+        },
+        {
+          "name": "dsp2.data.rom",
+          "altName": "DSP-2 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "e9417e29223b139c3c4b635a2a3b8744",
+          "sha1": "aed9167cc2897cd8d0432f0b8f713fabbc48f5c4",
+          "sha256": "3beef9bffdc1e84c9f99f3301d8bd3e520d2e62909a995320f9faeae8f46ec11",
+          "crc32": "b3893c70",
+          "notes": null
+        },
+        {
+          "name": "dsp2.program.rom",
+          "altName": "DSP-2 Program ROM",
+          "region": null,
+          "version": null,
+          "size": 6144,
+          "md5": "aa6e5922a3ed5ded54f24247c11143c5",
+          "sha1": "51a274955ef493cfcf2efad7e2ee54738c81eb15",
+          "sha256": "62a2ef8d2d7db638f4ec0fbcebf0e5bf18a75ee95be06e885d9519a10487f0da",
+          "crc32": "0c1cf838",
+          "notes": null
+        },
+        {
+          "name": "SNES_dsp3.rom",
+          "altName": "DSP-3 (combined)",
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "484908d68405d44e2be757b4e1e75d15",
+          "sha1": "558da7cb3bd3876a6ca693661ffc6c110e948cf9",
+          "sha256": "0971b08f396c32e61989d1067dddf8e4b14649d548b2188f7c541b03d7c69e4e",
+          "crc32": "d4a38ee7",
+          "notes": null
+        },
+        {
+          "name": "dsp3.data.rom",
+          "altName": "DSP-3 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "0a81210c0a940b997dd9843281008ee6",
+          "sha1": "e7ec3da203a4edba2b17c06d9384787304a025a0",
+          "sha256": "7fe51796e9c97fee1fa2aab40592b7c78997f67dd00333e69d0f79a12f3cb69f",
+          "crc32": "8b41a2bd",
+          "notes": null
+        },
+        {
+          "name": "dsp3.program.rom",
+          "altName": "DSP-3 Program ROM",
+          "region": null,
+          "version": null,
+          "size": 6144,
+          "md5": "d99ca4562818d49cee1f242705bba6f8",
+          "sha1": "11b7ba3501a8542af4cdfdbd1c9702ae0a0e3fae",
+          "sha256": "aea7b622e7c1de346cb15d16afcbedf92b6798507e179f83ed2a4cff40d0e663",
+          "crc32": "f29be51c",
+          "notes": null
+        },
+        {
+          "name": "SNES_dsp4.rom",
+          "altName": "DSP-4 (combined)",
+          "region": null,
+          "version": null,
+          "size": 8192,
+          "md5": "f229fda2d7b33c5a218cba28147ab9b8",
+          "sha1": "af6478aecb6f1b67177e79c82ca04c56250a8c72",
+          "sha256": "752d03b2d74441e430b7f713001fa241f8bbcfc1a0d890ed4143f174dbe031da",
+          "crc32": "e15384c0",
+          "notes": null
+        },
+        {
+          "name": "dsp4.data.rom",
+          "altName": "DSP-4 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 2048,
+          "md5": "ee4990879eb68e3cbca239c5bc20303d",
+          "sha1": "8f2ffb9c1702aa2f76191e98f3fef43f73e5aab7",
+          "sha256": "ef3ffb4256dd896a60213269b4e2d3bdd120c97e2fd623bddabbf43c2be422af",
+          "crc32": "efa8b9b2",
+          "notes": null
+        },
+        {
+          "name": "dsp4.program.rom",
+          "altName": "DSP-4 Program ROM",
+          "region": null,
+          "version": null,
+          "size": 6144,
+          "md5": "a151023b948b90ffc23a5b594bb6fef2",
+          "sha1": "1abee528a59238fd5668fdcffd598d079cb056c2",
+          "sha256": "89b1826e6038be3a0ea0f923e85d589ff6f02dc1a1819fb2ec8c0cea5b333dcd",
+          "crc32": "14b77ae3",
+          "notes": null
+        },
+        {
+          "name": "SNES_st010.rom",
+          "altName": "ST010 (combined)",
+          "region": null,
+          "version": null,
+          "size": 53248,
+          "md5": "636093910fbaff60c8b327be00aefbd9",
+          "sha1": "6472828403de3589433a906e2c3f3d274c0ff008",
+          "sha256": "fa9bced838fedea11c6f6ace33d1878024bdd0d02cc9485899d0bdd4015ec24c",
+          "crc32": "8fc29d4c",
+          "notes": null
+        },
+        {
+          "name": "st010.data.rom",
+          "altName": "ST010 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "254d70762b6f59f99c27c395aba7d07d",
+          "sha1": "bd116501ec41c438fff210fd03233c6c9d15a514",
+          "sha256": "dc7056a51b53993d7a8ba5bacf9501f785d2fce5e5be748e9ff2737c5938d4a5",
+          "crc32": "216081b2",
+          "notes": null
+        },
+        {
+          "name": "st010.program.rom",
+          "altName": "ST010 Program ROM",
+          "region": null,
+          "version": null,
+          "size": 49152,
+          "md5": "1d70019179a59a566a0bb5d3f2845544",
+          "sha1": "2d0f34074ed3c6dfd61f767ee8b18e699b9769ac",
+          "sha256": "2c1f74bb5f466d81c64c326e71ac054489efe1abc9a5d6f91aac7747f2ddab67",
+          "crc32": "691cbb4f",
+          "notes": null
+        },
+        {
+          "name": "SNES_st011.rom",
+          "altName": "ST011 (combined)",
+          "region": null,
+          "version": null,
+          "size": 53248,
+          "md5": "5c209ce0283632b6574ad835bf862bee",
+          "sha1": "fecbae2cec76c710422486baa186ffa7ca1cf925",
+          "sha256": "8b2b3f3f3e6e29f4d21d8bc736b400bc988b7d2214ebee15643f01c1fee2f364",
+          "crc32": "84aab2ae",
+          "notes": null
+        },
+        {
+          "name": "st011.data.rom",
+          "altName": "ST011 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 4096,
+          "md5": "10bd3f4aa949737ab9836512c35bcc29",
+          "sha1": "798ab84110ca93a6e73a540f4146d21f8d9e1442",
+          "sha256": "b5377d1bebe8adc507a024b6e2b9b8fdf4877e451da84fbad05dff4e4a70311e",
+          "crc32": "803256a7",
+          "notes": null
+        },
+        {
+          "name": "st011.program.rom",
+          "altName": "ST011 Program ROM",
+          "region": null,
+          "version": null,
+          "size": 49152,
+          "md5": "95222ebf1c0c2990bcf25db43743f032",
+          "sha1": "375eca92592621e83881f3a9d7fd5ea3e5b306dc",
+          "sha256": "d90a5cda380e81cb9ba11a9da7539b173c49b31bedc7a3ac9c3c8b3f97e89e14",
+          "crc32": "a741e9fb",
+          "notes": null
+        },
+        {
+          "name": "SNES_st018.rom",
+          "altName": "ST018 (combined)",
+          "region": null,
+          "version": null,
+          "size": 163840,
+          "md5": "dafae0e0c71c924075811c595c61a30e",
+          "sha1": "91383b92745cc7cc4f15409ac5bc2c2f699a43f1",
+          "sha256": "6df209ab5d2524d1839c038be400ae5eb20dafc14a3771a3239cd9e8acd53806",
+          "crc32": "5c403cc5",
+          "notes": null
+        },
+        {
+          "name": "st018.data.rom",
+          "altName": "ST018 Data ROM",
+          "region": null,
+          "version": null,
+          "size": 32768,
+          "md5": "49c898b60d0f15e90d0ba780dd12f366",
+          "sha1": "b19c0f8f207d62fdabf4bf71442826063bccc626",
+          "sha256": "c67032238b7182696cb80cf41b61bacda91adb2120b5370bea20c9dbf5cc79b8",
+          "crc32": "b5255459",
+          "notes": null
+        },
+        {
+          "name": "st018.program.rom",
+          "altName": "ST018 Program ROM",
+          "region": null,
+          "version": null,
+          "size": 131072,
+          "md5": "dda40ccd57390c96e49d30a041f9a9e7",
+          "sha1": "388e3721b94cd074d6ba0eca8616523d2118a6c3",
+          "sha256": "6cceff3c6945bb2672040066d218efcd2f31492f3f5c28916c8e53435c2c887e",
+          "crc32": "f73d5e10",
+          "notes": null
+        }
+      ]
     }
   ]
 }

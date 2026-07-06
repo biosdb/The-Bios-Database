@@ -64,6 +64,42 @@
           "sha256": "2302aaeab1f6b74523f43a4d00983b4fea9ff1692a9b27ccf17e6ac7e6e66b32",
           "crc32": "4eab5eda",
           "notes": null
+        },
+        {
+          "name": "cdi_boot0.rom",
+          "altName": "CD-i Mono-I Main ROM",
+          "region": "Region-free",
+          "version": null,
+          "size": 524288,
+          "md5": "2969341396aa61e0143dc2351aaa6ef6",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "cdi_boot1.rom",
+          "altName": "CD-i Mono-I Slave ROM",
+          "region": "Region-free",
+          "version": null,
+          "size": 8192,
+          "md5": "3d20cf7550f1b723158b42a1fd5bac62",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        },
+        {
+          "name": "cdi_boot2.rom",
+          "altName": "CD-i Mono-I Font ROM",
+          "region": "Region-free",
+          "version": null,
+          "size": 131072,
+          "md5": "9694c466f9b65c1990a81b7a6280546b",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
     }

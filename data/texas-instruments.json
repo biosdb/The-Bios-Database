@@ -3,6 +3,24 @@
   "consoles": [
     {
       "shortName": null,
+      "longName": "TI-99/4A",
+      "bioses": [
+        {
+          "name": "ti99_4a.rom",
+          "altName": "TI-99/4A System ROM",
+          "region": "NTSC-U",
+          "version": null,
+          "size": 196608,
+          "md5": "a75bb208176c0aed1b6a04b2dcf4770c",
+          "sha1": null,
+          "sha256": null,
+          "crc32": null,
+          "notes": "Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
+        }
+      ]
+    },
+    {
+      "shortName": null,
       "longName": "TI-83",
       "bioses": [
         {
