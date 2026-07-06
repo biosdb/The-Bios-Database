@@ -169,7 +169,7 @@ SHARED_STYLES = r"""
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
   header { position: relative; padding: 24px 20px 12px; border-bottom: 1px solid var(--border); }
-  header .container { max-width: 1200px; margin: 0 auto; padding-right: 150px; }
+  header .container { width: 80%; margin: 0 auto; padding-right: 150px; }
   header h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: 0.2px; }
   header p { margin: 0; color: var(--muted); font-size: 14px; }
   .crumbs { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
@@ -180,7 +180,8 @@ SHARED_STYLES = r"""
   .theme-toggle button + button { border-left: 1px solid var(--border); }
   .theme-toggle button:hover { color: var(--text); background: var(--panel-2); }
   .theme-toggle button.active { background: var(--accent); color: #fff; font-weight: 600; }
-  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  .container { width: 80%; margin: 0 auto; padding: 20px; }
+  @media (max-width: 1000px) { .container { width: 100%; } header .container { width: 100%; } }
   .search-bar { position: sticky; top: 0; background: var(--bg); padding: 16px 0 12px;
     z-index: 10; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
   .search-bar input, .search-bar select {
@@ -373,8 +374,12 @@ __SHARED_STYLES__
   tbody td { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 14px; vertical-align: top; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: rgba(78,161,255,0.05); }
+  .table-wrap { overflow-x: auto; }
+  thead th:first-child { width: 260px; min-width: 260px; }
+  thead th:nth-child(5), thead th:nth-child(6) { min-width: 230px; }
+  thead th:nth-child(7) { min-width: 380px; }
   .hash { font-family: var(--mono); font-size: 12.5px; color: var(--hash-text);
-    word-break: break-all; display: inline-flex; align-items: center; gap: 6px; }
+    white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; }
   .hash button { background: transparent; border: 1px solid var(--border); color: var(--muted);
     border-radius: 6px; padding: 2px 6px; font-size: 11px; cursor: pointer; transition: 0.15s; }
   .hash button:hover { color: var(--accent); border-color: var(--accent-dim); }
@@ -525,7 +530,7 @@ function renderConsoleCard(g, rows, isOpen) {
       <span>${title}</span>
       <span class="console-meta">${rows.length} BIOS${rows.length === 1 ? "" : "es"}</span>
     </summary>
-    <table>
+    <div class="table-wrap"><table>
       <thead>
         <tr>
           <th>BIOS</th>
@@ -539,7 +544,7 @@ function renderConsoleCard(g, rows, isOpen) {
         </tr>
       </thead>
       <tbody>${rows.map(renderRow).join("")}</tbody>
-    </table>
+    </table></div>
     ${notesHtml}
   </details>`;
 }
