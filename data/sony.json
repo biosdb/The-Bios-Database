@@ -378,6 +378,24 @@
           "notes": "Embedded PlayStation backward-compatibility BIOS extracted from PS3 system firmware versions 4.00-4.86. Internal version stamp dated 06/23/2003."
         }
       ]
+    },
+    {
+      "shortName": "PSP",
+      "longName": "PlayStation Portable",
+      "bioses": [
+        {
+          "name": "ppge_atlas.zim",
+          "altName": "PPSSPP Graphics Engine Texture Atlas",
+          "region": null,
+          "version": null,
+          "size": 666530,
+          "md5": "866855cc330b9b95cc69135fb7b41d38",
+          "sha1": "30a33f3651f8e1b0967a5dfe6ff714baebcce41a",
+          "sha256": "3ab7fcf6956d0281ada94d501fc6d1cfa8fc034f139e25fed6c829f723d92a95",
+          "crc32": "7b57fa78",
+          "notes": "PPSSPP (PSP emulator) graphics engine texture atlas in ZIMG format. Required by PPSSPP for software renderer UI rendering."
+        }
+      ]
     }
   ]
 }
