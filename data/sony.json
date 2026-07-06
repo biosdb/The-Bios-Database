@@ -7,7 +7,7 @@
       "bioses": [
         {
           "name": "ps-10j.bin",
-          "altName": "SCPH-1000/DTL-H1000",
+          "altName": "SCPH-1000.bin/DTL-H1000.bin",
           "region": "NTSC-J",
           "version": "1.0",
           "size": 524288,
@@ -19,7 +19,7 @@
         },
         {
           "name": "ps-11.bin",
-          "altName": "PlayStation 1 Dev board DTL-H2000",
+          "altName": "DTL-H2000.bin",
           "region": "Region-free",
           "version": "1.1",
           "size": 524288,
@@ -31,7 +31,7 @@
         },
         {
           "name": "ps-11j.bin",
-          "altName": "SCPH-3000/DTL-H1000H",
+          "altName": "SCPH-3000.bin/DTL-H1000H.bin",
           "region": "NTSC-J",
           "version": "1.1",
           "size": 524288,
@@ -43,7 +43,7 @@
         },
         {
           "name": "ps-20a.bin",
-          "altName": "DTL-H1001",
+          "altName": "DTL-H1001.bin",
           "region": "NTSC-U/C",
           "version": "2.0",
           "size": 524288,
@@ -55,7 +55,7 @@
         },
         {
           "name": "ps-20e.bin",
-          "altName": "DTL-H1002/SCPH-1002",
+          "altName": "SCPH-1002.bin/DTL-H1002.bin",
           "region": "PAL-E",
           "version": "2.0",
           "size": 524288,
@@ -67,7 +67,7 @@
         },
         {
           "name": "ps-21j.bin",
-          "altName": "SCPH-3500",
+          "altName": "SCPH-3500.bin",
           "region": "NTSC-J",
           "version": "2.1",
           "size": 524288,
@@ -79,7 +79,7 @@
         },
         {
           "name": "ps-21a.bin",
-          "altName": "DTL-H1101",
+          "altName": "DTL-H1101.bin",
           "region": "NTSC-U/C",
           "version": "2.1",
           "size": 524288,
@@ -91,7 +91,7 @@
         },
         {
           "name": "ps-21e.bin",
-          "altName": "SCPH-1002/DTL-H1102",
+          "altName": "SCPH-1002.bin/DTL-H1102.bin",
           "region": "PAL-E",
           "version": "2.1",
           "size": 524288,
@@ -103,7 +103,7 @@
         },
         {
           "name": "ps-22j.bin",
-          "altName": "SCPH-5000/DTL-H1200/DTL-H3000",
+          "altName": "SCPH-5000.bin/DTL-H1200.bin/DTL-H3000.bin",
           "region": "NTSC-J",
           "version": "2.2",
           "size": 524288,
@@ -115,7 +115,7 @@
         },
         {
           "name": "ps-22j(v).bin",
-          "altName": "SCPH-5903",
+          "altName": "SCPH-5903.bin",
           "region": "NTSC-J",
           "version": "2.2",
           "size": 524288,
@@ -127,7 +127,7 @@
         },
         {
           "name": "ps-22a.bin",
-          "altName": "SCPH-1001/SCPH-5003/DTL-H1201/DTL-H3001",
+          "altName": "SCPH-1001.bin/SCPH-5003.bin/DTL-H1201.bin/DTL-H3001.bin",
           "region": "NTSC-U/C",
           "version": "2.2",
           "size": 524288,
@@ -139,7 +139,7 @@
         },
         {
           "name": "ps-22e.bin",
-          "altName": "SCPH-1002/DTL-H1202/DTL-H3002",
+          "altName": "SCPH-1002.bin/DTL-H1202.bin/DTL-H3002.bin",
           "region": "PAL-E",
           "version": "2.2",
           "size": 524288,
@@ -151,7 +151,7 @@
         },
         {
           "name": "ps-22d.bin",
-          "altName": "DTL-H1100",
+          "altName": "DTL-H1100.bin",
           "region": "NTSC-J",
           "version": "2.2",
           "size": 524288,
@@ -163,7 +163,7 @@
         },
         {
           "name": "ps-30j.bin",
-          "altName": "SCPH-5500",
+          "altName": "SCPH-5500.bin",
           "region": "NTSC-J",
           "version": "3.0",
           "size": 524288,
@@ -175,7 +175,7 @@
         },
         {
           "name": "ps-30a.bin",
-          "altName": "SCPH-5501/SCPH-5503/SCPH-7003",
+          "altName": "SCPH-5501.bin/SCPH-5503.bin/SCPH-7003.bin",
           "region": "NTSC-U/C",
           "version": "3.0",
           "size": 524288,
@@ -187,7 +187,7 @@
         },
         {
           "name": "ps-30e.bin",
-          "altName": "SCPH-5502/SCPH-5552",
+          "altName": "SCPH-5502.bin/SCPH-5552.bin",
           "region": "PAL-E",
           "version": "3.0",
           "size": 524288,
@@ -199,7 +199,7 @@
         },
         {
           "name": "ps-40j.bin",
-          "altName": "SCPH-7000/SCPH-7500/SCPH-9000",
+          "altName": "SCPH-7000.bin/SCPH-7500.bin/SCPH-9000.bin",
           "region": "NTSC-J",
           "version": "4.0",
           "size": 524288,
@@ -211,7 +211,7 @@
         },
         {
           "name": "ps-41a(w).bin",
-          "altName": "SCPH-7000W",
+          "altName": "SCPH-7000W.bin/SCPH-7000.bin",
           "region": "Region-free",
           "version": "4.1",
           "size": 524288,
@@ -219,11 +219,11 @@
           "sha1": null,
           "sha256": null,
           "crc32": null,
-          "notes": "Released 11/14/1997. \"Watermarked\" region-free revision."
+          "notes": "Released 11/14/1997. \"Watermarked\" region-free revision. - BIOS for the rare "Midnight Blue" Japanese PS1."
         },
         {
           "name": "ps-41a.bin",
-          "altName": "SCPH-7001/SCPH-7501/SCPH-7503/SCPH-9001/SCPH-9003/SCPH-9903",
+          "altName": "SCPH-7001.bin/SCPH-7501.bin/SCPH-7503.bin/SCPH-9001.bin/SCPH-9003.bin/SCPH-9903.bin",
           "region": "NTSC-U/C",
           "version": "4.1",
           "size": 524288,
@@ -235,7 +235,7 @@
         },
         {
           "name": "ps-41e.bin",
-          "altName": "SCPH-7002/SCPH-7502/SCPH-9002",
+          "altName": "SCPH-7002.bin/SCPH-7502.bin/SCPH-9002.bin",
           "region": "PAL-E",
           "version": "4.1",
           "size": 524288,
@@ -247,7 +247,7 @@
         },
         {
           "name": "psone-43j.bin",
-          "altName": "SCPH-100",
+          "altName": "SCPH-100.bin",
           "region": "NTSC-J",
           "version": "4.3",
           "size": 524288,
@@ -271,7 +271,7 @@
         },
         {
           "name": "psone-44e.bin",
-          "altName": "SCPH-102",
+          "altName": "SCPH-102.bin",
           "region": "PAL-E",
           "version": "4.4",
           "size": 524288,
@@ -283,7 +283,7 @@
         },
         {
           "name": "psone-45a.bin",
-          "altName": "SCPH-101",
+          "altName": "SCPH-101.bin",
           "region": "NTSC-U/C",
           "version": "4.5",
           "size": 524288,
@@ -295,7 +295,7 @@
         },
         {
           "name": "psone-45e.bin",
-          "altName": "SCPH-102",
+          "altName": "SCPH-102.bin",
           "region": "PAL-E",
           "version": "4.5",
           "size": 524288,
@@ -307,7 +307,7 @@
         },
         {
           "name": "psxonpsp660.bin",
-          "altName": "PlayStation Portable/PlayStation Classic SCPH-1000R",
+          "altName": "romw.bin",
           "region": "Region-free",
           "version": "4.5",
           "size": 524288,
@@ -319,7 +319,7 @@
         },
         {
           "name": "scph-1000r.bin",
-          "altName": "PlayStation Classic SCPH-1000R",
+          "altName": "romJP.bin",
           "region": "NTSC-J",
           "version": "4.5",
           "size": 524288,
