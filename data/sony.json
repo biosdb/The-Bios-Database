@@ -48,9 +48,9 @@
           "version": "2.0",
           "size": 524288,
           "md5": "dc2b9bf8da62ec93e868cfd29f0d067d",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "649895efd79d14790eabb362e94eb0622093dfb9",
+          "sha256": "42e4124be7623e2e28b1db0d8d426539646faee49d74b71166d8ba5bd7c472ed",
+          "crc32": "55847d8c",
           "notes": "Released 05/07/1995. Development board BIOS."
         },
         {
@@ -84,9 +84,9 @@
           "version": "2.1",
           "size": 524288,
           "md5": "da27e8b6dab242d8f91a9b25d80c63b8",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "ca7af30b50d9756cbd764640126c454cff658479",
+          "sha256": "6ad5521d105a6b86741f1af8da2e6ea1c732d34459940618c70305a105e8ec10",
+          "crc32": "aff00f2f",
           "notes": "Released 07/17/1995. Development board BIOS."
         },
         {
@@ -96,9 +96,9 @@
           "version": "2.1",
           "size": 524288,
           "md5": "417b34706319da7cf001e76e40136c23",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "76cf6b1b2a7c571a6ad07f2bac0db6cd8f71e2cc",
+          "sha256": "1efb0cfc5db8a8751a884c5312e9c6265ca1bc580dc0c2663eb2dea3bde9fcf7",
+          "crc32": "86c30531",
           "notes": "Released 07/17/1995."
         },
         {
@@ -108,9 +108,9 @@
           "version": "2.2",
           "size": 524288,
           "md5": "57a06303dfa9cf9351222dfcbb4a29d9",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "ffa7f9a7fb19d773a0c3985a541c8e5623d2c30d",
+          "sha256": "0c8359870cbac0ea091f1c87f188cd332dcc709753b91cafd9fd44a4a6188197",
+          "crc32": "24fc7e17",
           "notes": "Released 12/04/1995."
         },
         {
@@ -118,11 +118,11 @@
           "altName": "SCPH-5903.bin",
           "region": "NTSC-J",
           "version": "2.2",
-          "size": 524288,
+          "size": 1048576,
           "md5": "81328b966e6dcf7ea1e32e55e1c104bb",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "15c94da3cc5a38a582429575af4198c487fe893c",
+          "sha256": "6ac8348c8dcd1e34882d5df2f4ba453e4de69847a88bb845ddda3915fa042df0",
+          "crc32": "446ec5b2",
           "notes": "Released 12/04/1995. Variant revision."
         },
         {
@@ -144,9 +144,9 @@
           "version": "2.2",
           "size": 524288,
           "md5": "e2110b8a2b97a8e0b857a45d32f7e187",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "b6a11579caef3875504fcf3831b8e3922746df2c",
+          "sha256": "3d06d2c469313c2a2128d24fe2e0c71ff99bc2032be89a829a62337187f500b7",
+          "crc32": "1e26792f",
           "notes": "Released 12/04/1995."
         },
         {
@@ -156,9 +156,9 @@
           "version": "2.2",
           "size": 524288,
           "md5": "ca5cfc321f916756e3f0effbfaeba13b",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "73107d468fc7cb1d2c5b18b269715dd889ecef06",
+          "sha256": "4018749b3698b8694387beebcbabfb48470513066840f9441459ee4c9f0f39bc",
+          "crc32": "decb22f5",
           "notes": "Released 03/06/1996. Development board BIOS, revision D."
         },
         {
@@ -204,9 +204,9 @@
           "version": "4.0",
           "size": 524288,
           "md5": "8e4c14f567745eff2f0408c8129f72a6",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "77b10118d21ac7ffa9b35f9c4fd814da240eb3e9",
+          "sha256": "e900504d1755f021f861b82c8258c5e6658c7b592f800cccd91f5d32ea380d28",
+          "crc32": "ec541cd0",
           "notes": "Released 08/18/1997."
         },
         {
@@ -216,10 +216,10 @@
           "version": "4.1",
           "size": 524288,
           "md5": "b84be139db3ee6cbd075630aa20a6553",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
-          "notes": "Released 11/14/1997. \"Watermarked\" region-free revision. - BIOS for the rare "Midnight Blue" Japanese PS1."
+          "sha1": "1b0dbdb23da9dc0776aac58d0755dc80fea20975",
+          "sha256": "b3aa63cf30c81e0a40641740f4a43e25fda0b21b792fa9aaef60ce1675761479",
+          "crc32": "b7c43dad",
+          "notes": "Released 11/14/1997. \"Watermarked\" region-free revision. - BIOS for the rare \"Midnight Blue\" Japanese PS1."
         },
         {
           "name": "ps-41a.bin",
@@ -264,9 +264,9 @@
           "version": "4.4",
           "size": 524288,
           "md5": "9a09ab7e49b422c007e6d54d7c49b965",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "7771d6e90980408f753891648685def6dd42ef6d",
+          "sha256": "8434528690df0d444dfe4e931eb5501be53df70497e63f4c9a21184631cdbb87",
+          "crc32": "6a0e22a0",
           "notes": "Released 03/24/2000. PSone (slim) BIOS."
         },
         {
