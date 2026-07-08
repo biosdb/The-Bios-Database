@@ -328,6 +328,18 @@
           "sha256": null,
           "crc32": null,
           "notes": "Released 05/25/2000. Also distributed as romJP.bin. Used on the Japanese PlayStation Classic (SCPH-1000R)."
+        },
+        {
+          "name": "sbi.zip",
+          "altName": "PS1 LibCrypt SBI Files",
+          "region": "Europe",
+          "version": null,
+          "size": 218953,
+          "md5": "706d60ab2dfdbfdd53be2069cb85a1fe",
+          "sha1": "5ff94f33a54b6018ce4c5836e6df16a5da03245b",
+          "sha256": "32db7bb64131623fa912ef30a85f7d70cee2abbca56c21d360d2025e12b8aca9",
+          "crc32": "9f02b335",
+          "notes": "ZIP containing 455 game-specific LibCrypt SBI (subchannel) files for PAL PS1 titles. Most emulators (DuckStation, ePSXe, etc.) accept the ZIP directly."
         }
       ]
     },
