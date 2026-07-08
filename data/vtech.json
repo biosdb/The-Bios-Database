@@ -24,9 +24,9 @@
           "version": null,
           "size": 16384,
           "md5": "4dfadfb1158f84e2df2b85b13f303986",
-          "sha1": null,
-          "sha256": null,
-          "crc32": null,
+          "sha1": "c12e098c14ac0724869053df2b63277a3e413802",
+          "sha256": "48a7fda99c1b9c0d90b70de0b4a9431a5a781f94d1874ee6d91830a638c9e5c3",
+          "crc32": "4dc35c39",
           "notes": "Laser 2001 (VTech CreatiVision clone by Dick Smith Electronics) boot ROM. Sourced from ajgowans/BiosDB_MiSTer (archive.org/details/mister_bios_db)."
         }
       ]
