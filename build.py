@@ -6,6 +6,8 @@ Reads data/*.json — one file per manufacturer, with BIOSes nested under
 consoles — and generates:
   - index.html                — searchable list of manufacturers (small payload)
   - m/<slug>.html             — one page per manufacturer with their BIOS entries
+  - sitemap.xml               — all URLs for search engine discovery
+  - robots.txt                — points crawlers at the sitemap
 
 Per-manufacturer data files mean PRs stay tiny, merge conflicts stay rare,
 and there are no integer IDs for contributors to coordinate on.
@@ -25,6 +27,7 @@ OUTPUT_INDEX = ROOT / "index.html"
 MFR_DIR = ROOT / "m"
 
 REPO_URL = "https://github.com/biosdb/The-Bios-Database"
+SITE_URL = "https://biosdb.github.io/The-Bios-Database"
 
 MD_EXTENSIONS = ["extra", "sane_lists"]
 
@@ -249,6 +252,7 @@ INDEX_TEMPLATE = r"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The BIOS Database</title>
+<link rel="canonical" href="__CANONICAL__">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 __THEME_INIT__
 <style>
@@ -347,6 +351,7 @@ MFR_TEMPLATE = r"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>__MFR_NAME__ - The BIOS Database</title>
+<link rel="canonical" href="__CANONICAL__">
 <link rel="icon" type="image/svg+xml" href="../favicon.svg">
 __THEME_INIT__
 <style>
@@ -599,11 +604,37 @@ def to_script_json(obj) -> str:
     return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
 
 
+def write_sitemap(manufacturers):
+    slugs = [slugify(doc["manufacturer"]) for doc in manufacturers]
+    urls = [f"{SITE_URL}/"] + [f"{SITE_URL}/m/{s}.html" for s in slugs]
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for i, url in enumerate(urls):
+        priority = "1.0" if i == 0 else "0.8"
+        lines += [
+            "  <url>",
+            f"    <loc>{url}</loc>",
+            f"    <priority>{priority}</priority>",
+            "    <changefreq>weekly</changefreq>",
+            "  </url>",
+        ]
+    lines.append("</urlset>")
+    (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_robots_txt():
+    (ROOT / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n",
+        encoding="utf-8",
+    )
+
+
 def write_index(index_payload):
     payload = to_script_json(index_payload)
     index_notes = load_index_notes()
     index_notes_html = f'<div class="page-notes">{index_notes}</div>' if index_notes else ""
     html_out = (INDEX_TEMPLATE
+                .replace("__CANONICAL__", f"{SITE_URL}/")
                 .replace("__SHARED_STYLES__", SHARED_STYLES)
                 .replace("__THEME_INIT__", THEME_INIT_SCRIPT)
                 .replace("__THEME_TOGGLE__", THEME_TOGGLE_HTML)
@@ -636,6 +667,7 @@ def write_manufacturer_page(doc):
     console_notes_payload = to_script_json(console_notes)
 
     html_out = (MFR_TEMPLATE
+                .replace("__CANONICAL__", f"{SITE_URL}/m/{slug}.html")
                 .replace("__SHARED_STYLES__", SHARED_STYLES)
                 .replace("__THEME_INIT__", THEME_INIT_SCRIPT)
                 .replace("__THEME_TOGGLE__", THEME_TOGGLE_HTML)
@@ -660,6 +692,8 @@ def main():
     write_index(build_index_payload(manufacturers))
     for doc in manufacturers:
         write_manufacturer_page(doc)
+    write_sitemap(manufacturers)
+    write_robots_txt()
 
     total_entries = sum(
         len(c.get("bioses", []))

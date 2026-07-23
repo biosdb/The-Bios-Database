@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://biosdb.github.io/The-Bios-Database/sitemap.xml
